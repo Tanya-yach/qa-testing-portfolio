@@ -1,9 +1,9 @@
 # Test cases for Manual Testing of Luxor.cz
 
-**Product Name:** Luxor (https://www.luxor.cz/)
-**Prepared by:** Tetiana Yachna
-**Data:** 07.05.2025
-**Version:** 1.0
+|Product Name: | Luxor (https://www.luxor.cz/) |
+|Prepared by:  | Tetiana Yachna                |
+|Data:         | 07.05.2025                    |
+|Version:      | 1.0                           |
 
 ---
 

@@ -1,8 +1,8 @@
 # Test Plan: Luxor.cz – Manual Testing
 
-**Product Name:** Luxor (https://www.luxor.cz/)  
-**Prepared by:** Tetiana Yachna  
-**Date:** 15.04.2025
+|Product Name: | Luxor (https://www.luxor.cz/) |
+|Prepared by:  | Tetiana Yachna                |
+|Date:         | 15.04.2025                    |
 
 ---
 
