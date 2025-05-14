@@ -17,10 +17,10 @@
 | TS-006| Add product to cart                | Verify the process of adding the product to the cart                                                             | P0      | Cart             | TC-007 - TC-013|
 | TS-007| View and edit products in the cart | Verify that the user can view and edit cart contents                                                             | P0      | Cart             | TC-014 - TC-017|
 | TS-008| Proceed to checkout                | Verify navigation from cart to checkout page; order confirmation page appears                                    | P0      | Checkout         | TC-018 - TC-021|
-| TS-009| Register new user                  | Check that the user can create an account with valid data                                                        | P1      | User Account     | TC-022 - TC-025|
-| TS-010| Login/Logout                       | Check that the user can login and log out with valid credentials                                                 | P1      | User Account     | TC-026 - TC-029|
-| TS-011| User profile updates               | Check that the user can update information                                                                       | P2      | User Account     | TC-030         |
+| TS-009| Register new user                  | Check that the user can create an account with valid data                                                        | P0      | User Account     | TC-022 - TC-025|
+| TS-010| Login/Logout                       | Check that the user can login and log out with valid credentials                                                 | P0      | User Account     | TC-026 - TC-029|
+| TS-011| User profile updates               | Check that the user can update information                                                                       | P1      | User Account     | TC-030         |
 | TS-012| Mobile responsiveness              | Verify mobile responsiveness (no horizontal scroll; buttons/forms usable).                                       | P1      | Responsive Layout| TC-031 - TC-033|
 | TS-013| Mobile cart/checkout               | Check that cart and checkout are usable and readable on smaller screens                                          | P0      | Responsive Layout| TC-034 - TC-035|
 | TS-014| Button interactions                | Validate button hover/click states                                                                               | P2      | UI/UX            | TC-036         |
-| TS-015| Form validation                    | Test form validation (empty fields)                                                                              | P1      | UI/UX            | TC-023         |
+| TS-015| Form validation                    | Test form validation (empty fields)                                                                              | P0      | UI/UX            | TC-023         |
