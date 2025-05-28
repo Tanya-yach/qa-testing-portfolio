@@ -14,7 +14,7 @@ Artifacts for web testing:
 - Test Plan
 - Test Scenarios
 - Test Cases
-- Checklists (coming soon)
+- Checklists
 - Bug Reports (mock examples, coming soon)
 
 ---
