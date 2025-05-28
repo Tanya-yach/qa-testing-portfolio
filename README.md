@@ -7,26 +7,44 @@ The main goal is to simulate real QA tasks and showcase the skills required for 
 
 ## Repository Structure
 
-### 📂 Manual Testing
+### 📂 Manual Testing for Luxor
 Manual testing project based on the real e-commerce website **[Luxor.cz](https://www.luxor.cz/)**.  
 Includes test documentation for functional and UI testing. 
 Artifacts for web testing:
-- Test Plan
-- Test Scenarios
-- Test Cases
-- Checklists
+- Test Plan (`Test_Plan_Luxor_Manual.md`)
+- Test Scenarios (`Test_Scenarios_Luxor_Manual.md`)
+- Test Cases (`Test_Cases_Luxor_Manual.md`)
+- Checklists (`Check_list_Luxor_Manual.md`)
 - Bug Reports (mock examples, coming soon)
 
 ---
 
-### 📂 API Testing
+### 📂 API Testing for Luxor (Mock API)
 Since there is no public API for **[Luxor.cz](https://www.luxor.cz/)**, all endpoints were designed based on assumptions and simulated using a **Postman Mock Server**.
 API testing artifacts:
-- Test Plan
-- Test Cases
-- Postman Collection (JSON) with pre-configured mock examples
+- Test Plan (`Test_Plan_Luxor_API.md`)
+- Test Cases (`Test_Cases_Luxor_API.md`)
+- Postman Collection (`Luxor_API_Postman_Collection.json`) with pre-configured mock examples
 - Bug Reports (coming soon)
-- Additional collection for educational API (e.g., qademo) - planned
+
+---
+
+### 📂 API Testing for Restful-Booker (Data-Driver Testing)
+This project includes automated API tests using [RESTful Booker API](https://restful-booker.herokuapp.com/).
+API testing artifacts:
+- Postman Collection (`Restful-Booker_API_Postman_Collection.postman_collection.json`) full set of requests and scripts
+- CSV Test Data (`bookings_data.csv`) 20 rows of booking data generated via [Mockaroo](https://mockaroo.com)
+- Environment file (`Restful-Booker_env.json`) stores base URL and dynamic token
+- Newman HTML Report (`newman-report/Restful-Booker-Report.html`) automatically generated report after test execution
+
+**Key Features:**
+- Token-based authentication (handled via scripts)
+- Create / Update / Partial Update / Delete booking endpoints tested
+- Data-driven testing using CSV as source
+- Assertions for each API response
+- Chained requests using environment variables
+- Negative scenarios tested (e.g. unauthorized updates)
+- HTML report for visual test results
 
 ---
 

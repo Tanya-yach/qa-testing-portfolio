@@ -48,9 +48,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}auth",
+					"raw": "{{base_url}}/auth",
 					"host": [
-						"{{base_url}}auth"
+						"{{base_url}}"
+					],
+					"path": [
+						"auth"
 					]
 				}
 			},
@@ -93,9 +96,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}booking",
+					"raw": "{{base_url}}/booking",
 					"host": [
-						"{{base_url}}booking"
+						"{{base_url}}"
+					],
+					"path": [
+						"booking"
 					]
 				}
 			},
@@ -128,12 +134,45 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}booking/1",
+					"raw": "{{base_url}}/booking/1",
 					"host": [
-						"{{base_url}}booking"
+						"{{base_url}}"
 					],
 					"path": [
+						"booking",
 						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Neg - Get booking by invalid ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404 for invalid ID\", () => {\r",
+							"  pm.response.to.have.status(404);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/booking/000000000",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"booking",
+						"000000000"
 					]
 				}
 			},
@@ -171,9 +210,12 @@
 					}
 				],
 				"url": {
-					"raw": "{{base_url}}booking?firstname=sally&lastname=brown",
+					"raw": "{{base_url}}/booking?firstname=sally&lastname=brown",
 					"host": [
-						"{{base_url}}booking"
+						"{{base_url}}"
+					],
+					"path": [
+						"booking"
 					],
 					"query": [
 						{
@@ -221,9 +263,12 @@
 					}
 				],
 				"url": {
-					"raw": "{{base_url}}booking?checkin=2014-03-13&checkout=2014-05-21",
+					"raw": "{{base_url}}/booking?checkin=2014-03-13&checkout=2014-05-21",
 					"host": [
-						"{{base_url}}booking"
+						"{{base_url}}"
+					],
+					"path": [
+						"booking"
 					],
 					"query": [
 						{
@@ -279,9 +324,56 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}booking",
+					"raw": "{{base_url}}/booking",
 					"host": [
-						"{{base_url}}booking"
+						"{{base_url}}"
+					],
+					"path": [
+						"booking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Neg - Create a new booking (empty body)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code should indicate error\", () => {\r",
+							"  pm.expect(pm.response.code).to.be.oneOf([400, 500]);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response should not contain bookingid\", () => {\r",
+							"    pm.expect(pm.response.text()).to.not.include(\"bookingid\");\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/booking",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"booking"
 					]
 				}
 			},
@@ -328,11 +420,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}booking/{{bookingid}}",
+					"raw": "{{base_url}}/booking/{{bookingid}}",
 					"host": [
-						"{{base_url}}booking"
+						"{{base_url}}"
 					],
 					"path": [
+						"booking",
 						"{{bookingid}}"
 					]
 				}
@@ -381,11 +474,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}booking/{{bookingid}}",
+					"raw": "{{base_url}}/booking/{{bookingid}}",
 					"host": [
-						"{{base_url}}booking"
+						"{{base_url}}"
 					],
 					"path": [
+						"booking",
 						"{{bookingid}}"
 					]
 				}
@@ -393,7 +487,7 @@
 			"response": []
 		},
 		{
-			"name": "Login with valid datails",
+			"name": "Delete booking",
 			"event": [
 				{
 					"listen": "test",
@@ -432,11 +526,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}booking/{{bookingid}}",
+					"raw": "{{base_url}}/booking/{{bookingid}}",
 					"host": [
-						"{{base_url}}booking"
+						"{{base_url}}"
 					],
 					"path": [
+						"booking",
 						"{{bookingid}}"
 					]
 				}
