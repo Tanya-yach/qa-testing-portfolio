@@ -1,41 +1,53 @@
 # QA Testing Portfolio – Tetiana Yachna
 
 Welcome to my testing portfolio! This repository showcases my work in software quality assurance across various testing disciplines.
-The main goal is to simulate real QA tasks and showcase the skills required for a Software Development Engineer in Test (SDET) role.
+The main goal is to simulate real QA tasks and showcase the skills required for a Software Development Engineer in Test role.
 
 --- 
 
 ## Repository Structure
 
-### 📂 Manual Testing for Luxor
+### 📂 manual-testing-luxor
 Manual testing project based on the real e-commerce website **[Luxor.cz](https://www.luxor.cz/)**.  
-Includes test documentation for functional and UI testing. 
+Includes test documentation for functional and UI testing. All bug reports are fictional and created for demonstration purposes.
 Artifacts for web testing:
-- Test Plan (`Test_Plan_Luxor_Manual.md`)
-- Test Scenarios (`Test_Scenarios_Luxor_Manual.md`)
-- Test Cases (`Test_Cases_Luxor_Manual.md`)
-- Checklists (`Check_list_Luxor_Manual.md`)
-- Bug Reports (mock examples, coming soon)
+- Test Plan (`test-plan.md`)
+- Test Scenarios (`test-scenarios.md`)
+- Test Cases (`test-cases.md`)
+- Checklists (`checklist.md`)
+- Bug Reports (`bug-report.md`)
 
 ---
 
-### 📂 API Testing for Luxor (Mock API)
+### 📂 api-testing-luxor (Mock API)
 Since there is no public API for **[Luxor.cz](https://www.luxor.cz/)**, all endpoints were designed based on assumptions and simulated using a **Postman Mock Server**.
 API testing artifacts:
-- Test Plan (`Test_Plan_Luxor_API.md`)
-- Test Cases (`Test_Cases_Luxor_API.md`)
-- Postman Collection (`Luxor_API_Postman_Collection.json`) with pre-configured mock examples
-- Bug Reports (coming soon)
+- Test Plan (`test-plan-api.md`)
+- Test Cases (`test-cases-api.md`)
+- Postman Collection (`postman-collection-api.json`) with pre-configured mock examples
+- Bug Reports (`bug-report-api.md`)
 
 ---
 
-### 📂 API Testing for Restful-Booker (Data-Driver Testing)
+### 📂 api-testing-restful_booker (Data-Driver Testing)
+This project includes automated API tests using [RESTful Booker API](https://restful-booker.herokuapp.com/).
+API testing artifacts:
+- Postman Collection (`restful_booker-postman-collection-api.json`) full set of requests and scripts
+- CSV Test Data (`bookings_data.csv`) 20 rows of booking data generated via [Mockaroo](https://mockaroo.com)
+- Environment file (`Restful-Booker_env.json`) stores base URL and dynamic token
+- Newman HTML Report (`newman-report/Restful-Booker-Report.html`) automatically generated report after test execution
+
+---
+
+### 📂 performance-testing-restful_booker
 This project includes automated API tests using [RESTful Booker API](https://restful-booker.herokuapp.com/).
 API testing artifacts:
 - Postman Collection (`Restful-Booker_API_Postman_Collection.postman_collection.json`) full set of requests and scripts
 - CSV Test Data (`bookings_data.csv`) 20 rows of booking data generated via [Mockaroo](https://mockaroo.com)
 - Environment file (`Restful-Booker_env.json`) stores base URL and dynamic token
 - Newman HTML Report (`newman-report/Restful-Booker-Report.html`) automatically generated report after test execution
+
+
 
 **Key Features:**
 - Token-based authentication (handled via scripts)
