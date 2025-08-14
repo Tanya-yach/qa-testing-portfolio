@@ -1,0 +1,401 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1750260622429,483,Stress POST  Authorization,200,OK,MiniStressTest 1-1,text,true,,766,253,10,10,https://restful-booker.herokuapp.com/auth,483,0,376
+1750260622639,441,Stress POST  Authorization,200,OK,MiniStressTest 1-2,text,true,,766,253,12,12,https://restful-booker.herokuapp.com/auth,441,0,328
+1750260622722,431,Stress POST  Authorization,200,OK,MiniStressTest 1-4,text,true,,766,253,14,14,https://restful-booker.herokuapp.com/auth,431,0,327
+1750260622724,429,Stress POST  Authorization,200,OK,MiniStressTest 1-3,text,true,,766,253,14,14,https://restful-booker.herokuapp.com/auth,429,0,325
+1750260622852,437,Stress POST  Authorization,200,OK,MiniStressTest 1-5,text,true,,766,253,16,16,https://restful-booker.herokuapp.com/auth,437,0,329
+1750260622877,435,Stress POST  Authorization,200,OK,MiniStressTest 1-6,text,true,,766,253,16,16,https://restful-booker.herokuapp.com/auth,435,0,325
+1750260622888,434,Stress POST  Authorization,200,OK,MiniStressTest 1-7,text,true,,766,253,17,17,https://restful-booker.herokuapp.com/auth,434,0,322
+1750260622926,433,Stress POST  Authorization,200,OK,MiniStressTest 1-9,text,true,,766,253,17,17,https://restful-booker.herokuapp.com/auth,433,0,326
+1750260623087,309,Stress GET All bookings,200,OK,MiniStressTest 1-1,text,true,,97611,140,18,18,https://restful-booker.herokuapp.com/booking,111,0,0
+1750260623076,451,Stress POST  Authorization,200,OK,MiniStressTest 1-8,text,true,,766,253,20,20,https://restful-booker.herokuapp.com/auth,451,0,345
+1750260623161,444,Stress POST  Authorization,200,OK,MiniStressTest 1-10,text,true,,766,253,21,21,https://restful-booker.herokuapp.com/auth,444,0,336
+1750260623193,444,Stress POST  Authorization,200,OK,MiniStressTest 1-11,text,true,,766,253,22,22,https://restful-booker.herokuapp.com/auth,444,0,338
+1750260623193,444,Stress POST  Authorization,200,OK,MiniStressTest 1-12,text,true,,766,253,22,22,https://restful-booker.herokuapp.com/auth,444,0,338
+1750260623319,335,Stress GET All bookings,200,OK,MiniStressTest 1-3,text,true,,97668,140,22,22,https://restful-booker.herokuapp.com/booking,125,0,0
+1750260623562,106,Stress GET Booking by ID,200,OK,MiniStressTest 1-1,text,true,,917,170,22,22,https://restful-booker.herokuapp.com/booking/800,106,0,0
+1750260623682,111,Stress POST Create a new booking,200,OK,MiniStressTest 1-1,text,true,,950,476,24,24,https://restful-booker.herokuapp.com/booking,111,0,0
+1750260623364,426,Stress GET All bookings,200,OK,MiniStressTest 1-2,text,true,,97668,140,24,24,https://restful-booker.herokuapp.com/booking,219,0,0
+1750260623371,435,Stress POST  Authorization,200,OK,MiniStressTest 1-17,text,true,,774,253,25,25,https://restful-booker.herokuapp.com/auth,435,0,328
+1750260623487,321,Stress GET All bookings,200,OK,MiniStressTest 1-5,text,true,,97706,140,25,25,https://restful-booker.herokuapp.com/booking,117,0,0
+1750260623433,443,Stress POST  Authorization,200,OK,MiniStressTest 1-15,text,true,,774,253,26,26,https://restful-booker.herokuapp.com/auth,443,0,337
+1750260623446,434,Stress POST  Authorization,200,OK,MiniStressTest 1-13,text,true,,774,253,26,26,https://restful-booker.herokuapp.com/auth,434,0,327
+1750260623439,437,Stress GET All bookings,200,OK,MiniStressTest 1-4,text,true,,97687,140,26,26,https://restful-booker.herokuapp.com/booking,117,0,0
+1750260623452,447,Stress POST  Authorization,200,OK,MiniStressTest 1-14,text,true,,774,253,26,26,https://restful-booker.herokuapp.com/auth,447,0,333
+1750260623792,124,Stress GET Booking by ID,200,OK,MiniStressTest 1-3,text,true,,894,171,26,26,https://restful-booker.herokuapp.com/booking/4279,124,0,0
+1750260623849,110,Stress GET Booking by ID,200,OK,MiniStressTest 1-5,text,true,,894,170,27,27,https://restful-booker.herokuapp.com/booking/667,110,0,0
+1750260623544,435,Stress GET All bookings,200,OK,MiniStressTest 1-7,text,true,,97714,140,27,27,https://restful-booker.herokuapp.com/booking,226,0,0
+1750260623522,463,Stress POST  Authorization,200,OK,MiniStressTest 1-16,text,true,,774,253,28,28,https://restful-booker.herokuapp.com/auth,463,0,353
+1750260623881,117,Stress GET Booking by ID,200,OK,MiniStressTest 1-2,text,true,,920,171,28,28,https://restful-booker.herokuapp.com/booking/1170,117,0,0
+1750260623579,414,Stress GET All bookings,200,OK,MiniStressTest 1-9,text,true,,97733,140,28,28,https://restful-booker.herokuapp.com/booking,113,0,0
+1750260623558,444,Stress POST  Authorization,200,OK,MiniStressTest 1-18,text,true,,774,253,28,28,https://restful-booker.herokuapp.com/auth,444,0,339
+1750260623963,102,Stress POST  Authorization,200,OK,MiniStressTest 1-1,text,true,,774,253,29,29,https://restful-booker.herokuapp.com/auth,102,0,0
+1750260623974,110,Stress GET Booking by ID,200,OK,MiniStressTest 1-4,text,true,,917,170,29,29,https://restful-booker.herokuapp.com/booking/439,110,0,0
+1750260623639,450,Stress POST  Authorization,200,OK,MiniStressTest 1-21,text,true,,774,253,29,29,https://restful-booker.herokuapp.com/auth,450,0,343
+1750260623683,427,Stress GET All bookings,200,OK,MiniStressTest 1-6,text,true,,97733,140,30,30,https://restful-booker.herokuapp.com/booking,123,0,0
+1750260623784,337,Stress GET All bookings,200,OK,MiniStressTest 1-10,text,true,,97771,140,30,30,https://restful-booker.herokuapp.com/booking,129,0,0
+1750260623798,338,Stress GET All bookings,200,OK,MiniStressTest 1-12,text,true,,97771,140,30,30,https://restful-booker.herokuapp.com/booking,131,0,0
+1750260624095,108,Stress GET Booking by ID,200,OK,MiniStressTest 1-9,text,true,,919,171,31,31,https://restful-booker.herokuapp.com/booking/6195,108,0,0
+1750260623738,473,Stress POST  Authorization,200,OK,MiniStressTest 1-19,text,true,,774,253,31,31,https://restful-booker.herokuapp.com/auth,473,0,359
+1750260624119,99,Stress POST Create a new booking,200,OK,MiniStressTest 1-5,text,true,,942,468,31,31,https://restful-booker.herokuapp.com/booking,99,0,0
+1750260624102,116,Stress POST Create a new booking,200,OK,MiniStressTest 1-4,text,true,,949,475,31,31,https://restful-booker.herokuapp.com/booking,116,0,0
+1750260623880,331,Stress GET All bookings,200,OK,MiniStressTest 1-15,text,true,,97790,140,31,31,https://restful-booker.herokuapp.com/booking,115,0,0
+1750260623782,429,Stress GET All bookings,200,OK,MiniStressTest 1-8,text,true,,97771,140,31,31,https://restful-booker.herokuapp.com/booking,220,0,0
+1750260623804,440,Stress POST  Authorization,200,OK,MiniStressTest 1-25,text,true,,774,253,32,32,https://restful-booker.herokuapp.com/auth,439,0,332
+1750260623794,451,Stress POST  Authorization,200,OK,MiniStressTest 1-22,text,true,,774,253,32,32,https://restful-booker.herokuapp.com/auth,451,0,342
+1750260624152,104,Stress POST Create a new booking,200,OK,MiniStressTest 1-3,text,true,,943,469,32,32,https://restful-booker.herokuapp.com/booking,104,0,0
+1750260624144,112,Stress GET Booking by ID,200,OK,MiniStressTest 1-7,text,true,,917,171,32,32,https://restful-booker.herokuapp.com/booking/5327,112,0,0
+1750260623918,331,Stress GET All bookings,200,OK,MiniStressTest 1-13,text,true,,97790,140,32,32,https://restful-booker.herokuapp.com/booking,124,0,0
+1750260623857,427,Stress GET All bookings,200,OK,MiniStressTest 1-11,text,true,,97790,140,33,33,https://restful-booker.herokuapp.com/booking,227,0,0
+1750260623874,449,Stress POST  Authorization,200,OK,MiniStressTest 1-20,text,true,,774,253,33,33,https://restful-booker.herokuapp.com/auth,449,0,337
+1750260624003,318,Stress GET All bookings,200,OK,MiniStressTest 1-17,text,true,,97828,140,33,33,https://restful-booker.herokuapp.com/booking,107,0,0
+1750260623921,432,Stress POST  Authorization,200,OK,MiniStressTest 1-23,text,true,,774,253,34,34,https://restful-booker.herokuapp.com/auth,432,0,327
+1750260624255,106,Stress POST Create a new booking,200,OK,MiniStressTest 1-2,text,true,,953,479,34,34,https://restful-booker.herokuapp.com/booking,106,0,0
+1750260624264,105,Stress GET Booking by ID,200,OK,MiniStressTest 1-13,text,true,,919,171,34,34,https://restful-booker.herokuapp.com/booking/1174,105,0,0
+1750260624061,319,Stress GET All bookings,200,OK,MiniStressTest 1-16,text,true,,97828,140,34,34,https://restful-booker.herokuapp.com/booking,114,0,0
+1750260624322,111,Stress POST  Authorization,200,OK,MiniStressTest 1-4,text,true,,774,253,35,35,https://restful-booker.herokuapp.com/auth,111,0,0
+1750260624203,221,Stress GET All bookings,200,OK,MiniStressTest 1-1,text,true,,97885,140,35,35,https://restful-booker.herokuapp.com/booking,118,0,0
+1750260624323,113,Stress GET Booking by ID,200,OK,MiniStressTest 1-12,text,true,,919,171,35,35,https://restful-booker.herokuapp.com/booking/2100,113,0,0
+1750260623995,451,Stress POST  Authorization,200,OK,MiniStressTest 1-27,text,true,,774,253,35,35,https://restful-booker.herokuapp.com/auth,451,0,339
+1750260624350,113,Stress GET Booking by ID,200,OK,MiniStressTest 1-6,text,true,,917,170,36,36,https://restful-booker.herokuapp.com/booking/900,113,0,0
+1750260624024,456,Stress POST  Authorization,200,OK,MiniStressTest 1-24,text,true,,774,253,36,36,https://restful-booker.herokuapp.com/auth,456,0,340
+1750260624377,120,Stress GET Booking by ID,200,OK,MiniStressTest 1-11,text,true,,919,171,36,36,https://restful-booker.herokuapp.com/booking/5149,120,0,0
+1750260624388,111,Stress GET Booking by ID,200,OK,MiniStressTest 1-10,text,true,,917,171,36,36,https://restful-booker.herokuapp.com/booking/2962,111,0,0
+1750260624097,435,Stress GET All bookings,200,OK,MiniStressTest 1-18,text,true,,97828,140,37,37,https://restful-booker.herokuapp.com/booking,120,0,0
+1750260624448,107,Stress GET Booking by ID,200,OK,MiniStressTest 1-15,text,true,,894,171,37,37,https://restful-booker.herokuapp.com/booking/4788,107,0,0
+1750260624219,326,Stress GET All bookings,200,OK,MiniStressTest 1-21,text,true,,97885,140,37,37,https://restful-booker.herokuapp.com/booking,119,0,0
+1750260624138,453,Stress POST  Authorization,200,OK,MiniStressTest 1-26,text,true,,774,253,38,38,https://restful-booker.herokuapp.com/auth,453,0,348
+1750260624509,118,Stress POST Create a new booking,200,OK,MiniStressTest 1-9,text,true,,944,470,38,38,https://restful-booker.herokuapp.com/booking,118,0,0
+1750260624525,102,Stress POST  Authorization,200,OK,MiniStressTest 1-3,text,true,,774,253,38,38,https://restful-booker.herokuapp.com/auth,102,0,0
+1750260624527,111,Stress POST  Authorization,200,OK,MiniStressTest 1-5,text,true,,774,253,38,38,https://restful-booker.herokuapp.com/auth,111,0,0
+1750260624199,440,Stress POST  Authorization,200,OK,MiniStressTest 1-28,text,true,,774,253,38,38,https://restful-booker.herokuapp.com/auth,440,0,329
+1750260624533,108,Stress POST Create a new booking,200,OK,MiniStressTest 1-7,text,true,,948,474,39,39,https://restful-booker.herokuapp.com/booking,108,0,0
+1750260624540,109,Stress GET Booking by ID,200,OK,MiniStressTest 1-8,text,true,,915,171,39,39,https://restful-booker.herokuapp.com/booking/2520,109,0,0
+1750260624344,321,Stress GET All bookings,200,OK,MiniStressTest 1-22,text,true,,97904,140,39,39,https://restful-booker.herokuapp.com/booking,113,0,0
+1750260624583,107,Stress POST Create a new booking,200,OK,MiniStressTest 1-11,text,true,,943,473,39,39,https://restful-booker.herokuapp.com/booking,107,0,0
+1750260624593,109,Stress GET Booking by ID,200,OK,MiniStressTest 1-18,text,true,,913,171,40,40,https://restful-booker.herokuapp.com/booking/5533,109,0,0
+1750260624375,326,Stress GET All bookings,200,OK,MiniStressTest 1-19,text,true,,97904,140,40,40,https://restful-booker.herokuapp.com/booking,119,0,0
+1750260624603,111,Stress POST  Authorization,200,OK,MiniStressTest 1-2,text,true,,770,253,40,40,https://restful-booker.herokuapp.com/auth,111,0,0
+1750260624616,117,Stress POST Create a new booking,200,OK,MiniStressTest 1-13,text,true,,949,479,40,40,https://restful-booker.herokuapp.com/booking,117,0,0
+1750260624604,129,Stress GET Booking by ID,200,OK,MiniStressTest 1-17,text,true,,915,171,40,40,https://restful-booker.herokuapp.com/booking/1801,129,0,0
+1750260624631,111,Stress POST Create a new booking,200,OK,MiniStressTest 1-6,text,true,,941,471,40,40,https://restful-booker.herokuapp.com/booking,111,0,0
+1750260624651,110,Stress GET Booking by ID,200,OK,MiniStressTest 1-16,text,true,,913,171,41,41,https://restful-booker.herokuapp.com/booking/5759,110,0,0
+1750260624327,437,Stress POST  Authorization,200,OK,MiniStressTest 1-31,text,true,,770,253,41,41,https://restful-booker.herokuapp.com/auth,437,0,331
+1750260624653,112,Stress GET Booking by ID,200,OK,MiniStressTest 1-1,text,true,,890,171,41,41,https://restful-booker.herokuapp.com/booking/6142,112,0,0
+1750260624668,104,Stress POST Create a new booking,200,OK,MiniStressTest 1-12,text,true,,942,472,41,41,https://restful-booker.herokuapp.com/booking,104,0,0
+1750260624360,435,Stress POST  Authorization,200,OK,MiniStressTest 1-30,text,true,,770,253,41,41,https://restful-booker.herokuapp.com/auth,435,0,329
+1750260624364,427,Stress GET All bookings,200,OK,MiniStressTest 1-14,text,true,,97904,140,41,41,https://restful-booker.herokuapp.com/booking,116,0,0
+1750260624371,443,Stress POST  Authorization,200,OK,MiniStressTest 1-29,text,true,,770,253,41,41,https://restful-booker.herokuapp.com/auth,443,0,337
+1750260624710,108,Stress POST Create a new booking,200,OK,MiniStressTest 1-10,text,true,,952,482,41,41,https://restful-booker.herokuapp.com/booking,108,0,0
+1750260624497,326,Stress GET All bookings,200,OK,MiniStressTest 1-23,text,true,,97942,140,42,42,https://restful-booker.herokuapp.com/booking,117,0,0
+1750260624746,104,Stress GET Booking by ID,200,OK,MiniStressTest 1-21,text,true,,915,171,42,42,https://restful-booker.herokuapp.com/booking/2243,104,0,0
+1750260624750,109,Stress POST Create a new booking,200,OK,MiniStressTest 1-15,text,true,,937,467,42,42,https://restful-booker.herokuapp.com/booking,109,0,0
+1750260624763,106,Stress GET Booking by ID,200,OK,MiniStressTest 1-22,text,true,,913,171,42,42,https://restful-booker.herokuapp.com/booking/6407,105,0,0
+1750260624786,107,Stress POST  Authorization,200,OK,MiniStressTest 1-7,text,true,,770,253,43,43,https://restful-booker.herokuapp.com/auth,107,0,0
+1750260624679,220,Stress GET All bookings,200,OK,MiniStressTest 1-4,text,true,,98090,140,43,43,https://restful-booker.herokuapp.com/booking,113,0,0
+1750260624483,442,Stress POST  Authorization,200,OK,MiniStressTest 1-32,text,true,,770,253,43,43,https://restful-booker.herokuapp.com/auth,442,0,334
+1750260624817,109,Stress GET Booking by ID,200,OK,MiniStressTest 1-19,text,true,,915,171,43,43,https://restful-booker.herokuapp.com/booking/5763,109,0,0
+1750260624822,108,Stress POST Create a new booking,200,OK,MiniStressTest 1-8,text,true,,948,478,43,43,https://restful-booker.herokuapp.com/booking,108,0,0
+1750260624497,441,Stress GET All bookings,200,OK,MiniStressTest 1-25,text,true,,97942,140,43,43,https://restful-booker.herokuapp.com/booking,130,0,0
+1750260624844,108,Stress POST  Authorization,200,OK,MiniStressTest 1-9,text,true,,770,253,44,44,https://restful-booker.herokuapp.com/auth,108,0,0
+1750260624626,326,Stress GET All bookings,200,OK,MiniStressTest 1-27,text,true,,98014,140,44,44,https://restful-booker.herokuapp.com/booking,115,0,0
+1750260624879,113,Stress POST Create a new booking,200,OK,MiniStressTest 1-17,text,true,,953,483,44,44,https://restful-booker.herokuapp.com/booking,113,0,0
+1750260624586,444,Stress POST  Authorization,200,OK,MiniStressTest 1-36,text,true,,770,253,45,45,https://restful-booker.herokuapp.com/auth,444,0,337
+1750260624923,109,Stress POST  Authorization,200,OK,MiniStressTest 1-13,text,true,,770,253,45,45,https://restful-booker.herokuapp.com/auth,109,0,0
+1750260624599,429,Stress GET All bookings,200,OK,MiniStressTest 1-24,text,true,,97995,140,45,45,https://restful-booker.herokuapp.com/booking,114,0,0
+1750260624600,447,Stress POST  Authorization,200,OK,MiniStressTest 1-33,text,true,,770,253,45,45,https://restful-booker.herokuapp.com/auth,446,0,343
+1750260624605,442,Stress POST  Authorization,200,OK,MiniStressTest 1-34,text,true,,770,253,45,45,https://restful-booker.herokuapp.com/auth,441,0,338
+1750260624606,433,Stress GET All bookings,200,OK,MiniStressTest 1-20,text,true,,97995,140,45,45,https://restful-booker.herokuapp.com/booking,123,0,0
+1750260624976,102,Stress POST Create a new booking,200,OK,MiniStressTest 1-21,text,true,,946,476,46,46,https://restful-booker.herokuapp.com/booking,102,0,0
+1750260624749,324,Stress GET All bookings,200,OK,MiniStressTest 1-3,text,true,,98109,140,46,46,https://restful-booker.herokuapp.com/booking,117,0,0
+1750260625002,105,Stress POST  Authorization,200,OK,MiniStressTest 1-15,text,true,,770,253,46,46,https://restful-booker.herokuapp.com/auth,105,0,0
+1750260625004,115,Stress POST  Authorization,200,OK,MiniStressTest 1-6,text,true,,770,253,46,46,https://restful-booker.herokuapp.com/auth,115,0,0
+1750260624682,446,Stress POST  Authorization,200,OK,MiniStressTest 1-35,text,true,,770,253,47,47,https://restful-booker.herokuapp.com/auth,446,0,334
+1750260625018,114,Stress POST  Authorization,200,OK,MiniStressTest 1-12,text,true,,770,253,47,47,https://restful-booker.herokuapp.com/auth,114,0,0
+1750260624688,449,Stress POST  Authorization,200,OK,MiniStressTest 1-38,text,true,,770,253,47,47,https://restful-booker.herokuapp.com/auth,449,0,342
+1750260624687,450,Stress POST  Authorization,200,OK,MiniStressTest 1-37,text,true,,770,253,47,47,https://restful-booker.herokuapp.com/auth,450,0,343
+1750260625057,103,Stress POST Create a new booking,200,OK,MiniStressTest 1-16,text,true,,944,474,47,47,https://restful-booker.herokuapp.com/booking,103,0,0
+1750260624830,334,Stress GET All bookings,200,OK,MiniStressTest 1-28,text,true,,98147,140,47,47,https://restful-booker.herokuapp.com/booking,121,0,0
+1750260625062,110,Stress POST Create a new booking,200,OK,MiniStressTest 1-18,text,true,,948,478,47,47,https://restful-booker.herokuapp.com/booking,110,0,0
+1750260624842,330,Stress GET All bookings,200,OK,MiniStressTest 1-31,text,true,,98166,140,47,47,https://restful-booker.herokuapp.com/booking,121,0,0
+1750260625074,106,Stress POST  Authorization,200,OK,MiniStressTest 1-10,text,true,,770,253,47,47,https://restful-booker.herokuapp.com/auth,106,0,0
+1750260625085,109,Stress GET Booking by ID,200,OK,MiniStressTest 1-14,text,true,,915,171,48,48,https://restful-booker.herokuapp.com/booking/5088,109,0,0
+1750260625090,104,Stress POST  Authorization,200,OK,MiniStressTest 1-11,text,true,,770,253,48,48,https://restful-booker.herokuapp.com/auth,104,0,0
+1750260624980,220,Stress GET All bookings,200,OK,MiniStressTest 1-7,text,true,,98223,140,48,48,https://restful-booker.herokuapp.com/booking,112,0,0
+1750260625116,122,Stress GET Booking by ID,200,OK,MiniStressTest 1-23,text,true,,915,171,48,48,https://restful-booker.herokuapp.com/booking/1974,122,0,0
+1750260625120,118,Stress POST Create a new booking,200,OK,MiniStressTest 1-1,text,true,,938,468,48,48,https://restful-booker.herokuapp.com/booking,118,0,0
+1750260625117,123,Stress GET Booking by ID,200,OK,MiniStressTest 1-4,text,true,,915,170,47,47,https://restful-booker.herokuapp.com/booking/406,123,0,0
+1750260625120,121,Stress GET Booking by ID,200,OK,MiniStressTest 1-24,text,true,,890,171,47,47,https://restful-booker.herokuapp.com/booking/2327,121,0,0
+1750260625134,110,Stress GET Booking by ID,200,OK,MiniStressTest 1-27,text,true,,890,171,48,48,https://restful-booker.herokuapp.com/booking/3142,110,0,0
+1750260625138,110,Stress POST Create a new booking,200,OK,MiniStressTest 1-22,text,true,,949,479,48,48,https://restful-booker.herokuapp.com/booking,110,0,0
+1750260625145,103,Stress POST Create a new booking,200,OK,MiniStressTest 1-19,text,true,,947,477,48,48,https://restful-booker.herokuapp.com/booking,103,0,0
+1750260624904,334,Stress GET All bookings,200,OK,MiniStressTest 1-5,text,true,,98204,140,48,48,https://restful-booker.herokuapp.com/booking,112,0,0
+1750260624878,360,Stress GET All bookings,200,OK,MiniStressTest 1-30,text,true,,98204,140,48,48,https://restful-booker.herokuapp.com/booking,130,0,0
+1750260624904,336,Stress GET All bookings,200,OK,MiniStressTest 1-29,text,true,,98204,140,47,47,https://restful-booker.herokuapp.com/booking,122,0,0
+1750260624847,430,Stress POST  Authorization,200,OK,MiniStressTest 1-40,text,true,,770,253,48,48,https://restful-booker.herokuapp.com/auth,430,0,325
+1750260625180,115,Stress POST  Authorization,200,OK,MiniStressTest 1-8,text,true,,770,253,48,48,https://restful-booker.herokuapp.com/auth,115,0,0
+1750260624872,435,Stress GET All bookings,200,OK,MiniStressTest 1-26,text,true,,98185,140,49,49,https://restful-booker.herokuapp.com/booking,119,0,0
+1750260624917,433,Stress POST  Authorization,200,OK,MiniStressTest 1-39,text,true,,770,253,49,49,https://restful-booker.herokuapp.com/auth,433,0,327
+1750260624999,343,Stress GET All bookings,200,OK,MiniStressTest 1-9,text,true,,98223,140,49,49,https://restful-booker.herokuapp.com/booking,119,0,0
+1750260624932,417,Stress GET All bookings,200,OK,MiniStressTest 1-2,text,true,,98204,140,49,49,https://restful-booker.herokuapp.com/booking,111,0,0
+1750260624999,352,Stress GET All bookings,200,OK,MiniStressTest 1-32,text,true,,98223,140,49,49,https://restful-booker.herokuapp.com/booking,132,0,0
+1750260625150,220,Stress GET All bookings,200,OK,MiniStressTest 1-13,text,true,,98337,140,49,49,https://restful-booker.herokuapp.com/booking,113,0,0
+1750260625277,105,Stress POST  Authorization,200,OK,MiniStressTest 1-21,text,true,,770,253,49,49,https://restful-booker.herokuapp.com/auth,105,0,0
+1750260624962,452,Stress POST  Authorization,200,OK,MiniStressTest 1-41,text,true,,770,253,49,49,https://restful-booker.herokuapp.com/auth,452,0,349
+1750260625306,112,Stress GET Booking by ID,200,OK,MiniStressTest 1-20,text,true,,913,171,49,49,https://restful-booker.herokuapp.com/booking/6187,112,0,0
+1750260625318,106,Stress GET Booking by ID,200,OK,MiniStressTest 1-25,text,true,,915,171,49,49,https://restful-booker.herokuapp.com/booking/6393,106,0,0
+1750260625361,112,Stress POST  Authorization,200,OK,MiniStressTest 1-18,text,true,,770,253,49,49,https://restful-booker.herokuapp.com/auth,112,0,0
+1750260625355,120,Stress GET Booking by ID,200,OK,MiniStressTest 1-3,text,true,,915,170,49,49,https://restful-booker.herokuapp.com/booking/471,120,0,0
+1750260625024,452,Stress POST  Authorization,200,OK,MiniStressTest 1-42,text,true,,770,253,49,49,https://restful-booker.herokuapp.com/auth,452,0,344
+1750260625031,446,Stress POST  Authorization,200,OK,MiniStressTest 1-43,text,true,,770,253,49,49,https://restful-booker.herokuapp.com/auth,446,0,337
+1750260625363,118,Stress GET Booking by ID,200,OK,MiniStressTest 1-31,text,true,,915,171,49,49,https://restful-booker.herokuapp.com/booking/3834,118,0,0
+1750260625257,223,Stress GET All bookings,200,OK,MiniStressTest 1-11,text,true,,98356,140,49,49,https://restful-booker.herokuapp.com/booking,118,0,0
+1750260625175,330,Stress GET All bookings,200,OK,MiniStressTest 1-36,text,true,,98356,140,49,49,https://restful-booker.herokuapp.com/booking,117,0,0
+1750260625405,109,Stress POST  Authorization,200,OK,MiniStressTest 1-17,text,true,,770,253,49,49,https://restful-booker.herokuapp.com/auth,109,0,0
+1750260625402,122,Stress GET Booking by ID,200,OK,MiniStressTest 1-28,text,true,,922,171,49,49,https://restful-booker.herokuapp.com/booking/3654,122,0,0
+1750260625429,100,Stress POST  Authorization,200,OK,MiniStressTest 1-16,text,true,,770,253,49,49,https://restful-booker.herokuapp.com/auth,100,0,0
+1750260625423,108,Stress POST Create a new booking,200,OK,MiniStressTest 1-14,text,true,,949,479,49,49,https://restful-booker.herokuapp.com/booking,108,0,0
+1750260625221,329,Stress GET All bookings,200,OK,MiniStressTest 1-37,text,true,,98356,140,49,49,https://restful-booker.herokuapp.com/booking,115,0,0
+1750260625455,111,Stress GET Booking by ID,200,OK,MiniStressTest 1-13,text,true,,913,171,49,49,https://restful-booker.herokuapp.com/booking/4475,111,0,0
+1750260625457,109,Stress GET Booking by ID,200,OK,MiniStressTest 1-5,text,true,,922,171,49,49,https://restful-booker.herokuapp.com/booking/5434,109,0,0
+1750260625465,107,Stress POST  Authorization,200,OK,MiniStressTest 1-22,text,true,,770,253,49,49,https://restful-booker.herokuapp.com/auth,107,0,0
+1750260625466,109,Stress GET Booking by ID,200,OK,MiniStressTest 1-7,text,true,,924,171,49,49,https://restful-booker.herokuapp.com/booking/5690,109,0,0
+1750260625473,103,Stress POST Create a new booking,200,OK,MiniStressTest 1-25,text,true,,941,471,49,49,https://restful-booker.herokuapp.com/booking,103,0,0
+1750260625487,113,Stress GET Booking by ID,200,OK,MiniStressTest 1-30,text,true,,913,171,49,49,https://restful-booker.herokuapp.com/booking/4483,113,0,0
+1750260625165,435,Stress POST  Authorization,200,OK,MiniStressTest 1-44,text,true,,770,253,49,49,https://restful-booker.herokuapp.com/auth,435,0,325
+1750260625500,117,Stress GET Booking by ID,200,OK,MiniStressTest 1-29,text,true,,920,171,49,49,https://restful-booker.herokuapp.com/booking/3618,117,0,0
+1750260625271,346,Stress GET All bookings,200,OK,MiniStressTest 1-6,text,true,,98356,140,49,49,https://restful-booker.herokuapp.com/booking,122,0,0
+1750260625507,116,Stress GET Booking by ID,200,OK,MiniStressTest 1-9,text,true,,890,171,49,49,https://restful-booker.herokuapp.com/booking/3789,116,0,0
+1750260625505,118,Stress POST Create a new booking,200,OK,MiniStressTest 1-27,text,true,,948,478,49,49,https://restful-booker.herokuapp.com/booking,118,0,0
+1750260625276,352,Stress GET All bookings,200,OK,MiniStressTest 1-35,text,true,,98356,140,49,49,https://restful-booker.herokuapp.com/booking,125,0,0
+1750260625526,121,Stress POST Create a new booking,200,OK,MiniStressTest 1-4,text,true,,949,479,49,49,https://restful-booker.herokuapp.com/booking,121,0,0
+1750260625560,116,Stress POST Create a new booking,200,OK,MiniStressTest 1-23,text,true,,943,469,48,48,https://restful-booker.herokuapp.com/booking,116,0,0
+1750260625583,107,Stress POST  Authorization,200,OK,MiniStressTest 1-19,text,true,,774,253,48,48,https://restful-booker.herokuapp.com/auth,107,0,0
+1750260625594,107,Stress POST Create a new booking,200,OK,MiniStressTest 1-20,text,true,,953,479,48,48,https://restful-booker.herokuapp.com/booking,107,0,0
+1750260625599,106,Stress GET Booking by ID,200,OK,MiniStressTest 1-32,text,true,,919,171,48,48,https://restful-booker.herokuapp.com/booking/4349,106,0,0
+1750260625256,449,Stress POST  Authorization,200,OK,MiniStressTest 1-45,text,true,,774,253,48,48,https://restful-booker.herokuapp.com/auth,449,0,344
+1750260625280,452,Stress POST  Authorization,200,OK,MiniStressTest 1-47,text,true,,774,253,48,48,https://restful-booker.herokuapp.com/auth,452,0,339
+1750260625626,109,Stress POST Create a new booking,200,OK,MiniStressTest 1-24,text,true,,949,475,48,48,https://restful-booker.herokuapp.com/booking,109,0,0
+1750260625406,327,Stress GET All bookings,200,OK,MiniStressTest 1-15,text,true,,98394,140,48,48,https://restful-booker.herokuapp.com/booking,123,0,0
+1750260625640,112,Stress GET Booking by ID,200,OK,MiniStressTest 1-2,text,true,,917,171,48,48,https://restful-booker.herokuapp.com/booking/6377,112,0,0
+1750260625667,111,Stress GET Booking by ID,200,OK,MiniStressTest 1-11,text,true,,917,171,48,48,https://restful-booker.herokuapp.com/booking/1035,111,0,0
+1750260625556,222,Stress GET All bookings,200,OK,MiniStressTest 1-18,text,true,,98455,140,48,48,https://restful-booker.herokuapp.com/booking,117,0,0
+1750260625354,433,Stress GET All bookings,200,OK,MiniStressTest 1-38,text,true,,98375,140,48,48,https://restful-booker.herokuapp.com/booking,117,0,0
+1750260625344,456,Stress POST  Authorization,200,OK,MiniStressTest 1-46,text,true,,774,253,48,48,https://restful-booker.herokuapp.com/auth,456,0,340
+1750260625680,122,Stress GET Booking by ID,200,OK,MiniStressTest 1-26,text,true,,917,171,48,48,https://restful-booker.herokuapp.com/booking/6267,122,0,0
+1750260625694,108,Stress POST Create a new booking,200,OK,MiniStressTest 1-3,text,true,,948,474,48,48,https://restful-booker.herokuapp.com/booking,108,0,0
+1750260625700,109,Stress GET Booking by ID,200,OK,MiniStressTest 1-6,text,true,,894,171,47,47,https://restful-booker.herokuapp.com/booking/5911,109,0,0
+1750260625370,430,Stress GET All bookings,200,OK,MiniStressTest 1-34,text,true,,98375,140,48,48,https://restful-booker.herokuapp.com/booking,230,0,0
+1750260625709,110,Stress POST Create a new booking,200,OK,MiniStressTest 1-5,text,true,,953,479,47,47,https://restful-booker.herokuapp.com/booking,110,0,0
+1750260625376,447,Stress GET All bookings,200,OK,MiniStressTest 1-12,text,true,,98394,140,46,46,https://restful-booker.herokuapp.com/booking,241,0,0
+1750260625714,118,Stress POST Create a new booking,200,OK,MiniStressTest 1-7,text,true,,945,471,46,46,https://restful-booker.herokuapp.com/booking,118,0,0
+1750260625729,109,Stress POST Create a new booking,200,OK,MiniStressTest 1-13,text,true,,944,470,45,45,https://restful-booker.herokuapp.com/booking,109,0,0
+1750260625729,109,Stress POST  Authorization,200,OK,MiniStressTest 1-14,text,true,,774,253,45,45,https://restful-booker.herokuapp.com/auth,109,0,0
+1750260625386,452,Stress POST  Authorization,200,OK,MiniStressTest 1-49,text,true,,774,253,45,45,https://restful-booker.herokuapp.com/auth,452,0,348
+1750260625382,454,Stress GET All bookings,200,OK,MiniStressTest 1-33,text,true,,98394,140,45,45,https://restful-booker.herokuapp.com/booking,129,0,0
+1750260625396,442,Stress GET All bookings,200,OK,MiniStressTest 1-10,text,true,,98394,140,45,45,https://restful-booker.herokuapp.com/booking,128,0,0
+1750260625739,110,Stress GET Booking by ID,200,OK,MiniStressTest 1-36,text,true,,917,171,44,44,https://restful-booker.herokuapp.com/booking/4975,110,0,0
+1750260625753,109,Stress GET Booking by ID,200,OK,MiniStressTest 1-35,text,true,,919,171,44,44,https://restful-booker.herokuapp.com/booking/5024,109,0,0
+1750260625767,102,Stress POST  Authorization,200,OK,MiniStressTest 1-24,text,true,,774,253,44,44,https://restful-booker.herokuapp.com/auth,102,0,0
+1750260625778,108,Stress POST  Authorization,200,OK,MiniStressTest 1-27,text,true,,774,253,44,44,https://restful-booker.herokuapp.com/auth,108,0,0
+1750260625659,219,Stress GET All bookings,200,OK,MiniStressTest 1-21,text,true,,98493,140,44,44,https://restful-booker.herokuapp.com/booking,113,0,0
+1750260625780,109,Stress POST Create a new booking,200,OK,MiniStressTest 1-28,text,true,,944,470,44,44,https://restful-booker.herokuapp.com/booking,109,0,0
+1750260625786,103,Stress POST Create a new booking,200,OK,MiniStressTest 1-32,text,true,,941,467,44,44,https://restful-booker.herokuapp.com/booking,103,0,0
+1750260625772,117,Stress POST  Authorization,200,OK,MiniStressTest 1-20,text,true,,774,253,44,44,https://restful-booker.herokuapp.com/auth,117,0,0
+1750260625824,104,Stress POST  Authorization,200,OK,MiniStressTest 1-25,text,true,,774,253,44,44,https://restful-booker.herokuapp.com/auth,104,0,0
+1750260625503,433,Stress GET All bookings,200,OK,MiniStressTest 1-40,text,true,,98394,140,44,44,https://restful-booker.herokuapp.com/booking,119,0,0
+1750260625711,228,Stress GET All bookings,200,OK,MiniStressTest 1-22,text,true,,98550,140,44,44,https://restful-booker.herokuapp.com/booking,118,0,0
+1750260625841,107,Stress POST Create a new booking,200,OK,MiniStressTest 1-30,text,true,,947,473,44,44,https://restful-booker.herokuapp.com/booking,107,0,0
+1750260625496,452,Stress POST  Authorization,200,OK,MiniStressTest 1-48,text,true,,774,253,44,44,https://restful-booker.herokuapp.com/auth,452,0,344
+1750260625625,327,Stress GET All bookings,200,OK,MiniStressTest 1-17,text,true,,98512,140,44,44,https://restful-booker.herokuapp.com/booking,120,0,0
+1750260625859,115,Stress POST  Authorization,200,OK,MiniStressTest 1-23,text,true,,774,253,44,44,https://restful-booker.herokuapp.com/auth,115,0,0
+1750260625519,442,Stress GET All bookings,200,OK,MiniStressTest 1-8,text,true,,98413,140,44,44,https://restful-booker.herokuapp.com/booking,128,0,0
+1750260625900,104,Stress GET Booking by ID,200,OK,MiniStressTest 1-38,text,true,,917,171,44,44,https://restful-booker.herokuapp.com/booking/4294,104,0,0
+1750260625886,118,Stress POST Create a new booking,200,OK,MiniStressTest 1-2,text,true,,951,477,44,44,https://restful-booker.herokuapp.com/booking,118,0,0
+1750260625885,119,Stress POST Create a new booking,200,OK,MiniStressTest 1-31,text,true,,946,472,44,44,https://restful-booker.herokuapp.com/booking,119,0,0
+1750260625905,107,Stress POST  Authorization,200,OK,MiniStressTest 1-32,text,true,,774,253,43,43,https://restful-booker.herokuapp.com/auth,107,0,0
+1750260625929,104,Stress POST Create a new booking,200,OK,MiniStressTest 1-6,text,true,,956,482,43,43,https://restful-booker.herokuapp.com/booking,104,0,0
+1750260625928,108,Stress GET Booking by ID,200,OK,MiniStressTest 1-21,text,true,,919,171,42,42,https://restful-booker.herokuapp.com/booking/3684,108,0,0
+1750260625927,109,Stress GET Booking by ID,200,OK,MiniStressTest 1-15,text,true,,917,171,42,42,https://restful-booker.herokuapp.com/booking/5413,109,0,0
+1750260625947,110,Stress POST Create a new booking,200,OK,MiniStressTest 1-29,text,true,,956,482,42,42,https://restful-booker.herokuapp.com/booking,110,0,0
+1750260625610,447,Stress POST  Authorization,200,OK,MiniStressTest 1-50,text,true,,774,253,42,42,https://restful-booker.herokuapp.com/auth,447,0,338
+1750260625953,108,Stress POST Create a new booking,200,OK,MiniStressTest 1-9,text,true,,949,475,42,42,https://restful-booker.herokuapp.com/booking,108,0,0
+1750260625954,111,Stress POST  Authorization,200,OK,MiniStressTest 1-28,text,true,,774,253,41,41,https://restful-booker.herokuapp.com/auth,111,0,0
+1750260625975,105,Stress POST  Authorization,200,OK,MiniStressTest 1-30,text,true,,774,253,41,41,https://restful-booker.herokuapp.com/auth,105,0,0
+1750260625880,232,Stress GET All bookings,200,OK,MiniStressTest 1-24,text,true,,98683,140,41,41,https://restful-booker.herokuapp.com/booking,121,0,0
+1750260625684,425,Stress GET All bookings,200,OK,MiniStressTest 1-41,text,true,,98493,140,41,41,https://restful-booker.herokuapp.com/booking,115,0,0
+1750260626008,128,Stress GET Booking by ID,200,OK,MiniStressTest 1-37,text,true,,917,170,41,41,https://restful-booker.herokuapp.com/booking/445,128,0,0
+1750260625705,422,Stress GET All bookings,200,OK,MiniStressTest 1-43,text,true,,98531,140,41,41,https://restful-booker.herokuapp.com/booking,215,0,0
+1750260626020,118,Stress GET Booking by ID,200,OK,MiniStressTest 1-10,text,true,,919,171,41,41,https://restful-booker.herokuapp.com/booking/5156,118,0,0
+1750260626027,111,Stress POST Create a new booking,200,OK,MiniStressTest 1-35,text,true,,953,479,41,41,https://restful-booker.herokuapp.com/booking,111,0,0
+1750260626030,113,Stress GET Booking by ID,200,OK,MiniStressTest 1-34,text,true,,919,171,41,41,https://restful-booker.herokuapp.com/booking/4395,113,0,0
+1750260626030,114,Stress GET Booking by ID,200,OK,MiniStressTest 1-18,text,true,,894,171,41,41,https://restful-booker.herokuapp.com/booking/2444,114,0,0
+1750260626034,114,Stress GET Booking by ID,200,OK,MiniStressTest 1-12,text,true,,919,171,41,41,https://restful-booker.herokuapp.com/booking/2687,114,0,0
+1750260626050,104,Stress POST Create a new booking,200,OK,MiniStressTest 1-11,text,true,,948,474,41,41,https://restful-booker.herokuapp.com/booking,104,0,0
+1750260625719,438,Stress GET All bookings,200,OK,MiniStressTest 1-39,text,true,,98569,140,40,40,https://restful-booker.herokuapp.com/booking,229,0,0
+1750260626059,110,Stress POST Create a new booking,200,OK,MiniStressTest 1-26,text,true,,948,474,40,40,https://restful-booker.herokuapp.com/booking,110,0,0
+1750260625726,440,Stress GET All bookings,200,OK,MiniStressTest 1-16,text,true,,98588,140,40,40,https://restful-booker.herokuapp.com/booking,119,0,0
+1750260626082,107,Stress GET Booking by ID,200,OK,MiniStressTest 1-17,text,true,,894,170,40,40,https://restful-booker.herokuapp.com/booking/371,107,0,0
+1750260625858,319,Stress GET All bookings,200,OK,MiniStressTest 1-46,text,true,,98683,140,40,40,https://restful-booker.herokuapp.com/booking,116,0,0
+1750260625984,214,Stress GET All bookings,200,OK,MiniStressTest 1-20,text,true,,98797,140,40,40,https://restful-booker.herokuapp.com/booking,110,0,0
+1750260626118,105,Stress GET Booking by ID,200,OK,MiniStressTest 1-22,text,true,,913,171,40,40,https://restful-booker.herokuapp.com/booking/4426,105,0,0
+1750260626130,105,Stress POST  Authorization,200,OK,MiniStressTest 1-31,text,true,,774,253,40,40,https://restful-booker.herokuapp.com/auth,105,0,0
+1750260626134,115,Stress POST Create a new booking,200,OK,MiniStressTest 1-36,text,true,,950,476,40,40,https://restful-booker.herokuapp.com/booking,115,0,0
+1750260625914,330,Stress GET All bookings,200,OK,MiniStressTest 1-45,text,true,,98740,140,40,40,https://restful-booker.herokuapp.com/booking,115,0,0
+1750260625941,320,Stress GET All bookings,200,OK,MiniStressTest 1-19,text,true,,98759,140,40,40,https://restful-booker.herokuapp.com/booking,114,0,0
+1750260626146,128,Stress POST Create a new booking,200,OK,MiniStressTest 1-15,text,true,,941,467,40,40,https://restful-booker.herokuapp.com/booking,128,0,0
+1750260625851,419,Stress GET All bookings,200,OK,MiniStressTest 1-42,text,true,,98683,140,40,40,https://restful-booker.herokuapp.com/booking,215,0,0
+1750260626143,135,Stress GET Booking by ID,200,OK,MiniStressTest 1-8,text,true,,919,171,39,39,https://restful-booker.herokuapp.com/booking/6114,135,0,0
+1750260626151,129,Stress GET Booking by ID,200,OK,MiniStressTest 1-33,text,true,,919,170,39,39,https://restful-booker.herokuapp.com/booking/601,129,0,0
+1750260626184,107,Stress POST Create a new booking,200,OK,MiniStressTest 1-38,text,true,,943,469,39,39,https://restful-booker.herokuapp.com/booking,107,0,0
+1750260626201,112,Stress GET Booking by ID,200,OK,MiniStressTest 1-24,text,true,,919,171,39,39,https://restful-booker.herokuapp.com/booking/6243,112,0,0
+1750260625877,432,Stress GET All bookings,200,OK,MiniStressTest 1-44,text,true,,98683,140,39,39,https://restful-booker.herokuapp.com/booking,113,0,0
+1750260625988,323,Stress GET All bookings,200,OK,MiniStressTest 1-49,text,true,,98797,140,39,39,https://restful-booker.herokuapp.com/booking,115,0,0
+1750260626229,118,Stress GET Booking by ID,200,OK,MiniStressTest 1-40,text,true,,914,171,39,39,https://restful-booker.herokuapp.com/booking/6431,118,0,0
+1750260626250,106,Stress POST Create a new booking,200,OK,MiniStressTest 1-21,text,true,,953,479,39,39,https://restful-booker.herokuapp.com/booking,106,0,0
+1750260626261,110,Stress GET Booking by ID,200,OK,MiniStressTest 1-16,text,true,,894,171,38,38,https://restful-booker.herokuapp.com/booking/4725,110,0,0
+1750260626265,108,Stress GET Booking by ID,200,OK,MiniStressTest 1-39,text,true,,917,171,38,38,https://restful-booker.herokuapp.com/booking/4345,108,0,0
+1750260626065,337,Stress GET All bookings,200,OK,MiniStressTest 1-48,text,true,,98873,140,38,38,https://restful-booker.herokuapp.com/booking,121,0,0
+1750260626326,104,Stress POST  Authorization,200,OK,MiniStressTest 1-36,text,true,,774,253,38,38,https://restful-booker.herokuapp.com/auth,104,0,0
+1750260626324,106,Stress POST  Authorization,200,OK,MiniStressTest 1-29,text,true,,774,253,38,38,https://restful-booker.herokuapp.com/auth,106,0,0
+1750260626329,105,Stress POST Create a new booking,200,OK,MiniStressTest 1-18,text,true,,942,468,38,38,https://restful-booker.herokuapp.com/booking,105,0,0
+1750260626333,107,Stress POST Create a new booking,200,OK,MiniStressTest 1-10,text,true,,953,479,37,37,https://restful-booker.herokuapp.com/booking,107,0,0
+1750260626334,109,Stress GET Booking by ID,200,OK,MiniStressTest 1-44,text,true,,919,171,36,36,https://restful-booker.herokuapp.com/booking/6507,109,0,0
+1750260626001,442,Stress GET All bookings,200,OK,MiniStressTest 1-47,text,true,,98797,140,36,36,https://restful-booker.herokuapp.com/booking,126,0,0
+1750260626352,108,Stress GET Booking by ID,200,OK,MiniStressTest 1-41,text,true,,894,171,36,36,https://restful-booker.herokuapp.com/booking/3944,108,0,0
+1750260626128,319,Stress GET All bookings,200,OK,MiniStressTest 1-30,text,true,,98892,140,36,36,https://restful-booker.herokuapp.com/booking,118,0,0
+1750260626354,111,Stress POST Create a new booking,200,OK,MiniStressTest 1-22,text,true,,952,478,36,36,https://restful-booker.herokuapp.com/booking,111,0,0
+1750260626366,113,Stress POST Create a new booking,200,OK,MiniStressTest 1-12,text,true,,946,472,35,35,https://restful-booker.herokuapp.com/booking,113,0,0
+1750260626136,334,Stress GET All bookings,200,OK,MiniStressTest 1-23,text,true,,98911,140,35,35,https://restful-booker.herokuapp.com/booking,127,0,0
+1750260626135,344,Stress GET All bookings,200,OK,MiniStressTest 1-27,text,true,,98911,140,35,35,https://restful-booker.herokuapp.com/booking,137,0,0
+1750260626383,107,Stress POST Create a new booking,200,OK,MiniStressTest 1-34,text,true,,952,478,34,34,https://restful-booker.herokuapp.com/booking,107,0,0
+1750260626397,108,Stress POST  Authorization,200,OK,MiniStressTest 1-35,text,true,,774,253,34,34,https://restful-booker.herokuapp.com/auth,108,0,0
+1750260626086,427,Stress GET All bookings,200,OK,MiniStressTest 1-14,text,true,,98873,140,34,34,https://restful-booker.herokuapp.com/booking,120,0,0
+1750260626420,103,Stress POST  Authorization,200,OK,MiniStressTest 1-26,text,true,,774,253,34,34,https://restful-booker.herokuapp.com/auth,103,0,0
+1750260626419,108,Stress GET Booking by ID,200,OK,MiniStressTest 1-43,text,true,,917,171,34,34,https://restful-booker.herokuapp.com/booking/2730,108,0,0
+1750260626433,107,Stress POST Create a new booking,200,OK,MiniStressTest 1-33,text,true,,957,483,34,34,https://restful-booker.herokuapp.com/booking,107,0,0
+1750260626475,104,Stress POST Create a new booking,200,OK,MiniStressTest 1-39,text,true,,942,468,34,34,https://restful-booker.herokuapp.com/booking,104,0,0
+1750260626483,105,Stress POST Create a new booking,200,OK,MiniStressTest 1-17,text,true,,951,477,34,34,https://restful-booker.herokuapp.com/booking,105,0,0
+1750260626489,103,Stress POST Create a new booking,200,OK,MiniStressTest 1-40,text,true,,952,478,33,33,https://restful-booker.herokuapp.com/booking,103,0,0
+1750260626496,106,Stress GET Booking by ID,200,OK,MiniStressTest 1-20,text,true,,894,171,33,33,https://restful-booker.herokuapp.com/booking/3795,105,0,0
+1750260626500,108,Stress POST Create a new booking,200,OK,MiniStressTest 1-37,text,true,,953,479,33,33,https://restful-booker.herokuapp.com/booking,108,0,0
+1750260626503,108,Stress GET Booking by ID,200,OK,MiniStressTest 1-46,text,true,,894,171,33,33,https://restful-booker.herokuapp.com/booking/5911,108,0,0
+1750260626512,112,Stress GET Booking by ID,200,OK,MiniStressTest 1-45,text,true,,919,171,33,33,https://restful-booker.herokuapp.com/booking/2055,112,0,0
+1750260626521,104,Stress POST Create a new booking,200,OK,MiniStressTest 1-16,text,true,,949,475,33,33,https://restful-booker.herokuapp.com/booking,104,0,0
+1750260626279,325,Stress GET All bookings,200,OK,MiniStressTest 1-32,text,true,,98968,140,33,33,https://restful-booker.herokuapp.com/booking,119,0,0
+1750260626547,109,Stress GET Booking by ID,200,OK,MiniStressTest 1-42,text,true,,919,171,32,32,https://restful-booker.herokuapp.com/booking/4561,109,0,0
+1750260626557,109,Stress POST Create a new booking,200,OK,MiniStressTest 1-41,text,true,,947,473,32,32,https://restful-booker.herokuapp.com/booking,109,0,0
+1750260626228,432,Stress GET All bookings,200,OK,MiniStressTest 1-25,text,true,,98930,140,32,32,https://restful-booker.herokuapp.com/booking,115,0,0
+1750260626438,223,Stress GET All bookings,200,OK,MiniStressTest 1-31,text,true,,99082,140,32,32,https://restful-booker.herokuapp.com/booking,115,0,0
+1750260626561,108,Stress GET Booking by ID,200,OK,MiniStressTest 1-49,text,true,,917,171,32,32,https://restful-booker.herokuapp.com/booking/4533,108,0,0
+1750260626563,107,Stress GET Booking by ID,200,OK,MiniStressTest 1-23,text,true,,917,171,32,32,https://restful-booker.herokuapp.com/booking/4853,107,0,0
+1750260626597,112,Stress POST Create a new booking,200,OK,MiniStressTest 1-8,text,true,,957,483,32,32,https://restful-booker.herokuapp.com/booking,112,0,0
+1750260626603,111,Stress GET Booking by ID,200,OK,MiniStressTest 1-30,text,true,,917,171,31,31,https://restful-booker.herokuapp.com/booking/4747,111,0,0
+1750260626618,109,Stress POST  Authorization,200,OK,MiniStressTest 1-33,text,true,,774,253,31,31,https://restful-booker.herokuapp.com/auth,109,0,0
+1750260626611,118,Stress GET Booking by ID,200,OK,MiniStressTest 1-47,text,true,,894,171,31,31,https://restful-booker.herokuapp.com/booking/6076,118,0,0
+1750260626626,104,Stress POST  Authorization,200,OK,MiniStressTest 1-39,text,true,,774,253,31,31,https://restful-booker.herokuapp.com/auth,104,0,0
+1750260626294,435,Stress GET All bookings,200,OK,MiniStressTest 1-28,text,true,,98968,140,31,31,https://restful-booker.herokuapp.com/booking,219,0,0
+1750260626641,107,Stress POST Create a new booking,200,OK,MiniStressTest 1-24,text,true,,948,474,31,31,https://restful-booker.herokuapp.com/booking,107,0,0
+1750260626637,113,Stress GET Booking by ID,200,OK,MiniStressTest 1-48,text,true,,917,171,30,30,https://restful-booker.herokuapp.com/booking/3813,113,0,0
+1750260626355,429,Stress GET All bookings,200,OK,MiniStressTest 1-50,text,true,,99006,140,30,30,https://restful-booker.herokuapp.com/booking,227,0,0
+1750260626681,110,Stress POST  Authorization,200,OK,MiniStressTest 1-34,text,true,,774,253,30,30,https://restful-booker.herokuapp.com/auth,110,0,0
+1750260626696,104,Stress POST Create a new booking,200,OK,MiniStressTest 1-44,text,true,,952,478,30,30,https://restful-booker.herokuapp.com/booking,104,0,0
+1750260626704,104,Stress POST  Authorization,200,OK,MiniStressTest 1-38,text,true,,774,253,30,30,https://restful-booker.herokuapp.com/auth,104,0,0
+1750260626701,112,Stress GET Booking by ID,200,OK,MiniStressTest 1-27,text,true,,913,170,30,30,https://restful-booker.herokuapp.com/booking/480,112,0,0
+1750260626722,106,Stress GET Booking by ID,200,OK,MiniStressTest 1-25,text,true,,919,170,30,30,https://restful-booker.herokuapp.com/booking/487,106,0,0
+1750260626607,222,Stress GET All bookings,200,OK,MiniStressTest 1-35,text,true,,99234,140,30,30,https://restful-booker.herokuapp.com/booking,118,0,0
+1750260626773,106,Stress GET Booking by ID,200,OK,MiniStressTest 1-14,text,true,,919,171,30,30,https://restful-booker.herokuapp.com/booking/5181,106,0,0
+1750260626799,103,Stress POST Create a new booking,200,OK,MiniStressTest 1-43,text,true,,948,474,30,30,https://restful-booker.herokuapp.com/booking,103,0,0
+1750260626802,106,Stress GET Booking by ID,200,OK,MiniStressTest 1-19,text,true,,900,170,30,30,https://restful-booker.herokuapp.com/booking/794,106,0,0
+1750260626827,114,Stress GET Booking by ID,200,OK,MiniStressTest 1-32,text,true,,917,171,30,30,https://restful-booker.herokuapp.com/booking/1981,114,0,0
+1750260626833,108,Stress POST  Authorization,200,OK,MiniStressTest 1-40,text,true,,774,253,30,30,https://restful-booker.herokuapp.com/auth,108,0,0
+1750260626833,110,Stress POST Create a new booking,200,OK,MiniStressTest 1-20,text,true,,941,467,30,30,https://restful-booker.herokuapp.com/booking,110,0,0
+1750260626838,108,Stress POST  Authorization,200,OK,MiniStressTest 1-44,text,true,,774,253,29,29,https://restful-booker.herokuapp.com/auth,108,0,0
+1750260626846,102,Stress POST Create a new booking,200,OK,MiniStressTest 1-23,text,true,,953,479,29,29,https://restful-booker.herokuapp.com/booking,102,0,0
+1750260626850,107,Stress POST Create a new booking,200,OK,MiniStressTest 1-42,text,true,,953,479,28,28,https://restful-booker.herokuapp.com/booking,107,0,0
+1750260626855,108,Stress POST Create a new booking,200,OK,MiniStressTest 1-46,text,true,,950,476,28,28,https://restful-booker.herokuapp.com/booking,108,0,0
+1750260626728,235,Stress GET All bookings,200,OK,MiniStressTest 1-33,text,true,,99272,140,28,28,https://restful-booker.herokuapp.com/booking,125,0,0
+1750260626860,120,Stress GET Booking by ID,200,OK,MiniStressTest 1-31,text,true,,917,170,28,28,https://restful-booker.herokuapp.com/booking/186,120,0,0
+1750260626904,107,Stress POST Create a new booking,200,OK,MiniStressTest 1-25,text,true,,946,472,28,28,https://restful-booker.herokuapp.com/booking,107,0,0
+1750260626928,103,Stress POST Create a new booking,200,OK,MiniStressTest 1-48,text,true,,945,471,27,27,https://restful-booker.herokuapp.com/booking,103,0,0
+1750260626932,106,Stress POST  Authorization,200,OK,MiniStressTest 1-37,text,true,,774,253,27,27,https://restful-booker.herokuapp.com/auth,106,0,0
+1750260626938,104,Stress POST Create a new booking,200,OK,MiniStressTest 1-27,text,true,,953,479,27,27,https://restful-booker.herokuapp.com/booking,104,0,0
+1750260626938,107,Stress POST Create a new booking,200,OK,MiniStressTest 1-30,text,true,,951,477,26,26,https://restful-booker.herokuapp.com/booking,107,0,0
+1750260626939,108,Stress POST Create a new booking,200,OK,MiniStressTest 1-47,text,true,,943,469,25,25,https://restful-booker.herokuapp.com/booking,108,0,0
+1750260626941,106,Stress POST Create a new booking,200,OK,MiniStressTest 1-45,text,true,,953,479,25,25,https://restful-booker.herokuapp.com/booking,106,0,0
+1750260626966,106,Stress POST  Authorization,200,OK,MiniStressTest 1-41,text,true,,774,253,25,25,https://restful-booker.herokuapp.com/auth,106,0,0
+1750260626966,108,Stress GET Booking by ID,200,OK,MiniStressTest 1-28,text,true,,894,171,25,25,https://restful-booker.herokuapp.com/booking/6338,108,0,0
+1750260626971,108,Stress POST Create a new booking,200,OK,MiniStressTest 1-49,text,true,,948,474,25,25,https://restful-booker.herokuapp.com/booking,108,0,0
+1750260626859,224,Stress GET All bookings,200,OK,MiniStressTest 1-38,text,true,,99386,140,25,25,https://restful-booker.herokuapp.com/booking,118,0,0
+1750260626657,429,Stress GET All bookings,200,OK,MiniStressTest 1-36,text,true,,99253,140,25,25,https://restful-booker.herokuapp.com/booking,220,0,0
+1750260626677,427,Stress GET All bookings,200,OK,MiniStressTest 1-26,text,true,,99253,140,25,25,https://restful-booker.herokuapp.com/booking,114,0,0
+1750260627008,104,Stress GET Booking by ID,200,OK,MiniStressTest 1-35,text,true,,894,171,25,25,https://restful-booker.herokuapp.com/booking/4616,104,0,0
+1750260627014,111,Stress GET Booking by ID,200,OK,MiniStressTest 1-50,text,true,,917,171,25,25,https://restful-booker.herokuapp.com/booking/2761,111,0,0
+1750260627072,106,Stress POST Create a new booking,200,OK,MiniStressTest 1-14,text,true,,947,473,25,25,https://restful-booker.herokuapp.com/booking,106,0,0
+1750260627092,106,Stress POST  Authorization,200,OK,MiniStressTest 1-42,text,true,,774,253,24,24,https://restful-booker.herokuapp.com/auth,106,0,0
+1750260626780,424,Stress GET All bookings,200,OK,MiniStressTest 1-29,text,true,,99272,140,24,24,https://restful-booker.herokuapp.com/booking,215,0,0
+1750260626981,220,Stress GET All bookings,200,OK,MiniStressTest 1-39,text,true,,99500,140,24,24,https://restful-booker.herokuapp.com/booking,116,0,0
+1750260627125,106,Stress POST Create a new booking,200,OK,MiniStressTest 1-32,text,true,,952,478,24,24,https://restful-booker.herokuapp.com/booking,106,0,0
+1750260627135,109,Stress POST  Authorization,200,OK,MiniStressTest 1-43,text,true,,774,253,23,23,https://restful-booker.herokuapp.com/auth,109,0,0
+1750260627020,220,Stress GET All bookings,200,OK,MiniStressTest 1-44,text,true,,99500,140,23,23,https://restful-booker.herokuapp.com/booking,114,0,0
+1750260627155,106,Stress GET Booking by ID,200,OK,MiniStressTest 1-36,text,true,,919,170,23,23,https://restful-booker.herokuapp.com/booking/844,105,0,0
+1750260627156,109,Stress POST  Authorization,200,OK,MiniStressTest 1-46,text,true,,774,253,23,23,https://restful-booker.herokuapp.com/auth,109,0,0
+1750260627166,106,Stress GET Booking by ID,200,OK,MiniStressTest 1-38,text,true,,919,171,23,23,https://restful-booker.herokuapp.com/booking/5576,106,0,0
+1750260627185,104,Stress POST Create a new booking,200,OK,MiniStressTest 1-19,text,true,,944,470,23,23,https://restful-booker.herokuapp.com/booking,104,0,0
+1750260627193,104,Stress POST Create a new booking,200,OK,MiniStressTest 1-31,text,true,,953,479,22,22,https://restful-booker.herokuapp.com/booking,104,0,0
+1750260627205,109,Stress GET Booking by ID,200,OK,MiniStressTest 1-33,text,true,,919,171,21,21,https://restful-booker.herokuapp.com/booking/6677,109,0,0
+1750260627223,105,Stress POST  Authorization,200,OK,MiniStressTest 1-47,text,true,,774,253,21,21,https://restful-booker.herokuapp.com/auth,105,0,0
+1750260627232,103,Stress GET Booking by ID,200,OK,MiniStressTest 1-26,text,true,,894,171,21,21,https://restful-booker.herokuapp.com/booking/3059,103,0,0
+1750260627267,111,Stress POST Create a new booking,200,OK,MiniStressTest 1-28,text,true,,957,483,21,21,https://restful-booker.herokuapp.com/booking,111,0,0
+1750260627294,104,Stress POST  Authorization,200,OK,MiniStressTest 1-49,text,true,,774,253,20,20,https://restful-booker.herokuapp.com/auth,104,0,0
+1750260627317,109,Stress POST  Authorization,200,OK,MiniStressTest 1-48,text,true,,774,253,20,20,https://restful-booker.herokuapp.com/auth,109,0,0
+1750260627353,103,Stress POST Create a new booking,200,OK,MiniStressTest 1-50,text,true,,956,482,20,20,https://restful-booker.herokuapp.com/booking,103,0,0
+1750260627366,105,Stress POST  Authorization,200,OK,MiniStressTest 1-45,text,true,,774,253,20,20,https://restful-booker.herokuapp.com/auth,105,0,0
+1750260627370,111,Stress POST Create a new booking,200,OK,MiniStressTest 1-35,text,true,,953,479,20,20,https://restful-booker.herokuapp.com/booking,111,0,0
+1750260627049,421,Stress GET All bookings,200,OK,MiniStressTest 1-34,text,true,,99500,140,20,20,https://restful-booker.herokuapp.com/booking,115,0,0
+1750260627382,111,Stress GET Booking by ID,200,OK,MiniStressTest 1-29,text,true,,919,171,19,19,https://restful-booker.herokuapp.com/booking/3253,111,0,0
+1750260627405,107,Stress GET Booking by ID,200,OK,MiniStressTest 1-44,text,true,,917,171,19,19,https://restful-booker.herokuapp.com/booking/1672,107,0,0
+1750260627426,105,Stress POST Create a new booking,200,OK,MiniStressTest 1-36,text,true,,949,475,19,19,https://restful-booker.herokuapp.com/booking,105,0,0
+1750260627466,103,Stress POST Create a new booking,200,OK,MiniStressTest 1-26,text,true,,943,469,18,18,https://restful-booker.herokuapp.com/booking,103,0,0
+1750260627128,421,Stress GET All bookings,200,OK,MiniStressTest 1-37,text,true,,99557,140,18,18,https://restful-booker.herokuapp.com/booking,218,0,0
+1750260627262,316,Stress GET All bookings,200,OK,MiniStressTest 1-41,text,true,,99576,140,17,17,https://restful-booker.herokuapp.com/booking,113,0,0
+1750260627490,104,Stress POST Create a new booking,200,OK,MiniStressTest 1-38,text,true,,942,468,17,17,https://restful-booker.herokuapp.com/booking,104,0,0
+1750260627516,110,Stress GET Booking by ID,200,OK,MiniStressTest 1-39,text,true,,919,171,16,16,https://restful-booker.herokuapp.com/booking/5758,110,0,0
+1750260627551,108,Stress POST Create a new booking,200,OK,MiniStressTest 1-33,text,true,,944,474,16,16,https://restful-booker.herokuapp.com/booking,108,0,0
+1750260627306,431,Stress GET All bookings,200,OK,MiniStressTest 1-40,text,true,,99595,140,15,15,https://restful-booker.herokuapp.com/booking,120,0,0
+1750260627654,106,Stress GET Booking by ID,200,OK,MiniStressTest 1-34,text,true,,913,171,15,15,https://restful-booker.herokuapp.com/booking/1004,106,0,0
+1750260627657,105,Stress POST Create a new booking,200,OK,MiniStressTest 1-44,text,true,,942,472,15,15,https://restful-booker.herokuapp.com/booking,105,0,0
+1750260627444,321,Stress GET All bookings,200,OK,MiniStressTest 1-42,text,true,,99690,140,14,14,https://restful-booker.herokuapp.com/booking,118,0,0
+1750260627708,103,Stress POST Create a new booking,200,OK,MiniStressTest 1-29,text,true,,946,476,14,14,https://restful-booker.herokuapp.com/booking,103,0,0
+1750260627604,230,Stress GET All bookings,200,OK,MiniStressTest 1-47,text,true,,99781,140,13,13,https://restful-booker.herokuapp.com/booking,121,0,0
+1750260627764,104,Stress POST  Authorization,200,OK,MiniStressTest 1-50,text,true,,770,253,13,13,https://restful-booker.herokuapp.com/auth,104,0,0
+1750260627845,106,Stress GET Booking by ID,200,OK,MiniStressTest 1-37,text,true,,915,171,13,13,https://restful-booker.herokuapp.com/booking/4738,106,0,0
+1750260627926,107,Stress GET Booking by ID,200,OK,MiniStressTest 1-41,text,true,,890,171,13,13,https://restful-booker.herokuapp.com/booking/4773,107,0,0
+1750260627593,427,Stress GET All bookings,200,OK,MiniStressTest 1-43,text,true,,99781,140,13,13,https://restful-booker.herokuapp.com/booking,116,0,0
+1750260627938,105,Stress GET Booking by ID,200,OK,MiniStressTest 1-40,text,true,,890,171,13,13,https://restful-booker.herokuapp.com/booking/4624,105,0,0
+1750260627624,430,Stress GET All bookings,200,OK,MiniStressTest 1-49,text,true,,99762,140,13,13,https://restful-booker.herokuapp.com/booking,227,0,0
+1750260627992,106,Stress GET Booking by ID,200,OK,MiniStressTest 1-42,text,true,,915,171,13,13,https://restful-booker.herokuapp.com/booking/3607,106,0,0
+1750260627684,418,Stress GET All bookings,200,OK,MiniStressTest 1-46,text,true,,99800,140,13,13,https://restful-booker.herokuapp.com/booking,212,0,0
+1750260627715,449,Stress GET All bookings,200,OK,MiniStressTest 1-45,text,true,,99819,140,13,13,https://restful-booker.herokuapp.com/booking,243,0,0
+1750260628095,111,Stress GET Booking by ID,200,OK,MiniStressTest 1-47,text,true,,915,171,13,13,https://restful-booker.herokuapp.com/booking/5419,111,0,0
+1750260628099,107,Stress POST Create a new booking,200,OK,MiniStressTest 1-39,text,true,,948,478,13,13,https://restful-booker.herokuapp.com/booking,107,0,0
+1750260628135,106,Stress POST Create a new booking,200,OK,MiniStressTest 1-42,text,true,,949,479,12,12,https://restful-booker.herokuapp.com/booking,106,0,0
+1750260628161,110,Stress GET Booking by ID,200,OK,MiniStressTest 1-49,text,true,,915,171,11,11,https://restful-booker.herokuapp.com/booking/1286,110,0,0
+1750260628169,111,Stress POST Create a new booking,200,OK,MiniStressTest 1-37,text,true,,952,482,11,11,https://restful-booker.herokuapp.com/booking,111,0,0
+1750260628196,105,Stress GET Booking by ID,200,OK,MiniStressTest 1-43,text,true,,913,171,10,10,https://restful-booker.herokuapp.com/booking/1361,105,0,0
+1750260628218,103,Stress POST Create a new booking,200,OK,MiniStressTest 1-41,text,true,,943,473,10,10,https://restful-booker.herokuapp.com/booking,103,0,0
+1750260628251,104,Stress POST Create a new booking,200,OK,MiniStressTest 1-34,text,true,,941,471,9,9,https://restful-booker.herokuapp.com/booking,104,0,0
+1750260628273,107,Stress POST Create a new booking,200,OK,MiniStressTest 1-47,text,true,,953,483,8,8,https://restful-booker.herokuapp.com/booking,107,0,0
+1750260627942,430,Stress GET All bookings,200,OK,MiniStressTest 1-48,text,true,,99857,140,8,8,https://restful-booker.herokuapp.com/booking,226,0,0
+1750260628328,103,Stress GET Booking by ID,200,OK,MiniStressTest 1-46,text,true,,913,171,7,7,https://restful-booker.herokuapp.com/booking/3407,103,0,0
+1750260628380,106,Stress GET Booking by ID,200,OK,MiniStressTest 1-45,text,true,,890,170,7,7,https://restful-booker.herokuapp.com/booking/667,106,0,0
+1750260628393,115,Stress POST Create a new booking,200,OK,MiniStressTest 1-40,text,true,,940,470,7,7,https://restful-booker.herokuapp.com/booking,115,0,0
+1750260628411,108,Stress POST Create a new booking,200,OK,MiniStressTest 1-49,text,true,,947,477,6,6,https://restful-booker.herokuapp.com/booking,108,0,0
+1750260628433,106,Stress POST Create a new booking,200,OK,MiniStressTest 1-46,text,true,,937,467,5,5,https://restful-booker.herokuapp.com/booking,106,0,0
+1750260628137,427,Stress GET All bookings,200,OK,MiniStressTest 1-50,text,true,,99895,140,4,4,https://restful-booker.herokuapp.com/booking,116,0,0
+1750260628564,114,Stress POST Create a new booking,200,OK,MiniStressTest 1-43,text,true,,949,479,4,4,https://restful-booker.herokuapp.com/booking,114,0,0
+1750260628620,106,Stress GET Booking by ID,200,OK,MiniStressTest 1-48,text,true,,913,171,3,3,https://restful-booker.herokuapp.com/booking/3209,106,0,0
+1750260628767,118,Stress POST Create a new booking,200,OK,MiniStressTest 1-45,text,true,,948,478,3,3,https://restful-booker.herokuapp.com/booking,118,0,0
+1750260628900,110,Stress POST Create a new booking,200,OK,MiniStressTest 1-48,text,true,,944,474,2,2,https://restful-booker.herokuapp.com/booking,110,0,0
+1750260628920,106,Stress GET Booking by ID,200,OK,MiniStressTest 1-50,text,true,,890,171,1,1,https://restful-booker.herokuapp.com/booking/5269,106,0,0
+1750260629199,111,Stress POST Create a new booking,200,OK,MiniStressTest 1-50,text,true,,949,479,1,1,https://restful-booker.herokuapp.com/booking,111,0,0

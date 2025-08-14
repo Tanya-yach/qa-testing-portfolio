@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1755072364928,456,SetUp POST Authorization,200,OK,SoakTest 1-1,text,true,,778,253,2,2,https://restful-booker.herokuapp.com/auth,456,0,348
+1755072365281,447,SetUp POST Authorization,200,OK,SoakTest 1-2,text,true,,778,253,2,2,https://restful-booker.herokuapp.com/auth,447,0,340
+1755072366969,214,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,27830,140,2,2,https://restful-booker.herokuapp.com/booking,211,0,0
+1755072368616,225,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,27951,140,3,3,https://restful-booker.herokuapp.com/booking,224,0,0
+1755072368831,439,SetUp POST Authorization,200,OK,SoakTest 1-3,text,true,,770,253,3,3,https://restful-booker.herokuapp.com/auth,439,0,331

@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1754999453799,442,Smoke GET PING,201,Created,SmokeTest (Threads:1) 1-1,text,true,,755,137,1,1,https://restful-booker.herokuapp.com/ping,442,0,337
+1754999454242,103,Smoke POST  Authorization,200,OK,SmokeTest (Threads:1) 1-1,text,true,,778,253,1,1,https://restful-booker.herokuapp.com/auth,103,0,0
+1754999454346,104,Smoke GET Booking by ID,200,OK,SmokeTest (Threads:1) 1-1,text,true,,922,168,1,1,https://restful-booker.herokuapp.com/booking/1,104,0,0
+1754999454451,104,Smoke POST Create a new booking,200,OK,SmokeTest (Threads:1) 1-1,text,true,,955,476,1,1,https://restful-booker.herokuapp.com/booking,103,0,0
+1754999456880,437,Smoke GET PING,201,Created,SmokeTest (Threads:1) 1-1,text,true,,751,137,1,1,https://restful-booker.herokuapp.com/ping,437,0,330
+1754999457319,108,Smoke POST  Authorization,200,OK,SmokeTest (Threads:1) 1-1,text,true,,774,253,1,1,https://restful-booker.herokuapp.com/auth,108,0,0
+1754999457428,110,Smoke GET Booking by ID,200,OK,SmokeTest (Threads:1) 1-1,text,true,,918,168,1,1,https://restful-booker.herokuapp.com/booking/1,110,0,0
+1754999457538,102,Smoke POST Create a new booking,200,OK,SmokeTest (Threads:1) 1-1,text,true,,951,476,1,1,https://restful-booker.herokuapp.com/booking,102,0,0

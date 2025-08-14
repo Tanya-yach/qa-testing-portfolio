@@ -1,0 +1,73 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1755025545892,604,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,28397,140,1,1,https://restful-booker.herokuapp.com/booking,496,0,382
+1755025547392,442,Soak GET Booking by ID,200,OK,SoakTest 1-1,text,true,,918,168,1,1,https://restful-booker.herokuapp.com/booking/4,442,0,334
+1755025551238,553,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,29013,140,1,1,https://restful-booker.herokuapp.com/booking,450,0,334
+1755025553872,110,Soak POST Create a new booking,200,OK,SoakTest 1-1,text,true,,935,469,1,1,https://restful-booker.herokuapp.com/booking,110,0,0
+1755025554606,552,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,29446,140,2,2,https://restful-booker.herokuapp.com/booking,447,0,333
+1755025557334,442,SetUp POST Authorization,200,OK,SoakTest 1-1,text,true,,770,253,2,2,https://restful-booker.herokuapp.com/auth,442,0,336
+1755025558032,108,Soak GET Booking by ID,200,OK,SoakTest 1-2,text,true,,913,171,2,2,https://restful-booker.herokuapp.com/booking/1645,108,0,0
+1755025558955,225,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,29841,140,2,2,https://restful-booker.herokuapp.com/booking,208,0,0
+1755025559066,555,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,29879,140,2,2,https://restful-booker.herokuapp.com/booking,450,0,339
+1755025561302,110,Soak POST Create a new booking,200,OK,SoakTest 1-2,text,true,,948,482,2,2,https://restful-booker.herokuapp.com/booking,110,0,0
+1755025562148,109,Soak DELETE Delete booking_2231,201,Created,SoakTest 1-1,text,true,,747,256,2,2,https://restful-booker.herokuapp.com/booking/2231,109,0,0
+1755025563602,559,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,30415,140,2,2,https://restful-booker.herokuapp.com/booking,449,0,339
+1755025564093,556,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,30434,140,2,2,https://restful-booker.herokuapp.com/booking,454,0,339
+1755025565824,451,SetUp POST Authorization,200,OK,SoakTest 1-1,text,true,,770,253,2,2,https://restful-booker.herokuapp.com/auth,451,0,338
+1755025567786,115,Soak GET Booking by ID,200,OK,SoakTest 1-2,text,true,,923,171,3,3,https://restful-booker.herokuapp.com/booking/1125,115,0,0
+1755025567353,548,Soak GET All booking,200,OK,SoakTest 1-3,text,true,,30822,140,3,3,https://restful-booker.herokuapp.com/booking,442,0,330
+1755025568823,111,Soak DELETE Delete booking_2231,405,Method Not Allowed,SoakTest 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[405]]]
+
+****** comparison: [[[201]]]
+
+/",771,256,3,3,https://restful-booker.herokuapp.com/booking/2231,111,0,0
+1755025569982,593,Soak GET Booking by ID,200,OK,SoakTest 1-2,text,true,,915,171,3,3,https://restful-booker.herokuapp.com/booking/1125,593,0,483
+1755025570955,119,Soak POST Create a new booking,200,OK,SoakTest 1-3,text,true,,948,474,3,3,https://restful-booker.herokuapp.com/booking,119,0,0
+1755025572137,570,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,31312,140,3,3,https://restful-booker.herokuapp.com/booking,464,0,349
+1755025572718,445,Soak GET Booking by ID,200,OK,SoakTest 1-3,text,true,,909,171,3,3,https://restful-booker.herokuapp.com/booking/2307,445,0,343
+1755025573473,557,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,31441,140,3,3,https://restful-booker.herokuapp.com/booking,451,0,332
+1755025574815,555,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,31612,140,3,3,https://restful-booker.herokuapp.com/booking,448,0,340
+1755025575663,556,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,31711,140,3,3,https://restful-booker.herokuapp.com/booking,447,0,336
+1755025576890,113,Soak POST Create a new booking,200,OK,SoakTest 1-1,text,true,,939,469,3,3,https://restful-booker.herokuapp.com/booking,113,0,0
+1755025576994,464,SetUp POST Authorization,200,OK,SoakTest 1-3,text,true,,770,253,3,3,https://restful-booker.herokuapp.com/auth,464,0,354
+1755025579600,108,Soak GET Booking by ID,200,OK,SoakTest 1-2,text,true,,909,170,4,4,https://restful-booker.herokuapp.com/booking/286,108,0,0
+1755025579916,224,Soak GET All booking,200,OK,SoakTest 1-3,text,true,,32167,140,4,4,https://restful-booker.herokuapp.com/booking,215,0,0
+1755025580077,564,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,32243,140,4,4,https://restful-booker.herokuapp.com/booking,456,0,338
+1755025580340,537,Soak GET All booking,200,OK,SoakTest 1-4,text,true,,32224,140,4,4,https://restful-booker.herokuapp.com/booking,433,0,322
+1755025581069,554,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,32311,140,4,4,https://restful-booker.herokuapp.com/booking,445,0,337
+1755025582599,107,Soak POST Create a new booking,200,OK,SoakTest 1-1,text,true,,952,482,4,4,https://restful-booker.herokuapp.com/booking,107,0,0
+1755025582869,114,Soak GET Booking by ID,200,OK,SoakTest 1-4,text,true,,915,171,4,4,https://restful-booker.herokuapp.com/booking/2157,114,0,0
+1755025583114,445,SetUp POST Authorization,200,OK,SoakTest 1-2,text,true,,770,253,4,4,https://restful-booker.herokuapp.com/auth,445,0,339
+1755025583810,111,Soak DELETE Delete booking_2377,201,Created,SoakTest 1-3,text,true,,751,256,4,4,https://restful-booker.herokuapp.com/booking/2377,111,0,0
+1755025584067,556,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,32642,140,4,4,https://restful-booker.herokuapp.com/booking,449,0,333
+1755025584604,112,Soak DELETE Delete booking_2296,201,Created,SoakTest 1-2,text,true,,751,256,4,4,https://restful-booker.herokuapp.com/booking/2296,112,0,0
+1755025584985,440,Soak GET Booking by ID,200,OK,SoakTest 1-4,text,true,,923,171,4,4,https://restful-booker.herokuapp.com/booking/2157,440,0,329
+1755025585831,558,Soak GET All booking,200,OK,SoakTest 1-3,text,true,,32847,140,4,4,https://restful-booker.herokuapp.com/booking,452,0,335
+1755025587025,106,Soak POST Create a new booking,200,OK,SoakTest 1-1,text,true,,944,474,4,4,https://restful-booker.herokuapp.com/booking,106,0,0
+1755025586747,561,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,32923,140,4,4,https://restful-booker.herokuapp.com/booking,455,0,339
+1755025587323,434,SetUp POST Authorization,200,OK,SoakTest 1-1,text,true,,770,253,4,4,https://restful-booker.herokuapp.com/auth,434,0,330
+1755025587505,443,Soak GET Booking by ID,200,OK,SoakTest 1-4,text,true,,915,171,4,4,https://restful-booker.herokuapp.com/booking/2157,443,0,337
+1755025588378,214,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,33113,140,4,4,https://restful-booker.herokuapp.com/booking,207,0,0
+1755025589836,558,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,33303,140,5,5,https://restful-booker.herokuapp.com/booking,445,0,336
+1755025590297,112,Soak DELETE Delete booking_2516,201,Created,SoakTest 1-1,text,true,,747,256,5,5,https://restful-booker.herokuapp.com/booking/2516,112,0,0
+1755025590076,555,Soak GET All booking,200,OK,SoakTest 1-3,text,true,,33303,140,5,5,https://restful-booker.herokuapp.com/booking,444,0,334
+1755025590965,103,Soak GET Booking by ID,200,OK,SoakTest 1-2,text,true,,913,170,5,5,https://restful-booker.herokuapp.com/booking/764,103,0,0
+1755025590818,557,Soak GET All booking,200,OK,SoakTest 1-4,text,true,,33417,140,5,5,https://restful-booker.herokuapp.com/booking,447,0,337
+1755025592292,104,Soak POST Create a new booking,200,OK,SoakTest 1-3,text,true,,935,469,5,5,https://restful-booker.herokuapp.com/booking,104,0,0
+1755025592657,628,SetUp POST Authorization,200,OK,SoakTest 1-2,text,true,,770,253,5,5,https://restful-booker.herokuapp.com/auth,628,0,488
+1755025593765,156,Soak POST Create a new booking,200,OK,SoakTest 1-4,text,true,,952,482,5,5,https://restful-booker.herokuapp.com/booking,156,0,0
+1755025593719,293,Soak GET All booking,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket Closed,SoakTest 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2935,0,5,5,https://restful-booker.herokuapp.com/booking,0,0,293
+1755025593441,572,Soak GET All booking,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket Closed,SoakTest 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2980,0,5,5,https://restful-booker.herokuapp.com/booking,0,0,444

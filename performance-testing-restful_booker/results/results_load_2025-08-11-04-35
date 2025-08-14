@@ -1,0 +1,788 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1754922934197,434,Load POST  Authorization,200,OK,LoadTest 1-1,text,true,,778,253,1,1,https://restful-booker.herokuapp.com/auth,433,0,327
+1754922935551,102,Load GET Booking by ID,404,Not Found,LoadTest 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,2,2,https://restful-booker.herokuapp.com/booking/1,102,0,0
+1754922936114,436,Load POST  Authorization,200,OK,LoadTest 1-2,text,true,,770,253,2,2,https://restful-booker.herokuapp.com/auth,436,0,333
+1754922936705,107,Load GET Filter by name,200,OK,LoadTest 1-1,text,true,,743,176,2,2,https://restful-booker.herokuapp.com/booking?firstname=Erena&lastname=Ianittello,107,0,0
+1754922937489,106,Load GET Booking by ID,404,Not Found,LoadTest 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",755,168,3,3,https://restful-booker.herokuapp.com/booking/1,106,0,0
+1754922937615,109,Load POST Create a new booking,200,OK,LoadTest 1-1,text,true,,953,479,3,3,https://restful-booker.herokuapp.com/booking,109,0,0
+1754922938489,109,Load PUT Update a curent booking,200,OK,LoadTest 1-1,text,true,,920,514,3,3,https://restful-booker.herokuapp.com/booking/2992,109,0,0
+1754922938371,433,Load POST  Authorization,200,OK,LoadTest 1-3,text,true,,770,253,3,3,https://restful-booker.herokuapp.com/auth,433,0,330
+1754922938861,108,Load GET Filter by name,200,OK,LoadTest 1-2,text,true,,763,176,3,3,https://restful-booker.herokuapp.com/booking?firstname=Rancell&lastname=Petrello,108,0,0
+1754922939369,120,Load DELETE Delete booking,201,Created,LoadTest 1-1,text,true,,743,256,4,4,https://restful-booker.herokuapp.com/booking/2992,120,0,0
+1754922939602,108,Load GET Booking by ID,404,Not Found,LoadTest 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,4,4,https://restful-booker.herokuapp.com/booking/1,108,0,0
+1754922940021,106,Load POST Create a new booking,200,OK,LoadTest 1-2,text,true,,946,476,4,4,https://restful-booker.herokuapp.com/booking,106,0,0
+1754922940407,103,Load POST  Authorization,200,OK,LoadTest 1-1,text,true,,770,253,4,4,https://restful-booker.herokuapp.com/auth,103,0,0
+1754922940430,104,Load GET Filter by name,200,OK,LoadTest 1-3,text,true,,763,172,4,4,https://restful-booker.herokuapp.com/booking?firstname=Garey&lastname=Beneze,104,0,0
+1754922940238,441,Load POST  Authorization,200,OK,LoadTest 1-4,text,true,,770,253,4,4,https://restful-booker.herokuapp.com/auth,441,0,335
+1754922941215,110,Load PUT Update a curent booking,200,OK,LoadTest 1-2,text,true,,913,511,5,5,https://restful-booker.herokuapp.com/booking/3013,110,0,0
+1754922941382,107,Load POST Create a new booking,200,OK,LoadTest 1-3,text,true,,945,479,5,5,https://restful-booker.herokuapp.com/booking,107,0,0
+1754922941689,106,Load GET Booking by ID,404,Not Found,LoadTest 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,5,5,https://restful-booker.herokuapp.com/booking/1,106,0,0
+1754922942086,111,Load GET Booking by ID,404,Not Found,LoadTest 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,5,5,https://restful-booker.herokuapp.com/booking/1,111,0,0
+1754922941903,431,Load POST  Authorization,200,OK,LoadTest 1-5,text,true,,766,253,5,5,https://restful-booker.herokuapp.com/auth,431,0,328
+1754922942296,110,Load DELETE Delete booking,201,Created,LoadTest 1-2,text,true,,743,256,5,5,https://restful-booker.herokuapp.com/booking/3013,110,0,0
+1754922942487,104,Load GET Filter by name,200,OK,LoadTest 1-1,text,true,,759,173,5,5,https://restful-booker.herokuapp.com/booking?firstname=Susanna&lastname=Lawly,104,0,0
+1754922942707,106,Load PUT Update a curent booking,200,OK,LoadTest 1-3,text,true,,916,514,5,5,https://restful-booker.herokuapp.com/booking/3024,106,0,0
+1754922943068,106,Load POST  Authorization,200,OK,LoadTest 1-2,text,true,,766,253,6,6,https://restful-booker.herokuapp.com/auth,106,0,0
+1754922943327,101,Load POST Create a new booking,200,OK,LoadTest 1-1,text,true,,941,475,6,6,https://restful-booker.herokuapp.com/booking,101,0,0
+1754922943424,103,Load GET Filter by name,200,OK,LoadTest 1-4,text,true,,759,171,6,6,https://restful-booker.herokuapp.com/booking?firstname=Vitoria&lastname=Roo,103,0,0
+1754922943430,108,Load GET Booking by ID,404,Not Found,LoadTest 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,6,6,https://restful-booker.herokuapp.com/booking/1,108,0,0
+1754922943572,102,Load GET Booking by ID,404,Not Found,LoadTest 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,6,6,https://restful-booker.herokuapp.com/booking/1,102,0,0
+1754922943863,108,Load DELETE Delete booking,201,Created,LoadTest 1-3,text,true,,743,256,6,6,https://restful-booker.herokuapp.com/booking/3024,108,0,0
+1754922944105,104,Load PUT Update a curent booking,200,OK,LoadTest 1-1,text,true,,916,510,6,6,https://restful-booker.herokuapp.com/booking/3038,104,0,0
+1754922944488,110,Load GET Filter by name,200,OK,LoadTest 1-5,text,true,,763,170,6,6,https://restful-booker.herokuapp.com/booking?firstname=Tamma&lastname=Amer,110,0,0
+1754922944557,109,Load POST Create a new booking,200,OK,LoadTest 1-4,text,true,,939,469,6,6,https://restful-booker.herokuapp.com/booking,109,0,0
+1754922944407,505,Load POST  Authorization,200,OK,LoadTest 1-6,text,true,,770,253,6,6,https://restful-booker.herokuapp.com/auth,505,0,399
+1754922944834,103,Load POST  Authorization,200,OK,LoadTest 1-3,text,true,,770,253,6,6,https://restful-booker.herokuapp.com/auth,103,0,0
+1754922945169,109,Load GET Filter by name,200,OK,LoadTest 1-2,text,true,,763,172,7,7,https://restful-booker.herokuapp.com/booking?firstname=Fulton&lastname=Latey,109,0,0
+1754922945525,106,Load DELETE Delete booking,201,Created,LoadTest 1-1,text,true,,747,256,7,7,https://restful-booker.herokuapp.com/booking/3038,106,0,0
+1754922945608,108,Load PUT Update a curent booking,200,OK,LoadTest 1-4,text,true,,910,504,7,7,https://restful-booker.herokuapp.com/booking/3054,108,0,0
+1754922945646,104,Load GET Booking by ID,404,Not Found,LoadTest 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,7,7,https://restful-booker.herokuapp.com/booking/1,104,0,0
+1754922945646,107,Load POST Create a new booking,200,OK,LoadTest 1-5,text,true,,938,468,7,7,https://restful-booker.herokuapp.com/booking,107,0,0
+1754922945857,122,Load GET Booking by ID,404,Not Found,LoadTest 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,7,7,https://restful-booker.herokuapp.com/booking/1,122,0,0
+1754922946313,108,Load POST  Authorization,200,OK,LoadTest 1-1,text,true,,770,253,7,7,https://restful-booker.herokuapp.com/auth,108,0,0
+1754922946508,108,Load GET Filter by name,200,OK,LoadTest 1-3,text,true,,743,176,7,7,https://restful-booker.herokuapp.com/booking?firstname=Ambrosi&lastname=Martinot,108,0,0
+1754922946658,110,Load POST Create a new booking,200,OK,LoadTest 1-2,text,true,,941,471,7,7,https://restful-booker.herokuapp.com/booking,110,0,0
+1754922946667,110,Load GET Filter by name,200,OK,LoadTest 1-6,text,true,,763,171,7,7,https://restful-booker.herokuapp.com/booking?firstname=Gibbie&lastname=Wych,110,0,0
+1754922946561,454,Load POST  Authorization,200,OK,LoadTest 1-7,text,true,,766,253,7,7,https://restful-booker.herokuapp.com/auth,454,0,344
+1754922946907,109,Load DELETE Delete booking,201,Created,LoadTest 1-4,text,true,,743,256,7,7,https://restful-booker.herokuapp.com/booking/3054,109,0,0
+1754922947081,107,Load PUT Update a curent booking,200,OK,LoadTest 1-5,text,true,,905,503,8,8,https://restful-booker.herokuapp.com/booking/3065,107,0,0
+1754922947469,106,Load PUT Update a curent booking,200,OK,LoadTest 1-2,text,true,,908,506,8,8,https://restful-booker.herokuapp.com/booking/3074,106,0,0
+1754922947585,115,Load GET Booking by ID,404,Not Found,LoadTest 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,8,8,https://restful-booker.herokuapp.com/booking/1,114,0,0
+1754922947730,108,Load POST Create a new booking,200,OK,LoadTest 1-3,text,true,,944,478,8,8,https://restful-booker.herokuapp.com/booking,108,0,0
+1754922947754,106,Load POST Create a new booking,200,OK,LoadTest 1-6,text,true,,940,474,8,8,https://restful-booker.herokuapp.com/booking,106,0,0
+1754922947957,106,Load POST  Authorization,200,OK,LoadTest 1-4,text,true,,766,253,8,8,https://restful-booker.herokuapp.com/auth,106,0,0
+1754922948069,106,Load GET Booking by ID,404,Not Found,LoadTest 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,8,8,https://restful-booker.herokuapp.com/booking/1,106,0,0
+1754922948241,107,Load DELETE Delete booking,201,Created,LoadTest 1-2,text,true,,743,256,8,8,https://restful-booker.herokuapp.com/booking/3074,107,0,0
+1754922947923,444,Load POST  Authorization,200,OK,LoadTest 1-8,text,true,,766,253,8,8,https://restful-booker.herokuapp.com/auth,444,0,337
+1754922948315,105,Load DELETE Delete booking,201,Created,LoadTest 1-5,text,true,,743,256,8,8,https://restful-booker.herokuapp.com/booking/3065,104,0,0
+1754922948454,106,Load PUT Update a curent booking,200,OK,LoadTest 1-3,text,true,,915,513,8,8,https://restful-booker.herokuapp.com/booking/3087,106,0,0
+1754922948657,104,Load GET Filter by name,200,OK,LoadTest 1-1,text,true,,739,173,8,8,https://restful-booker.herokuapp.com/booking?firstname=Gabbie&lastname=Brewer,104,0,0
+1754922948931,105,Load GET Booking by ID,404,Not Found,LoadTest 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,8,8,https://restful-booker.herokuapp.com/booking/1,105,0,0
+1754922949050,103,Load GET Booking by ID,404,Not Found,LoadTest 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,9,9,https://restful-booker.herokuapp.com/booking/1,103,0,0
+1754922949230,106,Load PUT Update a curent booking,200,OK,LoadTest 1-6,text,true,,911,509,9,9,https://restful-booker.herokuapp.com/booking/3089,106,0,0
+1754922949259,107,Load GET Filter by name,200,OK,LoadTest 1-7,text,true,,739,176,9,9,https://restful-booker.herokuapp.com/booking?firstname=Delcine&lastname=Tomadoni,107,0,0
+1754922949322,105,Load POST  Authorization,200,OK,LoadTest 1-5,text,true,,766,253,9,9,https://restful-booker.herokuapp.com/auth,104,0,0
+1754922949473,106,Load POST  Authorization,200,OK,LoadTest 1-2,text,true,,766,253,9,9,https://restful-booker.herokuapp.com/auth,106,0,0
+1754922949624,107,Load POST Create a new booking,200,OK,LoadTest 1-7,text,true,,936,470,9,9,https://restful-booker.herokuapp.com/booking,107,0,0
+1754922949663,107,Load POST Create a new booking,200,OK,LoadTest 1-1,text,true,,948,482,9,9,https://restful-booker.herokuapp.com/booking,107,0,0
+1754922949676,112,Load DELETE Delete booking,201,Created,LoadTest 1-3,text,true,,743,256,9,9,https://restful-booker.herokuapp.com/booking/3087,112,0,0
+1754922950077,107,Load GET Filter by name,200,OK,LoadTest 1-4,text,true,,743,172,9,9,https://restful-booker.herokuapp.com/booking?firstname=Johan&lastname=Cabrer,107,0,0
+1754922950301,105,Load GET Filter by name,200,OK,LoadTest 1-8,text,true,,763,172,9,9,https://restful-booker.herokuapp.com/booking?firstname=Tris&lastname=Grahame,105,0,0
+1754922950309,113,Load DELETE Delete booking,201,Created,LoadTest 1-6,text,true,,747,256,9,9,https://restful-booker.herokuapp.com/booking/3089,113,0,0
+1754922950055,439,Load POST  Authorization,200,OK,LoadTest 1-9,text,true,,770,253,9,9,https://restful-booker.herokuapp.com/auth,439,0,332
+1754922950560,108,Load PUT Update a curent booking,200,OK,LoadTest 1-7,text,true,,911,505,9,9,https://restful-booker.herokuapp.com/booking/3105,107,0,0
+1754922950573,110,Load GET Booking by ID,404,Not Found,LoadTest 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,9,9,https://restful-booker.herokuapp.com/booking/1,110,0,0
+1754922950632,107,Load POST  Authorization,200,OK,LoadTest 1-3,text,true,,770,253,9,9,https://restful-booker.herokuapp.com/auth,107,0,0
+1754922950795,106,Load PUT Update a curent booking,200,OK,LoadTest 1-1,text,true,,923,517,9,9,https://restful-booker.herokuapp.com/booking/3107,106,0,0
+1754922950807,115,Load GET Booking by ID,404,Not Found,LoadTest 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,9,9,https://restful-booker.herokuapp.com/booking/1,115,0,0
+1754922951347,108,Load POST Create a new booking,200,OK,LoadTest 1-8,text,true,,942,472,10,10,https://restful-booker.herokuapp.com/booking,108,0,0
+1754922951365,105,Load POST  Authorization,200,OK,LoadTest 1-6,text,true,,770,253,10,10,https://restful-booker.herokuapp.com/auth,105,0,0
+1754922951390,104,Load GET Filter by name,200,OK,LoadTest 1-5,text,true,,743,177,10,10,https://restful-booker.herokuapp.com/booking?firstname=Shurlock&lastname=McKennan,104,0,0
+1754922951511,109,Load POST Create a new booking,200,OK,LoadTest 1-4,text,true,,943,473,10,10,https://restful-booker.herokuapp.com/booking,109,0,0
+1754922951513,110,Load DELETE Delete booking,201,Created,LoadTest 1-7,text,true,,747,256,10,10,https://restful-booker.herokuapp.com/booking/3105,110,0,0
+1754922951619,107,Load GET Filter by name,200,OK,LoadTest 1-2,text,true,,743,176,10,10,https://restful-booker.herokuapp.com/booking?firstname=Darren&lastname=McKeveney,107,0,0
+1754922951696,104,Load GET Booking by ID,404,Not Found,LoadTest 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,10,10,https://restful-booker.herokuapp.com/booking/1,104,0,0
+1754922951856,130,Load DELETE Delete booking,201,Created,LoadTest 1-1,text,true,,755,256,10,10,https://restful-booker.herokuapp.com/booking/3107,130,0,0
+1754922951991,103,Load GET Booking by ID,404,Not Found,LoadTest 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",759,168,10,10,https://restful-booker.herokuapp.com/booking/1,103,0,0
+1754922952229,108,Load PUT Update a curent booking,200,OK,LoadTest 1-8,text,true,,921,507,10,10,https://restful-booker.herokuapp.com/booking/3119,108,0,0
+1754922952074,449,Load POST  Authorization,200,OK,LoadTest 1-10,text,true,,778,253,10,10,https://restful-booker.herokuapp.com/auth,449,0,342
+1754922952446,104,Load GET Booking by ID,404,Not Found,LoadTest 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",759,168,10,10,https://restful-booker.herokuapp.com/booking/1,104,0,0
+1754922952726,103,Load POST  Authorization,200,OK,LoadTest 1-1,text,true,,778,253,10,10,https://restful-booker.herokuapp.com/auth,103,0,0
+1754922952729,107,Load GET Filter by name,200,OK,LoadTest 1-3,text,true,,771,178,10,10,https://restful-booker.herokuapp.com/booking?firstname=Constantin&lastname=Gooddie,107,0,0
+1754922952780,107,Load POST Create a new booking,200,OK,LoadTest 1-2,text,true,,957,479,10,10,https://restful-booker.herokuapp.com/booking,107,0,0
+1754922952806,113,Load GET Filter by name,200,OK,LoadTest 1-9,text,true,,751,174,10,10,https://restful-booker.herokuapp.com/booking?firstname=Herbie&lastname=Mepsted,113,0,0
+1754922952835,111,Load POST Create a new booking,200,OK,LoadTest 1-5,text,true,,957,479,10,10,https://restful-booker.herokuapp.com/booking,111,0,0
+1754922952857,106,Load PUT Update a curent booking,200,OK,LoadTest 1-4,text,true,,922,508,10,10,https://restful-booker.herokuapp.com/booking/3122,106,0,0
+1754922953044,105,Load DELETE Delete booking,201,Created,LoadTest 1-8,text,true,,743,256,11,11,https://restful-booker.herokuapp.com/booking/3119,105,0,0
+1754922953054,112,Load POST  Authorization,200,OK,LoadTest 1-7,text,true,,766,253,11,11,https://restful-booker.herokuapp.com/auth,112,0,0
+1754922953553,104,Load PUT Update a curent booking,200,OK,LoadTest 1-2,text,true,,916,514,11,11,https://restful-booker.herokuapp.com/booking/3131,104,0,0
+1754922953643,107,Load GET Booking by ID,404,Not Found,LoadTest 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,11,11,https://restful-booker.herokuapp.com/booking/1,107,0,0
+1754922953744,103,Load POST  Authorization,200,OK,LoadTest 1-8,text,true,,766,253,11,11,https://restful-booker.herokuapp.com/auth,103,0,0
+1754922953757,104,Load GET Filter by name,200,OK,LoadTest 1-6,text,true,,739,172,11,11,https://restful-booker.herokuapp.com/booking?firstname=Lynna&lastname=Dewire,104,0,0
+1754922953796,101,Load GET Booking by ID,404,Not Found,LoadTest 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,11,11,https://restful-booker.herokuapp.com/booking/1,101,0,0
+1754922953922,105,Load PUT Update a curent booking,200,OK,LoadTest 1-5,text,true,,924,514,11,11,https://restful-booker.herokuapp.com/booking/3132,105,0,0
+1754922953955,107,Load POST Create a new booking,200,OK,LoadTest 1-3,text,true,,948,474,11,11,https://restful-booker.herokuapp.com/booking,107,0,0
+1754922954266,109,Load POST Create a new booking,200,OK,LoadTest 1-9,text,true,,941,467,11,11,https://restful-booker.herokuapp.com/booking,109,0,0
+1754922954697,106,Load GET Booking by ID,404,Not Found,LoadTest 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",755,168,11,11,https://restful-booker.herokuapp.com/booking/1,106,0,0
+1754922954789,104,Load DELETE Delete booking,201,Created,LoadTest 1-4,text,true,,751,256,11,11,https://restful-booker.herokuapp.com/booking/3122,104,0,0
+1754922954532,446,Load POST  Authorization,200,OK,LoadTest 1-11,text,true,,774,253,11,11,https://restful-booker.herokuapp.com/auth,446,0,336
+1754922954926,109,Load DELETE Delete booking,201,Created,LoadTest 1-2,text,true,,751,256,11,11,https://restful-booker.herokuapp.com/booking/3131,109,0,0
+1754922954949,107,Load PUT Update a curent booking,200,OK,LoadTest 1-3,text,true,,919,509,11,11,https://restful-booker.herokuapp.com/booking/3143,107,0,0
+1754922955023,110,Load GET Booking by ID,404,Not Found,LoadTest 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",755,168,12,12,https://restful-booker.herokuapp.com/booking/1,110,0,0
+1754922955031,106,Load GET Filter by name,200,OK,LoadTest 1-1,text,true,,747,176,12,12,https://restful-booker.herokuapp.com/booking?firstname=Erena&lastname=Ianittello,106,0,0
+1754922955138,108,Load POST Create a new booking,200,OK,LoadTest 1-6,text,true,,957,483,12,12,https://restful-booker.herokuapp.com/booking,108,0,0
+1754922955235,112,Load GET Filter by name,200,OK,LoadTest 1-10,text,true,,747,171,12,12,https://restful-booker.herokuapp.com/booking?firstname=Meriel&lastname=Rehm,112,0,0
+1754922955325,108,Load DELETE Delete booking,201,Created,LoadTest 1-5,text,true,,751,256,12,12,https://restful-booker.herokuapp.com/booking/3132,108,0,0
+1754922955389,109,Load PUT Update a curent booking,200,OK,LoadTest 1-9,text,true,,912,502,12,12,https://restful-booker.herokuapp.com/booking/3148,109,0,0
+1754922955582,104,Load GET Filter by name,200,OK,LoadTest 1-7,text,true,,767,176,12,12,https://restful-booker.herokuapp.com/booking?firstname=Vanessa&lastname=Garlinge,104,0,0
+1754922955719,104,Load POST Create a new booking,200,OK,LoadTest 1-1,text,true,,953,479,12,12,https://restful-booker.herokuapp.com/booking,104,0,0
+1754922955863,108,Load DELETE Delete booking,201,Created,LoadTest 1-3,text,true,,751,256,12,12,https://restful-booker.herokuapp.com/booking/3143,108,0,0
+1754922956065,105,Load PUT Update a curent booking,200,OK,LoadTest 1-6,text,true,,924,518,12,12,https://restful-booker.herokuapp.com/booking/3161,105,0,0
+1754922956082,107,Load GET Booking by ID,404,Not Found,LoadTest 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,12,12,https://restful-booker.herokuapp.com/booking/1,107,0,0
+1754922956144,103,Load POST Create a new booking,200,OK,LoadTest 1-7,text,true,,947,477,12,12,https://restful-booker.herokuapp.com/booking,103,0,0
+1754922956143,105,Load POST  Authorization,200,OK,LoadTest 1-2,text,true,,770,253,12,12,https://restful-booker.herokuapp.com/auth,105,0,0
+1754922956283,102,Load POST  Authorization,200,OK,LoadTest 1-5,text,true,,770,253,12,12,https://restful-booker.herokuapp.com/auth,102,0,0
+1754922956318,104,Load POST Create a new booking,200,OK,LoadTest 1-10,text,true,,948,478,12,12,https://restful-booker.herokuapp.com/booking,104,0,0
+1754922956374,106,Load GET Filter by name,200,OK,LoadTest 1-8,text,true,,763,172,12,12,https://restful-booker.herokuapp.com/booking?firstname=Garey&lastname=Beneze,105,0,0
+1754922956395,110,Load POST  Authorization,200,OK,LoadTest 1-4,text,true,,770,253,12,12,https://restful-booker.herokuapp.com/auth,110,0,0
+1754922956071,435,Load POST  Authorization,200,OK,LoadTest 1-12,text,true,,770,253,12,12,https://restful-booker.herokuapp.com/auth,435,0,328
+1754922956479,112,Load DELETE Delete booking,201,Created,LoadTest 1-9,text,true,,747,256,12,12,https://restful-booker.herokuapp.com/booking/3148,112,0,0
+1754922956849,104,Load PUT Update a curent booking,200,OK,LoadTest 1-1,text,true,,920,514,12,12,https://restful-booker.herokuapp.com/booking/3167,104,0,0
+1754922956897,105,Load GET Booking by ID,404,Not Found,LoadTest 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,12,12,https://restful-booker.herokuapp.com/booking/1,105,0,0
+1754922956946,102,Load POST  Authorization,200,OK,LoadTest 1-3,text,true,,770,253,12,12,https://restful-booker.herokuapp.com/auth,102,0,0
+1754922956971,103,Load POST  Authorization,200,OK,LoadTest 1-9,text,true,,770,253,13,13,https://restful-booker.herokuapp.com/auth,103,0,0
+1754922957149,105,Load GET Filter by name,200,OK,LoadTest 1-11,text,true,,763,176,13,13,https://restful-booker.herokuapp.com/booking?firstname=Rancell&lastname=Petrello,105,0,0
+1754922957293,110,Load GET Booking by ID,404,Not Found,LoadTest 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,13,13,https://restful-booker.herokuapp.com/booking/1,110,0,0
+1754922957323,106,Load POST Create a new booking,200,OK,LoadTest 1-8,text,true,,949,479,13,13,https://restful-booker.herokuapp.com/booking,106,0,0
+1754922957384,104,Load GET Booking by ID,404,Not Found,LoadTest 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,13,13,https://restful-booker.herokuapp.com/booking/1,104,0,0
+1754922957430,103,Load GET Booking by ID,404,Not Found,LoadTest 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,13,13,https://restful-booker.herokuapp.com/booking/1,103,0,0
+1754922957560,110,Load PUT Update a curent booking,200,OK,LoadTest 1-7,text,true,,918,512,13,13,https://restful-booker.herokuapp.com/booking/3172,110,0,0
+1754922957638,110,Load DELETE Delete booking,201,Created,LoadTest 1-6,text,true,,747,256,13,13,https://restful-booker.herokuapp.com/booking/3161,110,0,0
+1754922957660,109,Load PUT Update a curent booking,200,OK,LoadTest 1-10,text,true,,919,513,13,13,https://restful-booker.herokuapp.com/booking/3174,109,0,0
+1754922957822,107,Load DELETE Delete booking,201,Created,LoadTest 1-7,text,true,,747,256,13,13,https://restful-booker.herokuapp.com/booking/3172,107,0,0
+1754922957943,105,Load DELETE Delete booking,201,Created,LoadTest 1-1,text,true,,751,256,13,13,https://restful-booker.herokuapp.com/booking/3167,104,0,0
+1754922958027,108,Load GET Booking by ID,404,Not Found,LoadTest 1-12,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",755,168,13,13,https://restful-booker.herokuapp.com/booking/1,108,0,0
+1754922958052,105,Load GET Filter by name,200,OK,LoadTest 1-9,text,true,,747,176,13,13,https://restful-booker.herokuapp.com/booking?firstname=Ambrosi&lastname=Martinot,105,0,0
+1754922958172,105,Load POST Create a new booking,200,OK,LoadTest 1-11,text,true,,950,476,13,13,https://restful-booker.herokuapp.com/booking,105,0,0
+1754922958285,105,Load GET Filter by name,200,OK,LoadTest 1-2,text,true,,767,173,13,13,https://restful-booker.herokuapp.com/booking?firstname=Susanna&lastname=Lawly,105,0,0
+1754922958286,109,Load GET Filter by name,200,OK,LoadTest 1-5,text,true,,767,172,13,13,https://restful-booker.herokuapp.com/booking?firstname=Fulton&lastname=Latey,109,0,0
+1754922957956,442,Load POST  Authorization,200,OK,LoadTest 1-13,text,true,,774,253,13,13,https://restful-booker.herokuapp.com/auth,442,0,334
+1754922958412,109,Load GET Booking by ID,404,Not Found,LoadTest 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",755,168,13,13,https://restful-booker.herokuapp.com/booking/1,109,0,0
+1754922958503,105,Load PUT Update a curent booking,200,OK,LoadTest 1-8,text,true,,924,514,13,13,https://restful-booker.herokuapp.com/booking/3184,105,0,0
+1754922958668,110,Load POST  Authorization,200,OK,LoadTest 1-1,text,true,,774,253,13,13,https://restful-booker.herokuapp.com/auth,110,0,0
+1754922958832,105,Load GET Filter by name,200,OK,LoadTest 1-12,text,true,,767,170,13,13,https://restful-booker.herokuapp.com/booking?firstname=Tamma&lastname=Amer,105,0,0
+1754922958836,103,Load GET Filter by name,200,OK,LoadTest 1-4,text,true,,767,171,13,13,https://restful-booker.herokuapp.com/booking?firstname=Vitoria&lastname=Roo,103,0,0
+1754922958916,107,Load POST Create a new booking,200,OK,LoadTest 1-9,text,true,,948,478,13,13,https://restful-booker.herokuapp.com/booking,107,0,0
+1754922958965,107,Load DELETE Delete booking,201,Created,LoadTest 1-10,text,true,,747,256,14,14,https://restful-booker.herokuapp.com/booking/3174,107,0,0
+1754922958992,108,Load POST  Authorization,200,OK,LoadTest 1-7,text,true,,770,253,14,14,https://restful-booker.herokuapp.com/auth,108,0,0
+1754922959103,106,Load PUT Update a curent booking,200,OK,LoadTest 1-11,text,true,,917,511,14,14,https://restful-booker.herokuapp.com/booking/3192,106,0,0
+1754922959113,111,Load POST  Authorization,200,OK,LoadTest 1-6,text,true,,770,253,14,14,https://restful-booker.herokuapp.com/auth,111,0,0
+1754922959139,102,Load POST Create a new booking,200,OK,LoadTest 1-2,text,true,,945,475,14,14,https://restful-booker.herokuapp.com/booking,102,0,0
+1754922959317,105,Load POST Create a new booking,200,OK,LoadTest 1-5,text,true,,941,471,14,14,https://restful-booker.herokuapp.com/booking,105,0,0
+1754922959536,103,Load GET Filter by name,200,OK,LoadTest 1-3,text,true,,763,171,14,14,https://restful-booker.herokuapp.com/booking?firstname=Gibbie&lastname=Wych,103,0,0
+1754922959621,105,Load GET Booking by ID,404,Not Found,LoadTest 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,14,14,https://restful-booker.herokuapp.com/booking/1,105,0,0
+1754922959730,105,Load POST Create a new booking,200,OK,LoadTest 1-12,text,true,,938,468,14,14,https://restful-booker.herokuapp.com/booking,105,0,0
+1754922959765,110,Load DELETE Delete booking,201,Created,LoadTest 1-8,text,true,,747,256,14,14,https://restful-booker.herokuapp.com/booking/3184,110,0,0
+1754922959779,108,Load POST Create a new booking,200,OK,LoadTest 1-4,text,true,,939,469,14,14,https://restful-booker.herokuapp.com/booking,108,0,0
+1754922959834,105,Load GET Booking by ID,404,Not Found,LoadTest 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,14,14,https://restful-booker.herokuapp.com/booking/1,105,0,0
+1754922959980,107,Load GET Booking by ID,404,Not Found,LoadTest 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,14,14,https://restful-booker.herokuapp.com/booking/1,107,0,0
+1754922960018,109,Load POST  Authorization,200,OK,LoadTest 1-10,text,true,,770,253,14,14,https://restful-booker.herokuapp.com/auth,109,0,0
+1754922960093,109,Load PUT Update a curent booking,200,OK,LoadTest 1-5,text,true,,912,506,14,14,https://restful-booker.herokuapp.com/booking/3207,109,0,0
+1754922960095,111,Load PUT Update a curent booking,200,OK,LoadTest 1-9,text,true,,919,513,14,14,https://restful-booker.herokuapp.com/booking/3199,111,0,0
+1754922960110,107,Load GET Filter by name,200,OK,LoadTest 1-13,text,true,,743,176,14,14,https://restful-booker.herokuapp.com/booking?firstname=Delcine&lastname=Tomadoni,107,0,0
+1754922960149,105,Load DELETE Delete booking,201,Created,LoadTest 1-11,text,true,,747,256,14,14,https://restful-booker.herokuapp.com/booking/3192,105,0,0
+1754922960292,105,Load POST Create a new booking,200,OK,LoadTest 1-3,text,true,,944,474,14,14,https://restful-booker.herokuapp.com/booking,105,0,0
+1754922960335,105,Load GET Booking by ID,404,Not Found,LoadTest 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,14,14,https://restful-booker.herokuapp.com/booking/1,105,0,0
+1754922960135,446,Load POST  Authorization,200,OK,LoadTest 1-14,text,true,,770,253,14,14,https://restful-booker.herokuapp.com/auth,446,0,340
+1754922960482,106,Load PUT Update a curent booking,200,OK,LoadTest 1-2,text,true,,916,510,14,14,https://restful-booker.herokuapp.com/booking/3203,106,0,0
+1754922960689,106,Load GET Filter by name,200,OK,LoadTest 1-1,text,true,,763,172,14,14,https://restful-booker.herokuapp.com/booking?firstname=Tris&lastname=Grahame,106,0,0
+1754922960702,106,Load PUT Update a curent booking,200,OK,LoadTest 1-12,text,true,,909,503,14,14,https://restful-booker.herokuapp.com/booking/3209,106,0,0
+1754922960824,109,Load GET Booking by ID,404,Not Found,LoadTest 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,14,14,https://restful-booker.herokuapp.com/booking/1,109,0,0
+1754922961012,105,Load POST  Authorization,200,OK,LoadTest 1-8,text,true,,766,253,15,15,https://restful-booker.herokuapp.com/auth,105,0,0
+1754922961069,118,Load GET Filter by name,200,OK,LoadTest 1-7,text,true,,739,172,15,15,https://restful-booker.herokuapp.com/booking?firstname=Johan&lastname=Cabrer,118,0,0
+1754922961140,109,Load DELETE Delete booking,201,Created,LoadTest 1-5,text,true,,743,256,15,15,https://restful-booker.herokuapp.com/booking/3207,109,0,0
+1754922961151,106,Load POST Create a new booking,200,OK,LoadTest 1-13,text,true,,936,470,15,15,https://restful-booker.herokuapp.com/booking,106,0,0
+1754922961205,112,Load PUT Update a curent booking,200,OK,LoadTest 1-4,text,true,,906,504,15,15,https://restful-booker.herokuapp.com/booking/3211,112,0,0
+1754922961446,106,Load GET Booking by ID,404,Not Found,LoadTest 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,15,15,https://restful-booker.herokuapp.com/booking/1,106,0,0
+1754922961538,106,Load POST  Authorization,200,OK,LoadTest 1-11,text,true,,766,253,15,15,https://restful-booker.herokuapp.com/auth,106,0,0
+1754922961551,106,Load DELETE Delete booking,201,Created,LoadTest 1-9,text,true,,743,256,15,15,https://restful-booker.herokuapp.com/booking/3199,106,0,0
+1754922961605,107,Load PUT Update a curent booking,200,OK,LoadTest 1-3,text,true,,911,509,15,15,https://restful-booker.herokuapp.com/booking/3215,107,0,0
+1754922961636,104,Load GET Filter by name,200,OK,LoadTest 1-10,text,true,,739,177,15,15,https://restful-booker.herokuapp.com/booking?firstname=Shurlock&lastname=McKennan,104,0,0
+1754922961658,110,Load GET Filter by name,200,OK,LoadTest 1-6,text,true,,739,173,15,15,https://restful-booker.herokuapp.com/booking?firstname=Gabbie&lastname=Brewer,110,0,0
+1754922961705,107,Load DELETE Delete booking,201,Created,LoadTest 1-12,text,true,,743,256,15,15,https://restful-booker.herokuapp.com/booking/3209,107,0,0
+1754922961828,107,Load GET Booking by ID,404,Not Found,LoadTest 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,15,15,https://restful-booker.herokuapp.com/booking/1,107,0,0
+1754922961843,104,Load POST Create a new booking,200,OK,LoadTest 1-1,text,true,,938,472,15,15,https://restful-booker.herokuapp.com/booking,104,0,0
+1754922961871,110,Load DELETE Delete booking,201,Created,LoadTest 1-2,text,true,,743,256,15,15,https://restful-booker.herokuapp.com/booking/3203,110,0,0
+1754922961944,105,Load DELETE Delete booking,201,Created,LoadTest 1-4,text,true,,743,256,15,15,https://restful-booker.herokuapp.com/booking/3211,105,0,0
+1754922961947,108,Load PUT Update a curent booking,200,OK,LoadTest 1-13,text,true,,907,505,15,15,https://restful-booker.herokuapp.com/booking/3223,107,0,0
+1754922962065,104,Load POST  Authorization,200,OK,LoadTest 1-5,text,true,,766,253,15,15,https://restful-booker.herokuapp.com/auth,104,0,0
+1754922962455,104,Load GET Filter by name,200,OK,LoadTest 1-14,text,true,,739,176,15,15,https://restful-booker.herokuapp.com/booking?firstname=Darren&lastname=McKeveney,104,0,0
+1754922962487,103,Load POST Create a new booking,200,OK,LoadTest 1-7,text,true,,939,473,15,15,https://restful-booker.herokuapp.com/booking,103,0,0
+1754922962513,107,Load DELETE Delete booking,201,Created,LoadTest 1-3,text,true,,743,256,15,15,https://restful-booker.herokuapp.com/booking/3215,107,0,0
+1754922962532,109,Load GET Booking by ID,404,Not Found,LoadTest 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,15,15,https://restful-booker.herokuapp.com/booking/1,109,0,0
+1754922962767,102,Load POST Create a new booking,200,OK,LoadTest 1-6,text,true,,948,482,15,15,https://restful-booker.herokuapp.com/booking,102,0,0
+1754922962456,453,Load POST  Authorization,200,OK,LoadTest 1-15,text,true,,766,253,15,15,https://restful-booker.herokuapp.com/auth,453,0,344
+1754922962895,103,Load POST Create a new booking,200,OK,LoadTest 1-10,text,true,,949,479,15,15,https://restful-booker.herokuapp.com/booking,103,0,0
+1754922963041,108,Load GET Filter by name,200,OK,LoadTest 1-8,text,true,,743,174,16,16,https://restful-booker.herokuapp.com/booking?firstname=Herbie&lastname=Mepsted,108,0,0
+1754922963063,108,Load POST  Authorization,200,OK,LoadTest 1-4,text,true,,770,253,16,16,https://restful-booker.herokuapp.com/auth,108,0,0
+1754922963070,108,Load GET Booking by ID,404,Not Found,LoadTest 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,16,16,https://restful-booker.herokuapp.com/booking/1,108,0,0
+1754922963086,106,Load POST  Authorization,200,OK,LoadTest 1-12,text,true,,770,253,16,16,https://restful-booker.herokuapp.com/auth,105,0,0
+1754922963146,108,Load POST  Authorization,200,OK,LoadTest 1-9,text,true,,770,253,16,16,https://restful-booker.herokuapp.com/auth,108,0,0
+1754922963225,110,Load POST  Authorization,200,OK,LoadTest 1-2,text,true,,770,253,16,16,https://restful-booker.herokuapp.com/auth,110,0,0
+1754922963252,105,Load PUT Update a curent booking,200,OK,LoadTest 1-1,text,true,,913,507,16,16,https://restful-booker.herokuapp.com/booking/3227,105,0,0
+1754922963327,105,Load POST  Authorization,200,OK,LoadTest 1-3,text,true,,770,253,16,16,https://restful-booker.herokuapp.com/auth,105,0,0
+1754922963402,107,Load DELETE Delete booking,201,Created,LoadTest 1-13,text,true,,747,256,16,16,https://restful-booker.herokuapp.com/booking/3223,107,0,0
+1754922963421,109,Load PUT Update a curent booking,200,OK,LoadTest 1-7,text,true,,914,508,16,16,https://restful-booker.herokuapp.com/booking/3234,109,0,0
+1754922963498,106,Load GET Booking by ID,404,Not Found,LoadTest 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,16,16,https://restful-booker.herokuapp.com/booking/1,106,0,0
+1754922963590,107,Load PUT Update a curent booking,200,OK,LoadTest 1-6,text,true,,923,517,16,16,https://restful-booker.herokuapp.com/booking/3237,107,0,0
+1754922963722,106,Load GET Filter by name,200,OK,LoadTest 1-5,text,true,,743,171,16,16,https://restful-booker.herokuapp.com/booking?firstname=Meriel&lastname=Rehm,106,0,0
+1754922963735,107,Load GET Filter by name,200,OK,LoadTest 1-11,text,true,,763,178,16,16,https://restful-booker.herokuapp.com/booking?firstname=Constantin&lastname=Gooddie,107,0,0
+1754922963858,125,Load GET Booking by ID,404,Not Found,LoadTest 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",755,168,16,16,https://restful-booker.herokuapp.com/booking/1,125,0,0
+1754922963863,121,Load POST Create a new booking,200,OK,LoadTest 1-14,text,true,,953,479,16,16,https://restful-booker.herokuapp.com/booking,121,0,0
+1754922964039,105,Load POST Create a new booking,200,OK,LoadTest 1-8,text,true,,941,467,16,16,https://restful-booker.herokuapp.com/booking,105,0,0
+1754922964049,105,Load DELETE Delete booking,201,Created,LoadTest 1-1,text,true,,751,256,16,16,https://restful-booker.herokuapp.com/booking/3227,105,0,0
+1754922964089,104,Load DELETE Delete booking,201,Created,LoadTest 1-7,text,true,,751,256,16,16,https://restful-booker.herokuapp.com/booking/3234,104,0,0
+1754922964169,112,Load PUT Update a curent booking,200,OK,LoadTest 1-10,text,true,,924,514,16,16,https://restful-booker.herokuapp.com/booking/3239,112,0,0
+1754922964269,110,Load GET Booking by ID,404,Not Found,LoadTest 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",755,168,16,16,https://restful-booker.herokuapp.com/booking/1,110,0,0
+1754922964384,105,Load GET Booking by ID,404,Not Found,LoadTest 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",755,168,16,16,https://restful-booker.herokuapp.com/booking/1,105,0,0
+1754922964448,106,Load DELETE Delete booking,201,Created,LoadTest 1-6,text,true,,751,256,16,16,https://restful-booker.herokuapp.com/booking/3237,106,0,0
+1754922964503,105,Load POST Create a new booking,200,OK,LoadTest 1-5,text,true,,952,478,16,16,https://restful-booker.herokuapp.com/booking,105,0,0
+1754922964531,104,Load GET Booking by ID,404,Not Found,LoadTest 1-12,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",755,168,16,16,https://restful-booker.herokuapp.com/booking/1,104,0,0
+1754922964595,113,Load PUT Update a curent booking,200,OK,LoadTest 1-8,text,true,,912,502,16,16,https://restful-booker.herokuapp.com/booking/3253,112,0,0
+1754922964252,456,Load POST  Authorization,200,OK,LoadTest 1-16,text,true,,774,253,16,16,https://restful-booker.herokuapp.com/auth,456,0,344
+1754922964617,111,Load POST  Authorization,200,OK,LoadTest 1-7,text,true,,774,253,16,16,https://restful-booker.herokuapp.com/auth,111,0,0
+1754922964637,111,Load GET Filter by name,200,OK,LoadTest 1-15,text,true,,747,172,16,16,https://restful-booker.herokuapp.com/booking?firstname=Lynna&lastname=Dewire,111,0,0
+1754922964736,105,Load POST Create a new booking,200,OK,LoadTest 1-11,text,true,,948,474,16,16,https://restful-booker.herokuapp.com/booking,105,0,0
+1754922964801,106,Load POST  Authorization,200,OK,LoadTest 1-13,text,true,,774,253,16,16,https://restful-booker.herokuapp.com/auth,106,0,0
+1754922964919,112,Load POST  Authorization,200,OK,LoadTest 1-1,text,true,,766,253,16,16,https://restful-booker.herokuapp.com/auth,112,0,0
+1754922964957,111,Load GET Booking by ID,404,Not Found,LoadTest 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,17,17,https://restful-booker.herokuapp.com/booking/1,111,0,0
+1754922965023,111,Load PUT Update a curent booking,200,OK,LoadTest 1-14,text,true,,916,514,17,17,https://restful-booker.herokuapp.com/booking/3250,111,0,0
+1754922965227,108,Load GET Filter by name,200,OK,LoadTest 1-9,text,true,,759,176,17,17,https://restful-booker.herokuapp.com/booking?firstname=Vanessa&lastname=Garlinge,108,0,0
+1754922965313,107,Load GET Filter by name,200,OK,LoadTest 1-4,text,true,,759,172,17,17,https://restful-booker.herokuapp.com/booking?firstname=Garey&lastname=Beneze,107,0,0
+1754922965413,105,Load PUT Update a curent booking,200,OK,LoadTest 1-5,text,true,,915,513,17,17,https://restful-booker.herokuapp.com/booking/3261,105,0,0
+1754922965456,109,Load DELETE Delete booking,201,Created,LoadTest 1-10,text,true,,743,256,17,17,https://restful-booker.herokuapp.com/booking/3239,109,0,0
+1754922965584,108,Load GET Filter by name,200,OK,LoadTest 1-2,text,true,,759,176,17,17,https://restful-booker.herokuapp.com/booking?firstname=Rancell&lastname=Petrello,108,0,0
+1754922965669,102,Load POST  Authorization,200,OK,LoadTest 1-6,text,true,,766,253,17,17,https://restful-booker.herokuapp.com/auth,102,0,0
+1754922965905,112,Load DELETE Delete booking,201,Created,LoadTest 1-8,text,true,,747,256,17,17,https://restful-booker.herokuapp.com/booking/3253,112,0,0
+1754922965940,105,Load GET Booking by ID,404,Not Found,LoadTest 1-16,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,17,17,https://restful-booker.herokuapp.com/booking/1,105,0,0
+1754922965977,112,Load GET Filter by name,200,OK,LoadTest 1-12,text,true,,743,176,17,17,https://restful-booker.herokuapp.com/booking?firstname=Erena&lastname=Ianittello,112,0,0
+1754922966034,106,Load DELETE Delete booking,201,Created,LoadTest 1-14,text,true,,747,256,17,17,https://restful-booker.herokuapp.com/booking/3250,106,0,0
+1754922966078,105,Load POST Create a new booking,200,OK,LoadTest 1-15,text,true,,953,483,17,17,https://restful-booker.herokuapp.com/booking,105,0,0
+1754922966205,108,Load GET Booking by ID,404,Not Found,LoadTest 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,17,17,https://restful-booker.herokuapp.com/booking/1,108,0,0
+1754922966270,105,Load POST  Authorization,200,OK,LoadTest 1-10,text,true,,770,253,17,17,https://restful-booker.herokuapp.com/auth,105,0,0
+1754922966285,106,Load GET Booking by ID,404,Not Found,LoadTest 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,17,17,https://restful-booker.herokuapp.com/booking/1,105,0,0
+1754922966359,106,Load POST Create a new booking,200,OK,LoadTest 1-4,text,true,,949,479,17,17,https://restful-booker.herokuapp.com/booking,106,0,0
+1754922966385,105,Load PUT Update a curent booking,200,OK,LoadTest 1-11,text,true,,915,509,17,17,https://restful-booker.herokuapp.com/booking/3264,105,0,0
+1754922966414,110,Load GET Booking by ID,404,Not Found,LoadTest 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,17,17,https://restful-booker.herokuapp.com/booking/1,110,0,0
+1754922966453,103,Load GET Filter by name,200,OK,LoadTest 1-3,text,true,,763,171,17,17,https://restful-booker.herokuapp.com/booking?firstname=Vitoria&lastname=Roo,103,0,0
+1754922966479,108,Load POST Create a new booking,200,OK,LoadTest 1-12,text,true,,949,479,17,17,https://restful-booker.herokuapp.com/booking,108,0,0
+1754922966570,103,Load POST  Authorization,200,OK,LoadTest 1-8,text,true,,770,253,17,17,https://restful-booker.herokuapp.com/auth,102,0,0
+1754922966572,105,Load POST Create a new booking,200,OK,LoadTest 1-9,text,true,,947,477,17,17,https://restful-booker.herokuapp.com/booking,105,0,0
+1754922966718,105,Load POST Create a new booking,200,OK,LoadTest 1-2,text,true,,946,476,17,17,https://restful-booker.herokuapp.com/booking,105,0,0
+1754922966730,115,Load DELETE Delete booking,201,Created,LoadTest 1-5,text,true,,747,256,17,17,https://restful-booker.herokuapp.com/booking/3261,115,0,0
+1754922966825,108,Load GET Filter by name,200,OK,LoadTest 1-1,text,true,,763,172,17,17,https://restful-booker.herokuapp.com/booking?firstname=Fulton&lastname=Latey,108,0,0
+1754922966500,439,Load POST  Authorization,200,OK,LoadTest 1-17,text,true,,770,253,17,17,https://restful-booker.herokuapp.com/auth,439,0,331
+1754922967078,110,Load PUT Update a curent booking,200,OK,LoadTest 1-4,text,true,,920,514,18,18,https://restful-booker.herokuapp.com/booking/3279,110,0,0
+1754922967213,105,Load GET Booking by ID,404,Not Found,LoadTest 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,18,18,https://restful-booker.herokuapp.com/booking/1,105,0,0
+1754922967223,109,Load GET Booking by ID,404,Not Found,LoadTest 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,18,18,https://restful-booker.herokuapp.com/booking/1,109,0,0
+1754922967232,105,Load GET Filter by name,200,OK,LoadTest 1-16,text,true,,763,173,18,18,https://restful-booker.herokuapp.com/booking?firstname=Susanna&lastname=Lawly,105,0,0
+1754922967232,106,Load PUT Update a curent booking,200,OK,LoadTest 1-15,text,true,,924,518,18,18,https://restful-booker.herokuapp.com/booking/3276,106,0,0
+1754922967308,104,Load POST  Authorization,200,OK,LoadTest 1-14,text,true,,770,253,18,18,https://restful-booker.herokuapp.com/auth,104,0,0
+1754922967319,104,Load GET Filter by name,200,OK,LoadTest 1-7,text,true,,763,171,18,18,https://restful-booker.herokuapp.com/booking?firstname=Gibbie&lastname=Wych,104,0,0
+1754922967388,110,Load PUT Update a curent booking,200,OK,LoadTest 1-9,text,true,,918,512,18,18,https://restful-booker.herokuapp.com/booking/3281,110,0,0
+1754922967531,104,Load POST Create a new booking,200,OK,LoadTest 1-3,text,true,,939,469,18,18,https://restful-booker.herokuapp.com/booking,104,0,0
+1754922967622,109,Load DELETE Delete booking,201,Created,LoadTest 1-4,text,true,,747,256,18,18,https://restful-booker.herokuapp.com/booking/3279,109,0,0
+1754922967622,113,Load DELETE Delete booking,201,Created,LoadTest 1-11,text,true,,747,256,18,18,https://restful-booker.herokuapp.com/booking/3264,113,0,0
+1754922967654,111,Load PUT Update a curent booking,200,OK,LoadTest 1-12,text,true,,920,514,18,18,https://restful-booker.herokuapp.com/booking/3280,111,0,0
+1754922967684,111,Load GET Filter by name,200,OK,LoadTest 1-13,text,true,,763,170,18,18,https://restful-booker.herokuapp.com/booking?firstname=Tamma&lastname=Amer,111,0,0
+1754922967743,105,Load POST Create a new booking,200,OK,LoadTest 1-1,text,true,,941,471,18,18,https://restful-booker.herokuapp.com/booking,105,0,0
+1754922967898,109,Load GET Booking by ID,404,Not Found,LoadTest 1-17,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,18,18,https://restful-booker.herokuapp.com/booking/1,109,0,0
+1754922967957,112,Load GET Booking by ID,404,Not Found,LoadTest 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,18,18,https://restful-booker.herokuapp.com/booking/1,111,0,0
+1754922967989,107,Load PUT Update a curent booking,200,OK,LoadTest 1-2,text,true,,917,511,18,18,https://restful-booker.herokuapp.com/booking/3285,107,0,0
+1754922968172,111,Load DELETE Delete booking,201,Created,LoadTest 1-15,text,true,,747,256,18,18,https://restful-booker.herokuapp.com/booking/3276,111,0,0
+1754922968195,107,Load POST  Authorization,200,OK,LoadTest 1-5,text,true,,770,253,18,18,https://restful-booker.herokuapp.com/auth,107,0,0
+1754922968257,104,Load PUT Update a curent booking,200,OK,LoadTest 1-3,text,true,,910,504,18,18,https://restful-booker.herokuapp.com/booking/3291,104,0,0
+1754922968265,104,Load POST  Authorization,200,OK,LoadTest 1-11,text,true,,770,253,18,18,https://restful-booker.herokuapp.com/auth,104,0,0
+1754922967943,443,Load POST  Authorization,200,OK,LoadTest 1-18,text,true,,770,253,18,18,https://restful-booker.herokuapp.com/auth,443,0,339
+1754922968286,107,Load GET Filter by name,200,OK,LoadTest 1-10,text,true,,743,173,18,18,https://restful-booker.herokuapp.com/booking?firstname=Gabbie&lastname=Brewer,107,0,0
+1754922968346,104,Load DELETE Delete booking,201,Created,LoadTest 1-9,text,true,,747,256,18,18,https://restful-booker.herokuapp.com/booking/3281,104,0,0
+1754922968659,109,Load PUT Update a curent booking,200,OK,LoadTest 1-1,text,true,,912,506,18,18,https://restful-booker.herokuapp.com/booking/3294,109,0,0
+1754922968664,111,Load POST Create a new booking,200,OK,LoadTest 1-16,text,true,,945,475,18,18,https://restful-booker.herokuapp.com/booking,111,0,0
+1754922968706,106,Load POST Create a new booking,200,OK,LoadTest 1-7,text,true,,944,474,18,18,https://restful-booker.herokuapp.com/booking,106,0,0
+1754922968761,105,Load DELETE Delete booking,201,Created,LoadTest 1-2,text,true,,747,256,18,18,https://restful-booker.herokuapp.com/booking/3285,105,0,0
+1754922968764,106,Load GET Filter by name,200,OK,LoadTest 1-8,text,true,,743,172,18,18,https://restful-booker.herokuapp.com/booking?firstname=Johan&lastname=Cabrer,106,0,0
+1754922968894,104,Load GET Filter by name,200,OK,LoadTest 1-17,text,true,,743,176,18,18,https://restful-booker.herokuapp.com/booking?firstname=Delcine&lastname=Tomadoni,104,0,0
+1754922968919,112,Load GET Booking by ID,404,Not Found,LoadTest 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,18,18,https://restful-booker.herokuapp.com/booking/1,112,0,0
+1754922968920,112,Load GET Filter by name,200,OK,LoadTest 1-6,text,true,,743,176,18,18,https://restful-booker.herokuapp.com/booking?firstname=Ambrosi&lastname=Martinot,111,0,0
+1754922969062,114,Load DELETE Delete booking,201,Created,LoadTest 1-3,text,true,,747,256,19,19,https://restful-booker.herokuapp.com/booking/3291,114,0,0
+1754922969062,115,Load DELETE Delete booking,201,Created,LoadTest 1-12,text,true,,747,256,19,19,https://restful-booker.herokuapp.com/booking/3280,115,0,0
+1754922969091,108,Load POST Create a new booking,200,OK,LoadTest 1-13,text,true,,938,468,19,19,https://restful-booker.herokuapp.com/booking,108,0,0
+1754922969173,106,Load POST  Authorization,200,OK,LoadTest 1-15,text,true,,770,253,19,19,https://restful-booker.herokuapp.com/auth,106,0,0
+1754922969172,110,Load DELETE Delete booking,201,Created,LoadTest 1-1,text,true,,747,256,19,19,https://restful-booker.herokuapp.com/booking/3294,110,0,0
+1754922969227,107,Load POST Create a new booking,200,OK,LoadTest 1-10,text,true,,952,482,19,19,https://restful-booker.herokuapp.com/booking,107,0,0
+1754922969261,101,Load POST  Authorization,200,OK,LoadTest 1-9,text,true,,770,253,19,19,https://restful-booker.herokuapp.com/auth,101,0,0
+1754922969344,105,Load GET Booking by ID,404,Not Found,LoadTest 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,19,19,https://restful-booker.herokuapp.com/booking/1,105,0,0
+1754922969364,111,Load POST  Authorization,200,OK,LoadTest 1-4,text,true,,770,253,19,19,https://restful-booker.herokuapp.com/auth,111,0,0
+1754922969417,112,Load PUT Update a curent booking,200,OK,LoadTest 1-16,text,true,,916,510,19,19,https://restful-booker.herokuapp.com/booking/3304,112,0,0
+1754922969517,115,Load GET Booking by ID,404,Not Found,LoadTest 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,19,19,https://restful-booker.herokuapp.com/booking/1,115,0,0
+1754922969568,106,Load PUT Update a curent booking,200,OK,LoadTest 1-7,text,true,,915,509,19,19,https://restful-booker.herokuapp.com/booking/3305,106,0,0
+1754922969649,110,Load GET Booking by ID,404,Not Found,LoadTest 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,19,19,https://restful-booker.herokuapp.com/booking/1,110,0,0
+1754922969724,105,Load POST  Authorization,200,OK,LoadTest 1-2,text,true,,770,253,19,19,https://restful-booker.herokuapp.com/auth,105,0,0
+1754922969722,109,Load PUT Update a curent booking,200,OK,LoadTest 1-13,text,true,,909,503,19,19,https://restful-booker.herokuapp.com/booking/3311,109,0,0
+1754922969847,107,Load GET Booking by ID,404,Not Found,LoadTest 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",751,168,19,19,https://restful-booker.herokuapp.com/booking/1,107,0,0
+1754922969885,122,Load POST  Authorization,200,OK,LoadTest 1-12,text,true,,766,253,19,19,https://restful-booker.herokuapp.com/auth,122,0,0
+1754922969966,106,Load GET Filter by name,200,OK,LoadTest 1-14,text,true,,759,172,19,19,https://restful-booker.herokuapp.com/booking?firstname=Tris&lastname=Grahame,106,0,0
+1754922970002,108,Load DELETE Delete booking,201,Created,LoadTest 1-16,text,true,,743,256,19,19,https://restful-booker.herokuapp.com/booking/3304,108,0,0
+1754922970036,102,Load POST  Authorization,200,OK,LoadTest 1-3,text,true,,766,253,19,19,https://restful-booker.herokuapp.com/auth,102,0,0
+1754922970050,106,Load POST Create a new booking,200,OK,LoadTest 1-17,text,true,,936,470,19,19,https://restful-booker.herokuapp.com/booking,106,0,0
+1754922969966,439,Load POST  Authorization,200,OK,LoadTest 1-19,text,true,,766,253,19,19,https://restful-booker.herokuapp.com/auth,439,0,331
+1754922970345,107,Load PUT Update a curent booking,200,OK,LoadTest 1-10,text,true,,919,517,19,19,https://restful-booker.herokuapp.com/booking/3314,107,0,0
+1754922970365,107,Load POST Create a new booking,200,OK,LoadTest 1-6,text,true,,944,478,19,19,https://restful-booker.herokuapp.com/booking,107,0,0
+1754922970434,105,Load DELETE Delete booking,201,Created,LoadTest 1-13,text,true,,743,256,19,19,https://restful-booker.herokuapp.com/booking/3311,105,0,0
+1754922970553,106,Load GET Booking by ID,404,Not Found,LoadTest 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,19,19,https://restful-booker.herokuapp.com/booking/1,106,0,0
+1754922970606,108,Load DELETE Delete booking,201,Created,LoadTest 1-7,text,true,,743,256,19,19,https://restful-booker.herokuapp.com/booking/3305,108,0,0
+1754922970613,102,Load POST Create a new booking,200,OK,LoadTest 1-8,text,true,,939,473,19,19,https://restful-booker.herokuapp.com/booking,102,0,0
+1754922970664,107,Load GET Booking by ID,404,Not Found,LoadTest 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,19,19,https://restful-booker.herokuapp.com/booking/1,107,0,0
+1754922970699,108,Load GET Filter by name,200,OK,LoadTest 1-18,text,true,,739,177,19,19,https://restful-booker.herokuapp.com/booking?firstname=Shurlock&lastname=McKennan,108,0,0
+1754922970708,111,Load POST  Authorization,200,OK,LoadTest 1-1,text,true,,766,253,19,19,https://restful-booker.herokuapp.com/auth,111,0,0
+1754922970769,112,Load PUT Update a curent booking,200,OK,LoadTest 1-17,text,true,,907,505,19,19,https://restful-booker.herokuapp.com/booking/3319,112,0,0
+1754922970769,112,Load GET Booking by ID,404,Not Found,LoadTest 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,19,19,https://restful-booker.herokuapp.com/booking/1,112,0,0
+1754922970795,106,Load GET Filter by name,200,OK,LoadTest 1-5,text,true,,739,176,19,19,https://restful-booker.herokuapp.com/booking?firstname=Darren&lastname=McKeveney,106,0,0
+1754922970821,105,Load GET Filter by name,200,OK,LoadTest 1-9,text,true,,739,171,19,19,https://restful-booker.herokuapp.com/booking?firstname=Meriel&lastname=Rehm,105,0,0
+1754922970819,117,Load GET Filter by name,200,OK,LoadTest 1-11,text,true,,759,178,19,19,https://restful-booker.herokuapp.com/booking?firstname=Constantin&lastname=Gooddie,117,0,0
+1754922970959,108,Load POST  Authorization,200,OK,LoadTest 1-16,text,true,,774,253,20,20,https://restful-booker.herokuapp.com/auth,108,0,0
+1754922971005,104,Load GET Booking by ID,404,Not Found,LoadTest 1-12,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",755,168,20,20,https://restful-booker.herokuapp.com/booking/1,104,0,0
+1754922971138,105,Load GET Booking by ID,404,Not Found,LoadTest 1-19,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",755,168,20,20,https://restful-booker.herokuapp.com/booking/1,105,0,0
+1754922971245,105,Load POST Create a new booking,200,OK,LoadTest 1-14,text,true,,946,472,20,20,https://restful-booker.herokuapp.com/booking,105,0,0
+1754922971374,103,Load POST  Authorization,200,OK,LoadTest 1-13,text,true,,774,253,20,20,https://restful-booker.herokuapp.com/auth,103,0,0
+1754922971383,104,Load GET Booking by ID,404,Not Found,LoadTest 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",755,168,20,20,https://restful-booker.herokuapp.com/booking/1,104,0,0
+1754922971509,104,Load GET Booking by ID,404,Not Found,LoadTest 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",755,168,20,20,https://restful-booker.herokuapp.com/booking/1,104,0,0
+1754922971581,107,Load POST  Authorization,200,OK,LoadTest 1-7,text,true,,774,253,20,20,https://restful-booker.herokuapp.com/auth,107,0,0
+1754922971595,103,Load POST Create a new booking,200,OK,LoadTest 1-18,text,true,,953,479,20,20,https://restful-booker.herokuapp.com/booking,103,0,0
+1754922971672,113,Load PUT Update a curent booking,200,OK,LoadTest 1-6,text,true,,923,513,20,20,https://restful-booker.herokuapp.com/booking/3322,113,0,0
+1754922971685,106,Load GET Filter by name,200,OK,LoadTest 1-15,text,true,,747,172,20,20,https://restful-booker.herokuapp.com/booking?firstname=Lynna&lastname=Dewire,106,0,0
+1754922971694,108,Load POST Create a new booking,200,OK,LoadTest 1-9,text,true,,952,478,20,20,https://restful-booker.herokuapp.com/booking,108,0,0
+1754922971703,103,Load POST Create a new booking,200,OK,LoadTest 1-11,text,true,,948,474,20,20,https://restful-booker.herokuapp.com/booking,103,0,0
+1754922971859,108,Load PUT Update a curent booking,200,OK,LoadTest 1-14,text,true,,917,507,20,20,https://restful-booker.herokuapp.com/booking/3329,108,0,0
+1754922971869,106,Load DELETE Delete booking,201,Created,LoadTest 1-10,text,true,,751,256,20,20,https://restful-booker.herokuapp.com/booking/3314,106,0,0
+1754922971874,107,Load GET Booking by ID,404,Not Found,LoadTest 1-16,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,20,20,https://restful-booker.herokuapp.com/booking/1,107,0,0
+1754922971901,104,Load GET Filter by name,200,OK,LoadTest 1-4,text,true,,739,174,20,20,https://restful-booker.herokuapp.com/booking?firstname=Herbie&lastname=Mepsted,104,0,0
+1754922971946,106,Load GET Filter by name,200,OK,LoadTest 1-3,text,true,,759,176,20,20,https://restful-booker.herokuapp.com/booking?firstname=Rancell&lastname=Petrello,106,0,0
+1754922971958,101,Load POST Create a new booking,200,OK,LoadTest 1-5,text,true,,945,479,20,20,https://restful-booker.herokuapp.com/booking,101,0,0
+1754922971953,114,Load PUT Update a curent booking,200,OK,LoadTest 1-8,text,true,,910,508,20,20,https://restful-booker.herokuapp.com/booking/3325,114,0,0
+1754922971999,105,Load DELETE Delete booking,201,Created,LoadTest 1-17,text,true,,743,256,20,20,https://restful-booker.herokuapp.com/booking/3319,104,0,0
+1754922972225,113,Load GET Filter by name,200,OK,LoadTest 1-2,text,true,,759,176,20,20,https://restful-booker.herokuapp.com/booking?firstname=Vanessa&lastname=Garlinge,113,0,0
+1754922972229,110,Load GET Filter by name,200,OK,LoadTest 1-19,text,true,,739,176,20,20,https://restful-booker.herokuapp.com/booking?firstname=Erena&lastname=Ianittello,110,0,0
+1754922972248,104,Load GET Filter by name,200,OK,LoadTest 1-12,text,true,,759,172,20,20,https://restful-booker.herokuapp.com/booking?firstname=Garey&lastname=Beneze,104,0,0
+1754922972422,108,Load PUT Update a curent booking,200,OK,LoadTest 1-18,text,true,,916,514,20,20,https://restful-booker.herokuapp.com/booking/3334,108,0,0
+1754922972625,103,Load GET Booking by ID,404,Not Found,LoadTest 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,20,20,https://restful-booker.herokuapp.com/booking/1,103,0,0
+1754922972677,111,Load GET Filter by name,200,OK,LoadTest 1-1,text,true,,759,171,20,20,https://restful-booker.herokuapp.com/booking?firstname=Vitoria&lastname=Roo,111,0,0
+1754922972697,103,Load POST  Authorization,200,OK,LoadTest 1-17,text,true,,766,253,20,20,https://restful-booker.herokuapp.com/auth,103,0,0
+1754922972722,107,Load GET Filter by name,200,OK,LoadTest 1-16,text,true,,759,173,20,20,https://restful-booker.herokuapp.com/booking?firstname=Susanna&lastname=Lawly,107,0,0
+1754922972416,443,Load POST  Authorization,200,OK,LoadTest 1-20,text,true,,766,253,20,20,https://restful-booker.herokuapp.com/auth,443,0,340
+1754922972771,108,Load PUT Update a curent booking,200,OK,LoadTest 1-11,text,true,,911,509,20,20,https://restful-booker.herokuapp.com/booking/3336,108,0,0
+1754922972797,106,Load PUT Update a curent booking,200,OK,LoadTest 1-9,text,true,,915,513,20,20,https://restful-booker.herokuapp.com/booking/3335,106,0,0
+1754922972821,105,Load POST  Authorization,200,OK,LoadTest 1-10,text,true,,766,253,20,20,https://restful-booker.herokuapp.com/auth,105,0,0
+1754922972877,103,Load POST Create a new booking,200,OK,LoadTest 1-15,text,true,,949,483,20,20,https://restful-booker.herokuapp.com/booking,103,0,0
+1754922972908,105,Load DELETE Delete booking,201,Created,LoadTest 1-18,text,true,,743,256,20,20,https://restful-booker.herokuapp.com/booking/3334,105,0,0
+1754922972991,106,Load DELETE Delete booking,201,Created,LoadTest 1-6,text,true,,743,256,21,21,https://restful-booker.herokuapp.com/booking/3322,106,0,0
+1754922973039,110,Load DELETE Delete booking,201,Created,LoadTest 1-14,text,true,,743,256,21,21,https://restful-booker.herokuapp.com/booking/3329,110,0,0
+1754922973078,109,Load DELETE Delete booking,201,Created,LoadTest 1-8,text,true,,743,256,21,21,https://restful-booker.herokuapp.com/booking/3325,109,0,0
+1754922973091,112,Load POST Create a new booking,200,OK,LoadTest 1-4,text,true,,933,467,21,21,https://restful-booker.herokuapp.com/booking,112,0,0
+1754922973100,109,Load GET Booking by ID,404,Not Found,LoadTest 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,21,21,https://restful-booker.herokuapp.com/booking/1,109,0,0
+1754922973155,102,Load POST Create a new booking,200,OK,LoadTest 1-12,text,true,,945,479,21,21,https://restful-booker.herokuapp.com/booking,102,0,0
+1754922973222,105,Load PUT Update a curent booking,200,OK,LoadTest 1-5,text,true,,916,514,21,21,https://restful-booker.herokuapp.com/booking/3338,105,0,0
+1754922973423,107,Load PUT Update a curent booking,200,OK,LoadTest 1-15,text,true,,920,518,21,21,https://restful-booker.herokuapp.com/booking/3346,107,0,0
+1754922973482,107,Load GET Filter by name,200,OK,LoadTest 1-13,text,true,,759,170,21,21,https://restful-booker.herokuapp.com/booking?firstname=Tamma&lastname=Amer,107,0,0
+1754922973504,102,Load POST Create a new booking,200,OK,LoadTest 1-2,text,true,,943,477,21,21,https://restful-booker.herokuapp.com/booking,102,0,0
+1754922973540,105,Load GET Booking by ID,404,Not Found,LoadTest 1-17,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",747,168,21,21,https://restful-booker.herokuapp.com/booking/1,105,0,0
+1754922973554,103,Load POST Create a new booking,200,OK,LoadTest 1-3,text,true,,942,476,21,21,https://restful-booker.herokuapp.com/booking,103,0,0
+1754922973629,109,Load POST  Authorization,200,OK,LoadTest 1-18,text,true,,766,253,21,21,https://restful-booker.herokuapp.com/auth,109,0,0

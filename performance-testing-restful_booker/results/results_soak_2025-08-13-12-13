@@ -1,0 +1,225 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1755080011896,484,SetUp POST Authorization,200,OK,SoakTest 1-1,text,true,,774,253,2,2,https://restful-booker.herokuapp.com/auth,484,0,377
+1755080012628,212,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,16603,140,2,2,https://restful-booker.herokuapp.com/booking,212,0,0
+1755080013059,433,SetUp POST Authorization,200,OK,SoakTest 1-2,text,true,,770,253,2,2,https://restful-booker.herokuapp.com/auth,433,0,326
+1755080014244,105,Soak GET Booking by ID,200,OK,SoakTest 1-1,text,true,,917,170,2,2,https://restful-booker.herokuapp.com/booking/200,105,0,0
+1755080014360,106,Soak POST Create a new booking,200,OK,SoakTest 1-1,text,true,,953,479,2,2,https://restful-booker.herokuapp.com/booking,106,0,0
+1755080015048,106,Soak DELETE Delete booking_1275,201,Created,SoakTest 1-1,text,true,,743,256,3,3,https://restful-booker.herokuapp.com/booking/1275,105,0,0
+1755080016954,213,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,17078,140,3,3,https://restful-booker.herokuapp.com/booking,212,0,0
+1755080017157,436,SetUp POST Authorization,200,OK,SoakTest 1-3,text,true,,770,253,3,3,https://restful-booker.herokuapp.com/auth,436,0,330
+1755080018096,443,SetUp POST Authorization,200,OK,SoakTest 1-4,text,true,,766,253,4,4,https://restful-booker.herokuapp.com/auth,443,0,338
+1755080017554,2749,SetUp POST Authorization,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: invalid.local,SoakTest 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/",2290,0,4,4,https://invalid.local/,0,0,2749
+1755080020327,214,Soak GET All booking,200,OK,SoakTest 1-4,text,true,,17378,140,4,4,https://restful-booker.herokuapp.com/booking,214,0,0
+1755080020358,215,Soak GET All booking,200,OK,SoakTest 1-3,text,true,,17378,140,4,4,https://restful-booker.herokuapp.com/booking,215,0,0
+1755080020598,112,Soak GET Booking by ID,200,OK,SoakTest 1-2,text,true,,913,171,4,4,https://restful-booker.herokuapp.com/booking/1141,112,0,0
+1755080021481,445,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,17572,140,5,5,https://restful-booker.herokuapp.com/booking,445,0,334
+1755080022909,117,Soak GET Booking by ID,200,OK,SoakTest 1-4,text,true,,913,170,5,5,https://restful-booker.herokuapp.com/booking/297,117,0,0
+1755080023262,110,Soak POST Create a new booking,200,OK,SoakTest 1-2,text,true,,946,476,5,5,https://restful-booker.herokuapp.com/booking,110,0,0
+1755080023465,106,Soak GET Booking by ID,200,OK,SoakTest 1-1,text,true,,913,171,5,5,https://restful-booker.herokuapp.com/booking/1157,106,0,0
+1755080023798,109,Soak GET Booking by ID,200,OK,SoakTest 1-3,text,true,,917,169,6,6,https://restful-booker.herokuapp.com/booking/89,109,0,0
+1755080023948,448,SetUp POST Authorization,200,OK,SoakTest 1-5,text,true,,774,253,6,6,https://restful-booker.herokuapp.com/auth,448,0,337
+1755080024380,105,Soak POST Create a new booking,200,OK,SoakTest 1-4,text,true,,949,475,6,6,https://restful-booker.herokuapp.com/booking,105,0,0
+1755080025185,112,Soak DELETE Delete booking_1360,201,Created,SoakTest 1-4,text,true,,751,256,6,6,https://restful-booker.herokuapp.com/booking/1360,112,0,0
+1755080025297,109,Soak POST Create a new booking,200,OK,SoakTest 1-1,text,true,,943,469,6,6,https://restful-booker.herokuapp.com/booking,108,0,0
+1755080026045,208,Soak GET All booking,200,OK,SoakTest 1-5,text,true,,18081,140,6,6,https://restful-booker.herokuapp.com/booking,109,0,0
+1755080026216,116,Soak DELETE Delete booking_1350,201,Created,SoakTest 1-2,text,true,,743,256,6,6,https://restful-booker.herokuapp.com/booking/1350,116,0,0
+1755080025934,441,SetUp POST Authorization,200,OK,SoakTest 1-6,text,true,,766,253,6,6,https://restful-booker.herokuapp.com/auth,441,0,330
+1755080026802,111,Soak POST Create a new booking,200,OK,SoakTest 1-3,text,true,,945,479,7,7,https://restful-booker.herokuapp.com/booking,111,0,0
+1755080026940,1,SetUp POST Authorization,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: invalid.local,SoakTest 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/",2094,0,7,7,https://invalid.local/,0,0,1
+1755080027014,111,Soak DELETE Delete booking_1368,403,Forbidden,SoakTest 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[403]]]
+
+****** comparison: [[[201]]]
+
+/",747,256,7,7,https://restful-booker.herokuapp.com/booking/1368,111,0,0
+1755080027521,0,SetUp POST Authorization,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: invalid.local,SoakTest 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/",2094,0,7,7,https://invalid.local/,0,0,0
+1755080028606,116,Soak GET Booking by ID,200,OK,SoakTest 1-5,text,true,,917,171,7,7,https://restful-booker.herokuapp.com/booking/1131,116,0,0
+1755080029789,0,SetUp POST Authorization,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: invalid.local,SoakTest 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/",2094,0,8,8,https://invalid.local/,0,0,0
+1755080029492,435,SetUp POST Authorization,200,OK,SoakTest 1-7,text,true,,770,253,8,8,https://restful-booker.herokuapp.com/auth,435,0,328
+1755080029557,438,Soak GET All booking,200,OK,SoakTest 1-4,text,true,,18503,140,8,8,https://restful-booker.herokuapp.com/booking,438,0,327
+1755080029922,105,Soak DELETE Delete booking_1386,403,Forbidden,SoakTest 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[403]]]
+
+****** comparison: [[[201]]]
+
+/",751,256,8,8,https://restful-booker.herokuapp.com/booking/1386,105,0,0
+1755080030821,217,Soak GET All booking,200,OK,SoakTest 1-6,text,true,,18575,140,8,8,https://restful-booker.herokuapp.com/booking,115,0,0
+1755080031073,207,Soak GET All booking,200,OK,SoakTest 1-7,text,true,,18613,140,8,8,https://restful-booker.herokuapp.com/booking,207,0,0
+1755080030782,535,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,18613,140,8,8,https://restful-booker.herokuapp.com/booking,435,0,329
+1755080031375,112,Soak POST Create a new booking,200,OK,SoakTest 1-5,text,true,,934,468,8,8,https://restful-booker.herokuapp.com/booking,112,0,0
+1755080032020,106,Soak DELETE Delete booking_1421,201,Created,SoakTest 1-5,text,true,,751,256,8,8,https://restful-booker.herokuapp.com/booking/1421,106,0,0
+1755080032170,108,Soak GET Booking by ID,200,OK,SoakTest 1-6,text,true,,919,170,8,8,https://restful-booker.herokuapp.com/booking/771,108,0,0
+1755080031943,541,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,18773,140,8,8,https://restful-booker.herokuapp.com/booking,440,0,336
+1755080032433,107,Soak POST Create a new booking,200,OK,SoakTest 1-6,text,true,,945,471,8,8,https://restful-booker.herokuapp.com/booking,107,0,0
+1755080032680,110,Soak GET Booking by ID,200,OK,SoakTest 1-7,text,true,,915,170,9,9,https://restful-booker.herokuapp.com/booking/839,110,0,0
+1755080032807,127,Soak GET Booking by ID,200,OK,SoakTest 1-4,text,true,,915,171,9,9,https://restful-booker.herokuapp.com/booking/1281,127,0,0
+1755080033552,115,Soak POST Create a new booking,200,OK,SoakTest 1-4,text,true,,940,474,9,9,https://restful-booker.herokuapp.com/booking,115,0,0
+1755080033849,106,Soak GET Booking by ID,200,OK,SoakTest 1-1,text,true,,909,170,9,9,https://restful-booker.herokuapp.com/booking/333,106,0,0
+1755080033482,495,SetUp POST Authorization,200,OK,SoakTest 1-9,text,true,,766,253,9,9,https://restful-booker.herokuapp.com/auth,495,0,380
+1755080034120,124,Soak GET Booking by ID,200,OK,SoakTest 1-2,text,true,,911,170,9,9,https://restful-booker.herokuapp.com/booking/193,124,0,0
+1755080034139,113,Soak DELETE Delete booking_1432,201,Created,SoakTest 1-6,text,true,,743,256,9,9,https://restful-booker.herokuapp.com/booking/1432,112,0,0
+1755080034088,457,SetUp POST Authorization,200,OK,SoakTest 1-8,text,true,,766,253,9,9,https://restful-booker.herokuapp.com/auth,457,0,352
+1755080033397,1605,SetUp POST Authorization,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: invalid.local,SoakTest 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/",2094,0,9,9,https://invalid.local/,0,0,1605
+1755080032280,2722,SetUp POST Authorization,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: invalid.local,SoakTest 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/",2290,0,9,9,https://invalid.local/,0,0,2722
+1755080035410,107,Soak POST Create a new booking,200,OK,SoakTest 1-7,text,true,,940,470,9,9,https://restful-booker.herokuapp.com/booking,107,0,0
+1755080035699,214,Soak GET All booking,200,OK,SoakTest 1-8,text,true,,19187,140,10,10,https://restful-booker.herokuapp.com/booking,214,0,0
+1755080036390,219,Soak GET All booking,200,OK,SoakTest 1-9,text,true,,19301,140,10,10,https://restful-booker.herokuapp.com/booking,115,0,0
+1755080036812,109,Soak POST Create a new booking,200,OK,SoakTest 1-2,text,true,,948,478,10,10,https://restful-booker.herokuapp.com/booking,109,0,0
+1755080036891,111,Soak DELETE Delete booking_1445,403,Forbidden,SoakTest 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[403]]]
+
+****** comparison: [[[201]]]
+
+/",751,256,10,10,https://restful-booker.herokuapp.com/booking/1445,111,0,0
+1755080036737,459,Soak GET All booking,200,OK,SoakTest 1-5,text,true,,19396,140,10,10,https://restful-booker.herokuapp.com/booking,459,0,351
+1755080037307,1,SetUp POST Authorization,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: invalid.local,SoakTest 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/",2094,0,10,10,https://invalid.local/,0,0,1
+1755080036827,539,Soak GET All booking,200,OK,SoakTest 1-3,text,true,,19396,140,10,10,https://restful-booker.herokuapp.com/booking,437,0,326
+1755080037494,109,Soak DELETE Delete booking_1461,403,Forbidden,SoakTest 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[403]]]
+
+****** comparison: [[[201]]]
+
+/",751,256,10,10,https://restful-booker.herokuapp.com/booking/1461,109,0,0
+1755080037689,103,Soak GET Booking by ID,200,OK,SoakTest 1-9,text,true,,915,169,10,10,https://restful-booker.herokuapp.com/booking/14,103,0,0
+1755080037480,449,SetUp POST Authorization,200,OK,SoakTest 1-10,text,true,,770,253,10,10,https://restful-booker.herokuapp.com/auth,449,0,341
+1755080037923,104,Soak DELETE Delete booking_1475,403,Forbidden,SoakTest 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[403]]]
+
+****** comparison: [[[201]]]
+
+/",751,256,10,10,https://restful-booker.herokuapp.com/booking/1475,104,0,0
+1755080038043,1,SetUp POST Authorization,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: invalid.local,SoakTest 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/",2094,0,10,10,https://invalid.local/,0,0,1
+1755080038130,122,Soak POST Create a new booking,200,OK,SoakTest 1-1,text,true,,952,482,10,10,https://restful-booker.herokuapp.com/booking,122,0,0
+1755080038379,1,SetUp POST Authorization,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: invalid.local,SoakTest 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/",2094,0,10,10,https://invalid.local/,0,0,1
+1755080038860,109,Soak DELETE Delete booking_1488,403,Forbidden,SoakTest 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[403]]]
+
+****** comparison: [[[201]]]
+
+/",759,256,10,10,https://restful-booker.herokuapp.com/booking/1488,109,0,0
+1755080038966,113,Soak GET Booking by ID,200,OK,SoakTest 1-8,text,true,,923,170,10,10,https://restful-booker.herokuapp.com/booking/992,112,0,0
+1755080039525,110,Soak GET Booking by ID,200,OK,SoakTest 1-3,text,true,,921,170,10,10,https://restful-booker.herokuapp.com/booking/718,110,0,0
+1755080039955,1,SetUp POST Authorization,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: invalid.local,SoakTest 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/",2094,0,10,10,https://invalid.local/,0,0,1
+1755080039902,110,Soak POST Create a new booking,200,OK,SoakTest 1-3,text,true,,942,472,10,10,https://restful-booker.herokuapp.com/booking,110,0,0
+1755080039849,219,Soak GET All booking,200,OK,SoakTest 1-10,text,true,,19662,140,10,10,https://restful-booker.herokuapp.com/booking,219,0,0
+1755080040005,110,Soak POST Create a new booking,200,OK,SoakTest 1-9,text,true,,949,479,10,10,https://restful-booker.herokuapp.com/booking,110,0,0
+1755080039752,553,Soak GET All booking,200,OK,SoakTest 1-6,text,true,,19700,140,10,10,https://restful-booker.herokuapp.com/booking,454,0,329
+1755080040495,104,Soak POST Create a new booking,200,OK,SoakTest 1-8,text,true,,943,473,10,10,https://restful-booker.herokuapp.com/booking,104,0,0
+1755080040860,113,Soak GET Booking by ID,200,OK,SoakTest 1-5,text,true,,913,169,10,10,https://restful-booker.herokuapp.com/booking/20,113,0,0
+1755080040465,536,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,19814,140,10,10,https://restful-booker.herokuapp.com/booking,437,0,328
+1755080041053,106,Soak GET Booking by ID,200,OK,SoakTest 1-10,text,true,,915,171,10,10,https://restful-booker.herokuapp.com/booking/1084,106,0,0
+1755080041335,0,SetUp POST Authorization,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: invalid.local,SoakTest 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/",2094,0,10,10,https://invalid.local/,0,0,0
+1755080041268,107,Soak POST Create a new booking,200,OK,SoakTest 1-5,text,true,,949,479,10,10,https://restful-booker.herokuapp.com/booking,107,0,0
+1755080041015,449,Soak GET All booking,200,OK,SoakTest 1-7,text,true,,19947,140,10,10,https://restful-booker.herokuapp.com/booking,448,0,341
+1755080041479,105,Soak POST Create a new booking,200,OK,SoakTest 1-10,text,true,,944,474,10,10,https://restful-booker.herokuapp.com/booking,105,0,0
+1755080042154,113,Soak DELETE Delete booking_1506,403,Forbidden,SoakTest 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[403]]]
+
+****** comparison: [[[201]]]
+
+/",747,256,10,10,https://restful-booker.herokuapp.com/booking/1506,113,0,0
+1755080042168,121,Soak GET Booking by ID,200,OK,SoakTest 1-6,text,true,,918,169,10,10,https://restful-booker.herokuapp.com/booking/60,121,0,0
+1755080041838,450,Soak GET All booking,200,OK,SoakTest 1-4,text,true,,20038,140,10,10,https://restful-booker.herokuapp.com/booking,449,0,335
+1755080042507,108,Soak DELETE Delete booking_1499,403,Forbidden,SoakTest 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[403]]]
+
+****** comparison: [[[201]]]
+
+/",747,256,10,10,https://restful-booker.herokuapp.com/booking/1499,108,0,0
+1755080042780,108,Soak DELETE Delete booking_1501,403,Forbidden,SoakTest 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[403]]]
+
+****** comparison: [[[201]]]
+
+/",747,256,10,10,https://restful-booker.herokuapp.com/booking/1501,108,0,0
+1755080042790,106,Soak GET Booking by ID,200,OK,SoakTest 1-4,text,true,,911,170,10,10,https://restful-booker.herokuapp.com/booking/649,106,0,0
+1755080043399,112,Soak GET Booking by ID,200,OK,SoakTest 1-2,text,true,,909,170,10,10,https://restful-booker.herokuapp.com/booking/977,112,0,0
+1755080043842,0,SetUp POST Authorization,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: invalid.local,SoakTest 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.UnknownHostException]]]
+
+****** comparison: [[[200                                                  ]]]
+
+/",2094,0,10,10,https://invalid.local/,0,0,0
+1755080044178,111,Soak DELETE Delete booking_1518,403,Forbidden,SoakTest 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[403]]]
+
+****** comparison: [[[201]]]
+
+/",755,256,10,10,https://restful-booker.herokuapp.com/booking/1518,111,0,0

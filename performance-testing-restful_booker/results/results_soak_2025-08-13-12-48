@@ -1,0 +1,220 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1755082139173,479,SetUp POST Authorization,200,OK,SoakTest 1-1,text,true,,766,253,1,1,https://restful-booker.herokuapp.com/auth,479,0,369
+1755082141079,324,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,53863,140,2,2,https://restful-booker.herokuapp.com/booking,117,0,0
+1755082143927,446,SetUp POST Authorization,200,OK,SoakTest 1-3,text,true,,778,253,3,3,https://restful-booker.herokuapp.com/auth,446,0,338
+1755082144443,112,Soak GET Booking by ID,200,OK,SoakTest 1-1,text,true,,921,171,3,3,https://restful-booker.herokuapp.com/booking/1278,111,0,0
+1755082144240,447,SetUp POST Authorization,200,OK,SoakTest 1-2,text,true,,770,253,3,3,https://restful-booker.herokuapp.com/auth,447,0,339
+1755082145817,331,Soak GET All booking,200,OK,SoakTest 1-3,text,true,,54384,140,3,3,https://restful-booker.herokuapp.com/booking,118,0,0
+1755082146598,104,Soak GET Booking by ID,200,OK,SoakTest 1-3,text,true,,913,171,4,4,https://restful-booker.herokuapp.com/booking/2737,104,0,0
+1755082147122,325,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,54589,140,4,4,https://restful-booker.herokuapp.com/booking,125,0,0
+1755082147598,110,Soak POST Create a new booking,200,OK,SoakTest 1-1,text,true,,945,479,4,4,https://restful-booker.herokuapp.com/booking,110,0,0
+1755082148254,110,Soak GET Booking by ID,200,OK,SoakTest 1-2,text,true,,909,171,4,4,https://restful-booker.herokuapp.com/booking/2194,110,0,0
+1755082148605,103,Soak POST Create a new booking,200,OK,SoakTest 1-2,text,true,,942,476,4,4,https://restful-booker.herokuapp.com/booking,103,0,0
+1755082148925,109,Soak DELETE  booking,201,Created,SoakTest 1-1,text,true,,743,256,4,4,https://restful-booker.herokuapp.com/booking/4393,109,0,0
+1755082149095,115,Soak POST Create a new booking,200,OK,SoakTest 1-3,text,true,,945,479,4,4,https://restful-booker.herokuapp.com/booking,115,0,0
+1755082149384,446,SetUp POST Authorization,200,OK,SoakTest 1-4,text,true,,782,253,5,5,https://restful-booker.herokuapp.com/auth,446,0,336
+1755082150035,111,Soak DELETE  booking,201,Created,SoakTest 1-2,text,true,,759,256,5,5,https://restful-booker.herokuapp.com/booking/4400,111,0,0
+1755082151048,320,Soak GET All booking,200,OK,SoakTest 1-4,text,true,,54946,140,5,5,https://restful-booker.herokuapp.com/booking,215,0,0
+1755082151029,439,SetUp POST Authorization,200,OK,SoakTest 1-5,text,true,,766,253,5,5,https://restful-booker.herokuapp.com/auth,439,0,331
+1755082151029,439,SetUp POST Authorization,200,OK,SoakTest 1-1,text,true,,766,253,5,5,https://restful-booker.herokuapp.com/auth,439,0,331
+1755082151865,314,Soak GET All booking,200,OK,SoakTest 1-5,text,true,,55060,140,5,5,https://restful-booker.herokuapp.com/booking,114,0,0
+1755082152066,441,SetUp POST Authorization,200,OK,SoakTest 1-2,text,true,,766,253,5,5,https://restful-booker.herokuapp.com/auth,441,0,335
+1755082152831,112,Soak DELETE  booking,201,Created,SoakTest 1-3,text,true,,751,256,6,6,https://restful-booker.herokuapp.com/booking/4406,112,0,0
+1755082153781,109,Soak GET Booking by ID,200,OK,SoakTest 1-5,text,true,,923,171,6,6,https://restful-booker.herokuapp.com/booking/2289,109,0,0
+1755082154235,112,Soak GET Booking by ID,200,OK,SoakTest 1-4,text,true,,923,171,6,6,https://restful-booker.herokuapp.com/booking/3905,112,0,0
+1755082154749,105,Soak POST Create a new booking,200,OK,SoakTest 1-5,text,true,,938,468,6,6,https://restful-booker.herokuapp.com/booking,105,0,0
+1755082154408,467,SetUp POST Authorization,200,OK,SoakTest 1-3,text,true,,770,253,6,6,https://restful-booker.herokuapp.com/auth,467,0,343
+1755082154564,322,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,55368,140,6,6,https://restful-booker.herokuapp.com/booking,120,0,0
+1755082154595,438,SetUp POST Authorization,200,OK,SoakTest 1-6,text,true,,770,253,6,6,https://restful-booker.herokuapp.com/auth,438,0,333
+1755082155505,329,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,55497,140,7,7,https://restful-booker.herokuapp.com/booking,223,0,0
+1755082156633,114,Soak DELETE  booking,201,Created,SoakTest 1-5,text,true,,747,256,7,7,https://restful-booker.herokuapp.com/booking/4456,114,0,0
+1755082156746,107,Soak POST Create a new booking,200,OK,SoakTest 1-4,text,true,,939,469,7,7,https://restful-booker.herokuapp.com/booking,107,0,0
+1755082157341,110,Soak GET Booking by ID,200,OK,SoakTest 1-1,text,true,,922,171,7,7,https://restful-booker.herokuapp.com/booking/2177,110,0,0
+1755082157512,317,Soak GET All booking,200,OK,SoakTest 1-6,text,true,,55706,140,7,7,https://restful-booker.herokuapp.com/booking,216,0,0
+1755082157723,313,Soak GET All booking,200,OK,SoakTest 1-3,text,true,,55725,140,7,7,https://restful-booker.herokuapp.com/booking,212,0,0
+1755082157743,436,SetUp POST Authorization,200,OK,SoakTest 1-7,text,true,,766,253,7,7,https://restful-booker.herokuapp.com/auth,436,0,328
+1755082158887,112,Soak GET Booking by ID,200,OK,SoakTest 1-2,text,true,,919,171,8,8,https://restful-booker.herokuapp.com/booking/3970,112,0,0
+1755082159344,119,Soak DELETE  booking,201,Created,SoakTest 1-4,text,true,,751,256,8,8,https://restful-booker.herokuapp.com/booking/4477,119,0,0
+1755082159548,445,SetUp POST Authorization,200,OK,SoakTest 1-8,text,true,,782,253,8,8,https://restful-booker.herokuapp.com/auth,445,0,335
+1755082160214,110,Soak POST Create a new booking,200,OK,SoakTest 1-1,text,true,,957,475,8,8,https://restful-booker.herokuapp.com/booking,110,0,0
+1755082160053,325,Soak GET All booking,200,OK,SoakTest 1-7,text,true,,55950,140,8,8,https://restful-booker.herokuapp.com/booking,225,0,0
+1755082160382,109,Soak GET Booking by ID,200,OK,SoakTest 1-6,text,true,,925,170,8,8,https://restful-booker.herokuapp.com/booking/984,109,0,0
+1755082160540,611,SetUp POST Authorization,200,OK,SoakTest 1-5,text,true,,770,253,8,8,https://restful-booker.herokuapp.com/auth,611,0,485
+1755082161630,172,Soak GET Booking by ID,200,OK,SoakTest 1-3,text,true,,917,171,9,9,https://restful-booker.herokuapp.com/booking/2737,172,0,0
+1755082161862,125,Soak POST Create a new booking,200,OK,SoakTest 1-2,text,true,,945,471,9,9,https://restful-booker.herokuapp.com/booking,125,0,0
+1755082162050,453,SetUp POST Authorization,200,OK,SoakTest 1-4,text,true,,774,253,9,9,https://restful-booker.herokuapp.com/auth,453,0,347
+1755082162867,122,Soak POST Create a new booking,200,OK,SoakTest 1-3,text,true,,948,478,9,9,https://restful-booker.herokuapp.com/booking,122,0,0
+1755082163134,109,Soak DELETE  booking,201,Created,SoakTest 1-1,text,true,,747,256,9,9,https://restful-booker.herokuapp.com/booking/4500,109,0,0
+1755082163153,110,Soak DELETE  booking,201,Created,SoakTest 1-2,text,true,,747,256,9,9,https://restful-booker.herokuapp.com/booking/4515,110,0,0
+1755082163178,109,Soak POST Create a new booking,200,OK,SoakTest 1-6,text,true,,944,474,9,9,https://restful-booker.herokuapp.com/booking,109,0,0
+1755082163365,108,Soak GET Booking by ID,200,OK,SoakTest 1-7,text,true,,915,171,9,9,https://restful-booker.herokuapp.com/booking/1214,108,0,0
+1755082163382,320,Soak GET All booking,200,OK,SoakTest 1-5,text,true,,56375,140,9,9,https://restful-booker.herokuapp.com/booking,220,0,0
+1755082164256,327,Soak GET All booking,200,OK,SoakTest 1-8,text,true,,56466,140,9,9,https://restful-booker.herokuapp.com/booking,218,0,0
+1755082164950,112,Soak DELETE  booking,201,Created,SoakTest 1-6,text,true,,743,256,10,10,https://restful-booker.herokuapp.com/booking/4531,112,0,0
+1755082164978,110,Soak DELETE  booking,201,Created,SoakTest 1-3,text,true,,743,256,10,10,https://restful-booker.herokuapp.com/booking/4527,110,0,0
+1755082164667,447,SetUp POST Authorization,200,OK,SoakTest 1-9,text,true,,766,253,10,10,https://restful-booker.herokuapp.com/auth,447,0,339
+1755082165057,110,Soak POST Create a new booking,200,OK,SoakTest 1-7,text,true,,936,470,10,10,https://restful-booker.herokuapp.com/booking,110,0,0
+1755082164834,324,Soak GET All booking,200,OK,SoakTest 1-4,text,true,,56504,140,10,10,https://restful-booker.herokuapp.com/booking,217,0,0
+1755082164760,439,SetUp POST Authorization,200,OK,SoakTest 1-1,text,true,,766,253,10,10,https://restful-booker.herokuapp.com/auth,439,0,333
+1755082164962,445,SetUp POST Authorization,200,OK,SoakTest 1-2,text,true,,766,253,10,10,https://restful-booker.herokuapp.com/auth,445,0,337
+1755082165540,114,Soak GET Booking by ID,200,OK,SoakTest 1-5,text,true,,909,171,10,10,https://restful-booker.herokuapp.com/booking/2777,114,0,0
+1755082166579,106,Soak POST Create a new booking,200,OK,SoakTest 1-5,text,true,,952,482,10,10,https://restful-booker.herokuapp.com/booking,106,0,0
+1755082166698,108,Soak GET Booking by ID,200,OK,SoakTest 1-4,text,true,,913,171,10,10,https://restful-booker.herokuapp.com/booking/1747,108,0,0
+1755082166764,117,Soak GET Booking by ID,200,OK,SoakTest 1-8,text,true,,915,171,10,10,https://restful-booker.herokuapp.com/booking/2406,117,0,0
+1755082166745,318,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,56774,140,10,10,https://restful-booker.herokuapp.com/booking,113,0,0
+1755082167249,115,Soak DELETE  booking,201,Created,SoakTest 1-7,text,true,,747,256,10,10,https://restful-booker.herokuapp.com/booking/4547,115,0,0
+1755082168036,106,Soak POST Create a new booking,200,OK,SoakTest 1-8,text,true,,939,473,10,10,https://restful-booker.herokuapp.com/booking,106,0,0
+1755082167782,448,SetUp POST Authorization,200,OK,SoakTest 1-6,text,true,,766,253,10,10,https://restful-booker.herokuapp.com/auth,448,0,343
+1755082167972,449,SetUp POST Authorization,200,OK,SoakTest 1-10,text,true,,766,253,10,10,https://restful-booker.herokuapp.com/auth,449,0,340
+1755082168292,438,SetUp POST Authorization,200,OK,SoakTest 1-3,text,true,,766,253,10,10,https://restful-booker.herokuapp.com/auth,438,0,335
+1755082168401,321,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,56884,140,10,10,https://restful-booker.herokuapp.com/booking,220,0,0
+1755082168659,112,Soak POST Create a new booking,200,OK,SoakTest 1-4,text,true,,938,472,10,10,https://restful-booker.herokuapp.com/booking,112,0,0
+1755082168451,333,Soak GET All booking,200,OK,SoakTest 1-9,text,true,,56903,140,10,10,https://restful-booker.herokuapp.com/booking,123,0,0
+1755082169306,119,Soak DELETE  booking,201,Created,SoakTest 1-5,text,true,,743,256,10,10,https://restful-booker.herokuapp.com/booking/4564,119,0,0
+1755082169365,113,Soak GET Booking by ID,200,OK,SoakTest 1-2,text,true,,905,171,10,10,https://restful-booker.herokuapp.com/booking/3298,113,0,0
+1755082169510,105,Soak GET Booking by ID,200,OK,SoakTest 1-9,text,true,,909,171,10,10,https://restful-booker.herokuapp.com/booking/2383,105,0,0
+1755082169594,117,Soak DELETE  booking,201,Created,SoakTest 1-8,text,true,,743,256,10,10,https://restful-booker.herokuapp.com/booking/4576,117,0,0
+1755082169988,488,SetUp POST Authorization,200,OK,SoakTest 1-7,text,true,,766,253,10,10,https://restful-booker.herokuapp.com/auth,488,0,379
+1755082170192,322,Soak GET All booking,200,OK,SoakTest 1-6,text,true,,57055,140,10,10,https://restful-booker.herokuapp.com/booking,116,0,0
+1755082170537,112,Soak DELETE  booking,201,Created,SoakTest 1-4,text,true,,763,256,10,10,https://restful-booker.herokuapp.com/booking/4580,112,0,0
+1755082170693,110,Soak POST Create a new booking,200,OK,SoakTest 1-2,text,true,,953,467,10,10,https://restful-booker.herokuapp.com/booking,110,0,0
+1755082170921,120,Soak GET Booking by ID,200,OK,SoakTest 1-1,text,true,,929,170,10,10,https://restful-booker.herokuapp.com/booking/566,120,0,0
+1755082171023,443,SetUp POST Authorization,200,OK,SoakTest 1-5,text,true,,786,253,10,10,https://restful-booker.herokuapp.com/auth,443,0,342
+1755082171477,326,Soak GET All booking,200,OK,SoakTest 1-10,text,true,,57189,140,10,10,https://restful-booker.herokuapp.com/booking,118,0,0
+1755082172058,108,Soak POST Create a new booking,200,OK,SoakTest 1-9,text,true,,953,479,10,10,https://restful-booker.herokuapp.com/booking,108,0,0
+1755082171935,448,SetUp POST Authorization,200,OK,SoakTest 1-8,text,true,,774,253,10,10,https://restful-booker.herokuapp.com/auth,448,0,338
+1755082172279,111,Soak GET Booking by ID,200,OK,SoakTest 1-6,text,true,,919,171,10,10,https://restful-booker.herokuapp.com/booking/3818,111,0,0
+1755082172201,333,Soak GET All booking,200,OK,SoakTest 1-3,text,true,,57272,140,10,10,https://restful-booker.herokuapp.com/booking,121,0,0
+1755082172690,118,Soak POST Create a new booking,200,OK,SoakTest 1-1,text,true,,945,479,10,10,https://restful-booker.herokuapp.com/booking,118,0,0
+1755082172727,106,Soak GET Booking by ID,200,OK,SoakTest 1-3,text,true,,911,171,10,10,https://restful-booker.herokuapp.com/booking/3100,106,0,0
+1755082172863,110,Soak DELETE  booking,201,Created,SoakTest 1-2,text,true,,743,256,10,10,https://restful-booker.herokuapp.com/booking/4595,110,0,0
+1755082173159,322,Soak GET All booking,200,OK,SoakTest 1-7,text,true,,57435,140,10,10,https://restful-booker.herokuapp.com/booking,216,0,0
+1755082173729,108,Soak POST Create a new booking,200,OK,SoakTest 1-3,text,true,,960,478,10,10,https://restful-booker.herokuapp.com/booking,108,0,0
+1755082173558,330,Soak GET All booking,200,OK,SoakTest 1-5,text,true,,57489,140,10,10,https://restful-booker.herokuapp.com/booking,221,0,0
+1755082173792,113,Soak DELETE  booking,201,Created,SoakTest 1-9,text,true,,759,256,10,10,https://restful-booker.herokuapp.com/booking/4610,113,0,0
+1755082174038,113,Soak GET Booking by ID,200,OK,SoakTest 1-10,text,true,,927,171,10,10,https://restful-booker.herokuapp.com/booking/1202,113,0,0
+1755082174111,326,Soak GET All booking,200,OK,SoakTest 1-8,text,true,,57565,140,10,10,https://restful-booker.herokuapp.com/booking,219,0,0
+1755082174228,438,SetUp POST Authorization,200,OK,SoakTest 1-4,text,true,,766,253,10,10,https://restful-booker.herokuapp.com/auth,438,0,331
+1755082175177,117,Soak DELETE  booking,201,Created,SoakTest 1-1,text,true,,743,256,10,10,https://restful-booker.herokuapp.com/booking/4618,117,0,0
+1755082175180,114,Soak POST Create a new booking,200,OK,SoakTest 1-6,text,true,,949,483,10,10,https://restful-booker.herokuapp.com/booking,114,0,0
+1755082175520,118,Soak DELETE  booking,201,Created,SoakTest 1-3,text,true,,751,256,10,10,https://restful-booker.herokuapp.com/booking/4628,118,0,0
+1755082175947,116,Soak GET Booking by ID,200,OK,SoakTest 1-5,text,true,,917,171,10,10,https://restful-booker.herokuapp.com/booking/1063,116,0,0
+1755082175688,448,SetUp POST Authorization,200,OK,SoakTest 1-2,text,true,,774,253,10,10,https://restful-booker.herokuapp.com/auth,447,0,346
+1755082175991,442,SetUp POST Authorization,200,OK,SoakTest 1-9,text,true,,774,253,10,10,https://restful-booker.herokuapp.com/auth,442,0,335
+1755082176419,116,Soak GET Booking by ID,200,OK,SoakTest 1-7,text,true,,917,170,10,10,https://restful-booker.herokuapp.com/booking/547,116,0,0
+1755082177095,462,SetUp POST Authorization,200,OK,SoakTest 1-1,text,true,,770,253,10,10,https://restful-booker.herokuapp.com/auth,462,0,354
+1755082177109,463,SetUp POST Authorization,200,OK,SoakTest 1-3,text,true,,770,253,10,10,https://restful-booker.herokuapp.com/auth,463,0,354
+1755082177892,108,Soak GET Booking by ID,200,OK,SoakTest 1-8,text,true,,915,171,10,10,https://restful-booker.herokuapp.com/booking/3447,108,0,0
+1755082178093,323,Soak GET All booking,200,OK,SoakTest 1-4,text,true,,57952,140,10,10,https://restful-booker.herokuapp.com/booking,122,0,0
+1755082178364,114,Soak POST Create a new booking,200,OK,SoakTest 1-5,text,true,,949,479,10,10,https://restful-booker.herokuapp.com/booking,114,0,0
+1755082178895,108,Soak GET Booking by ID,200,OK,SoakTest 1-4,text,true,,911,171,10,10,https://restful-booker.herokuapp.com/booking/1162,108,0,0
+1755082178737,318,Soak GET All booking,200,OK,SoakTest 1-3,text,true,,57986,140,10,10,https://restful-booker.herokuapp.com/booking,210,0,0
+1755082178840,341,Soak GET All booking,200,OK,SoakTest 1-9,text,true,,58005,140,10,10,https://restful-booker.herokuapp.com/booking,229,0,0
+1755082179328,108,Soak POST Create a new booking,200,OK,SoakTest 1-7,text,true,,943,477,10,10,https://restful-booker.herokuapp.com/booking,108,0,0
+1755082179517,112,Soak POST Create a new booking,200,OK,SoakTest 1-10,text,true,,948,474,10,10,https://restful-booker.herokuapp.com/booking,112,0,0
+1755082179345,333,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,58062,140,10,10,https://restful-booker.herokuapp.com/booking,119,0,0
+1755082179690,111,Soak DELETE  booking,201,Created,SoakTest 1-6,text,true,,751,256,10,10,https://restful-booker.herokuapp.com/booking/4641,111,0,0
+1755082179730,108,Soak POST Create a new booking,200,OK,SoakTest 1-4,text,true,,953,479,10,10,https://restful-booker.herokuapp.com/booking,108,0,0
+1755082179700,317,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,58165,140,10,10,https://restful-booker.herokuapp.com/booking,213,0,0
+1755082179979,113,Soak POST Create a new booking,200,OK,SoakTest 1-8,text,true,,950,476,10,10,https://restful-booker.herokuapp.com/booking,113,0,0
+1755082180630,113,Soak GET Booking by ID,200,OK,SoakTest 1-9,text,true,,923,171,10,10,https://restful-booker.herokuapp.com/booking/1740,113,0,0
+1755082180633,110,Soak GET Booking by ID,200,OK,SoakTest 1-3,text,true,,923,171,10,10,https://restful-booker.herokuapp.com/booking/3583,110,0,0
+1755082180765,118,Soak DELETE  booking,201,Created,SoakTest 1-7,text,true,,755,256,10,10,https://restful-booker.herokuapp.com/booking/4674,118,0,0
+1755082180899,108,Soak DELETE  booking,201,Created,SoakTest 1-10,text,true,,755,256,10,10,https://restful-booker.herokuapp.com/booking/4678,108,0,0
+1755082181273,113,Soak DELETE  booking,201,Created,SoakTest 1-8,text,true,,755,256,10,10,https://restful-booker.herokuapp.com/booking/4685,113,0,0
+1755082181518,119,Soak GET Booking by ID,200,OK,SoakTest 1-1,text,true,,915,171,10,10,https://restful-booker.herokuapp.com/booking/2554,119,0,0
+1755082181541,114,Soak GET Booking by ID,200,OK,SoakTest 1-2,text,true,,909,170,10,10,https://restful-booker.herokuapp.com/booking/589,114,0,0
+1755082181946,111,Soak DELETE  booking,201,Created,SoakTest 1-5,text,true,,747,256,10,10,https://restful-booker.herokuapp.com/booking/4668,111,0,0
+1755082181750,447,SetUp POST Authorization,200,OK,SoakTest 1-6,text,true,,770,253,10,10,https://restful-booker.herokuapp.com/auth,447,0,345
+1755082182364,107,Soak POST Create a new booking,200,OK,SoakTest 1-1,text,true,,938,468,10,10,https://restful-booker.herokuapp.com/booking,107,0,0
+1755082182373,104,Soak POST Create a new booking,200,OK,SoakTest 1-3,text,true,,941,471,10,10,https://restful-booker.herokuapp.com/booking,104,0,0
+1755082182465,115,Soak DELETE  booking,201,Created,SoakTest 1-4,text,true,,747,256,10,10,https://restful-booker.herokuapp.com/booking/4682,115,0,0
+1755082182713,115,Soak POST Create a new booking,200,OK,SoakTest 1-9,text,true,,945,475,10,10,https://restful-booker.herokuapp.com/booking,115,0,0
+1755082183146,109,Soak DELETE  booking,201,Created,SoakTest 1-3,text,true,,747,256,10,10,https://restful-booker.herokuapp.com/booking/4709,109,0,0
+1755082182923,444,SetUp POST Authorization,200,OK,SoakTest 1-7,text,true,,770,253,10,10,https://restful-booker.herokuapp.com/auth,444,0,336
+1755082183285,105,Soak DELETE  booking,201,Created,SoakTest 1-1,text,true,,747,256,10,10,https://restful-booker.herokuapp.com/booking/4708,105,0,0
+1755082183808,109,Soak DELETE  booking,201,Created,SoakTest 1-9,text,true,,751,256,10,10,https://restful-booker.herokuapp.com/booking/4713,109,0,0
+1755082183868,453,SetUp POST Authorization,200,OK,SoakTest 1-10,text,true,,774,253,10,10,https://restful-booker.herokuapp.com/auth,453,0,343
+1755082184213,111,Soak POST Create a new booking,200,OK,SoakTest 1-2,text,true,,943,469,10,10,https://restful-booker.herokuapp.com/booking,111,0,0
+1755082183948,433,SetUp POST Authorization,200,OK,SoakTest 1-5,text,true,,774,253,10,10,https://restful-booker.herokuapp.com/auth,433,0,326
+1755082184081,443,SetUp POST Authorization,200,OK,SoakTest 1-8,text,true,,774,253,10,10,https://restful-booker.herokuapp.com/auth,443,0,336
+1755082185283,407,Soak GET All booking,200,OK,SoakTest 1-5,text,true,,58773,140,10,10,https://restful-booker.herokuapp.com/booking,300,0,0
+1755082185412,357,Soak GET All booking,200,OK,SoakTest 1-6,text,true,,58773,140,10,10,https://restful-booker.herokuapp.com/booking,247,0,0
+1755082185245,610,SetUp POST Authorization,200,OK,SoakTest 1-4,text,true,,766,253,10,10,https://restful-booker.herokuapp.com/auth,610,0,501
+1755082185406,488,SetUp POST Authorization,200,OK,SoakTest 1-1,text,true,,766,253,10,10,https://restful-booker.herokuapp.com/auth,488,0,372
+1755082185748,527,SetUp POST Authorization,200,OK,SoakTest 1-3,text,true,,766,253,10,10,https://restful-booker.herokuapp.com/auth,527,0,421
+1755082185912,363,Soak GET All booking,200,OK,SoakTest 1-10,text,true,,58784,140,10,10,https://restful-booker.herokuapp.com/booking,115,0,0
+1755082185852,564,SetUp POST Authorization,200,OK,SoakTest 1-9,text,true,,766,253,10,10,https://restful-booker.herokuapp.com/auth,564,0,446
+1755082186513,127,Soak DELETE  booking,201,Created,SoakTest 1-2,text,true,,743,256,10,10,https://restful-booker.herokuapp.com/booking/4727,127,0,0
+1755082186367,329,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,58822,140,10,10,https://restful-booker.herokuapp.com/booking,217,0,0
+1755082186496,330,Soak GET All booking,200,OK,SoakTest 1-7,text,true,,58860,140,10,10,https://restful-booker.herokuapp.com/booking,124,0,0
+1755082187699,107,Soak GET Booking by ID,200,OK,SoakTest 1-10,text,true,,908,171,10,10,https://restful-booker.herokuapp.com/booking/1520,107,0,0
+1755082188027,120,Soak GET Booking by ID,200,OK,SoakTest 1-6,text,true,,911,171,10,10,https://restful-booker.herokuapp.com/booking/4174,120,0,0
+1755082188281,112,Soak GET Booking by ID,200,OK,SoakTest 1-5,text,true,,905,171,10,10,https://restful-booker.herokuapp.com/booking/3298,112,0,0
+1755082188144,319,Soak GET All booking,200,OK,SoakTest 1-9,text,true,,59050,140,10,10,https://restful-booker.herokuapp.com/booking,210,0,0
+1755082188189,315,Soak GET All booking,200,OK,SoakTest 1-3,text,true,,59050,140,10,10,https://restful-booker.herokuapp.com/booking,216,0,0
+1755082188334,330,Soak GET All booking,200,OK,SoakTest 1-4,text,true,,59069,140,10,10,https://restful-booker.herokuapp.com/booking,218,0,0
+1755082188349,332,Soak GET All booking,200,OK,SoakTest 1-8,text,true,,59069,140,10,10,https://restful-booker.herokuapp.com/booking,226,0,0
+1755082188408,446,SetUp POST Authorization,200,OK,SoakTest 1-2,text,true,,774,253,10,10,https://restful-booker.herokuapp.com/auth,446,0,338
+1755082188842,110,Soak GET Booking by ID,200,OK,SoakTest 1-7,text,true,,917,171,10,10,https://restful-booker.herokuapp.com/booking/2751,110,0,0
+1755082188883,104,Soak GET Booking by ID,200,OK,SoakTest 1-8,text,true,,919,171,10,10,https://restful-booker.herokuapp.com/booking/1882,104,0,0
+1755082189054,105,Soak POST Create a new booking,200,OK,SoakTest 1-7,text,true,,952,478,10,10,https://restful-booker.herokuapp.com/booking,105,0,0
+1755082189288,116,Soak GET Booking by ID,200,OK,SoakTest 1-1,text,true,,919,171,10,10,https://restful-booker.herokuapp.com/booking/1176,116,0,0
+1755082189747,110,Soak GET Booking by ID,200,OK,SoakTest 1-9,text,true,,911,171,10,10,https://restful-booker.herokuapp.com/booking/3455,110,0,0
+1755082190034,111,Soak POST Create a new booking,200,OK,SoakTest 1-5,text,true,,939,473,10,10,https://restful-booker.herokuapp.com/booking,111,0,0
+1755082189864,312,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,59202,140,10,10,https://restful-booker.herokuapp.com/booking,109,0,0
+1755082191057,114,Soak GET Booking by ID,200,OK,SoakTest 1-3,text,true,,915,170,10,10,https://restful-booker.herokuapp.com/booking/464,114,0,0
+1755082191061,117,Soak DELETE  booking,201,Created,SoakTest 1-7,text,true,,747,256,10,10,https://restful-booker.herokuapp.com/booking/4768,117,0,0
+1755082191088,111,Soak GET Booking by ID,200,OK,SoakTest 1-2,text,true,,913,171,10,10,https://restful-booker.herokuapp.com/booking/1536,111,0,0
+1755082191104,117,Soak POST Create a new booking,200,OK,SoakTest 1-6,text,true,,944,474,10,10,https://restful-booker.herokuapp.com/booking,117,0,0
+1755082191158,113,Soak GET Booking by ID,200,OK,SoakTest 1-4,text,true,,915,171,10,10,https://restful-booker.herokuapp.com/booking/4071,113,0,0
+1755082192013,109,Soak POST Create a new booking,200,OK,SoakTest 1-8,text,true,,956,482,10,10,https://restful-booker.herokuapp.com/booking,109,0,0
+1755082192283,112,Soak DELETE  booking,201,Created,SoakTest 1-5,text,true,,751,256,10,10,https://restful-booker.herokuapp.com/booking/4777,112,0,0
+1755082192362,112,Soak POST Create a new booking,200,OK,SoakTest 1-10,text,true,,944,470,10,10,https://restful-booker.herokuapp.com/booking,112,0,0
+1755082192367,113,Soak POST Create a new booking,200,OK,SoakTest 1-9,text,true,,941,467,10,10,https://restful-booker.herokuapp.com/booking,113,0,0
+1755082192691,112,Soak DELETE  booking,201,Created,SoakTest 1-6,text,true,,751,256,10,10,https://restful-booker.herokuapp.com/booking/4787,112,0,0
+1755082193226,107,Soak DELETE  booking,201,Created,SoakTest 1-8,text,true,,751,256,10,10,https://restful-booker.herokuapp.com/booking/4797,107,0,0
+1755082193254,113,Soak POST Create a new booking,200,OK,SoakTest 1-1,text,true,,953,479,10,10,https://restful-booker.herokuapp.com/booking,113,0,0
+1755082193343,112,Soak POST Create a new booking,200,OK,SoakTest 1-3,text,true,,953,479,10,10,https://restful-booker.herokuapp.com/booking,112,0,0
+1755082193801,109,Soak DELETE  booking,201,Created,SoakTest 1-3,text,true,,755,256,10,10,https://restful-booker.herokuapp.com/booking/4814,109,0,0
+1755082193819,112,Soak POST Create a new booking,200,OK,SoakTest 1-2,text,true,,952,474,10,10,https://restful-booker.herokuapp.com/booking,112,0,0
+1755082194351,112,Soak DELETE  booking,201,Created,SoakTest 1-10,text,true,,755,256,10,10,https://restful-booker.herokuapp.com/booking/4801,112,0,0
+1755082194340,448,SetUp POST Authorization,200,OK,SoakTest 1-7,text,true,,770,253,10,10,https://restful-booker.herokuapp.com/auth,448,0,338
+1755082194789,113,Soak DELETE  booking,201,Created,SoakTest 1-9,text,true,,747,256,10,10,https://restful-booker.herokuapp.com/booking/4802,113,0,0
+1755082195089,110,Soak DELETE  booking,201,Created,SoakTest 1-1,text,true,,747,256,10,10,https://restful-booker.herokuapp.com/booking/4813,110,0,0
+1755082195155,111,Soak DELETE  booking,201,Created,SoakTest 1-2,text,true,,747,256,10,10,https://restful-booker.herokuapp.com/booking/4819,111,0,0
+1755082195154,115,Soak POST Create a new booking,200,OK,SoakTest 1-4,text,true,,942,472,10,10,https://restful-booker.herokuapp.com/booking,115,0,0
+1755082194925,444,SetUp POST Authorization,200,OK,SoakTest 1-6,text,true,,770,253,10,10,https://restful-booker.herokuapp.com/auth,444,0,336
+1755082194930,448,SetUp POST Authorization,200,OK,SoakTest 1-5,text,true,,770,253,10,10,https://restful-booker.herokuapp.com/auth,448,0,341
+1755082195510,437,SetUp POST Authorization,200,OK,SoakTest 1-1,text,true,,770,253,10,10,https://restful-booker.herokuapp.com/auth,437,0,331
+1755082196138,111,Soak DELETE  booking,201,Created,SoakTest 1-4,text,true,,747,256,10,10,https://restful-booker.herokuapp.com/booking/4830,111,0,0
+1755082195954,448,SetUp POST Authorization,200,OK,SoakTest 1-3,text,true,,770,253,10,10,https://restful-booker.herokuapp.com/auth,448,0,339
+1755082196591,332,Soak GET All booking,200,OK,SoakTest 1-7,text,true,,59955,140,10,10,https://restful-booker.herokuapp.com/booking,120,0,0
+1755082196516,449,SetUp POST Authorization,200,OK,SoakTest 1-8,text,true,,778,253,10,10,https://restful-booker.herokuapp.com/auth,449,0,341
+1755082196824,442,SetUp POST Authorization,200,OK,SoakTest 1-10,text,true,,778,253,10,10,https://restful-booker.herokuapp.com/auth,442,0,334
+1755082197014,327,Soak GET All booking,200,OK,SoakTest 1-6,text,true,,60069,140,10,10,https://restful-booker.herokuapp.com/booking,226,0,0
+1755082197381,309,Soak GET All booking,200,OK,SoakTest 1-8,text,true,,60050,140,10,10,https://restful-booker.herokuapp.com/booking,109,0,0
+1755082197390,434,SetUp POST Authorization,200,OK,SoakTest 1-9,text,true,,770,253,10,10,https://restful-booker.herokuapp.com/auth,434,0,329
+1755082197502,316,Soak GET All booking,200,OK,SoakTest 1-10,text,true,,60061,140,10,10,https://restful-booker.herokuapp.com/booking,214,0,0
+1755082197553,448,SetUp POST Authorization,200,OK,SoakTest 1-2,text,true,,770,253,10,10,https://restful-booker.herokuapp.com/auth,448,0,339
+1755082198066,108,Soak GET Booking by ID,200,OK,SoakTest 1-6,text,true,,913,171,10,10,https://restful-booker.herokuapp.com/booking/3178,108,0,0
+1755082198067,111,Soak GET Booking by ID,200,OK,SoakTest 1-7,text,true,,915,171,10,10,https://restful-booker.herokuapp.com/booking/1349,111,0,0
+1755082197954,332,Soak GET All booking,200,OK,SoakTest 1-1,text,true,,60099,140,10,10,https://restful-booker.herokuapp.com/booking,220,0,0
+1755082198236,107,Soak GET Booking by ID,200,OK,SoakTest 1-10,text,true,,915,171,10,10,https://restful-booker.herokuapp.com/booking/2787,107,0,0
+1755082198407,320,Soak GET All booking,200,OK,SoakTest 1-5,text,true,,60137,140,10,10,https://restful-booker.herokuapp.com/booking,209,0,0
+1755082198573,323,Soak GET All booking,200,OK,SoakTest 1-3,text,true,,60175,140,10,10,https://restful-booker.herokuapp.com/booking,218,0,0
+1755082198716,440,SetUp POST Authorization,200,OK,SoakTest 1-4,text,true,,770,253,10,10,https://restful-booker.herokuapp.com/auth,440,0,334
+1755082199077,317,Soak GET All booking,200,OK,SoakTest 1-9,text,true,,60194,140,10,10,https://restful-booker.herokuapp.com/booking,212,0,0
+1755082199598,106,Soak POST Create a new booking,200,OK,SoakTest 1-7,text,true,,957,483,10,10,https://restful-booker.herokuapp.com/booking,106,0,0
+1755082199622,108,Soak GET Booking by ID,200,OK,SoakTest 1-9,text,true,,917,171,10,10,https://restful-booker.herokuapp.com/booking/1080,108,0,0
+1755082199929,103,Soak POST Create a new booking,200,OK,SoakTest 1-10,text,true,,953,479,10,10,https://restful-booker.herokuapp.com/booking,103,0,0
+1755082199954,322,Soak GET All booking,200,OK,SoakTest 1-2,text,true,,60350,140,10,10,https://restful-booker.herokuapp.com/booking,219,0,0
+1755082200565,111,Soak GET Booking by ID,200,OK,SoakTest 1-8,text,true,,909,171,10,10,https://restful-booker.herokuapp.com/booking/1335,111,0,0
+1755082200597,106,Soak POST Create a new booking,200,OK,SoakTest 1-6,text,true,,943,477,10,10,https://restful-booker.herokuapp.com/booking,106,0,0
+1755082200626,107,Soak POST Create a new booking,200,OK,SoakTest 1-9,text,true,,935,469,10,10,https://restful-booker.herokuapp.com/booking,107,0,0
+1755082200693,107,Soak DELETE  booking,201,Created,SoakTest 1-10,text,true,,743,256,10,10,https://restful-booker.herokuapp.com/booking/4871,107,0,0
+1755082200812,109,Soak DELETE  booking,201,Created,SoakTest 1-6,text,true,,743,256,10,10,https://restful-booker.herokuapp.com/booking/4875,109,0,0
+1755082200905,110,Soak GET Booking by ID,200,OK,SoakTest 1-1,text,true,,909,170,10,10,https://restful-booker.herokuapp.com/booking/283,110,0,0
+1755082200913,108,Soak GET Booking by ID,200,OK,SoakTest 1-5,text,true,,911,171,10,10,https://restful-booker.herokuapp.com/booking/1367,108,0,0
+1755082201109,112,Soak GET Booking by ID,200,OK,SoakTest 1-3,text,true,,892,170,10,10,https://restful-booker.herokuapp.com/booking/974,112,0,0
+1755082201236,335,Soak GET All booking,200,OK,SoakTest 1-4,text,true,,60513,140,10,10,https://restful-booker.herokuapp.com/booking,133,0,0

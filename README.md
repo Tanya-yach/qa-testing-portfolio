@@ -29,25 +29,13 @@ API testing artifacts:
 
 ---
 
-### 📂 api-testing-restful_booker (Data-Driver Testing)
+### 📂 api-testing-restful_booker
 This project includes automated API tests using [RESTful Booker API](https://restful-booker.herokuapp.com/).
 API testing artifacts:
 - Postman Collection (`restful_booker-postman-collection-api.json`) full set of requests and scripts
 - CSV Test Data (`bookings_data.csv`) 20 rows of booking data generated via [Mockaroo](https://mockaroo.com)
 - Environment file (`Restful-Booker_env.json`) stores base URL and dynamic token
 - Newman HTML Report (`newman-report/Restful-Booker-Report.html`) automatically generated report after test execution
-
----
-
-### 📂 performance-testing-restful_booker
-This project includes automated API tests using [RESTful Booker API](https://restful-booker.herokuapp.com/).
-API testing artifacts:
-- Postman Collection (`Restful-Booker_API_Postman_Collection.postman_collection.json`) full set of requests and scripts
-- CSV Test Data (`bookings_data.csv`) 20 rows of booking data generated via [Mockaroo](https://mockaroo.com)
-- Environment file (`Restful-Booker_env.json`) stores base URL and dynamic token
-- Newman HTML Report (`newman-report/Restful-Booker-Report.html`) automatically generated report after test execution
-
-
 
 **Key Features:**
 - Token-based authentication (handled via scripts)
@@ -58,26 +46,38 @@ API testing artifacts:
 - Negative scenarios tested (e.g. unauthorized updates)
 - HTML report for visual test results
 
+
 ---
 
-## Tech Stack & Tools
-- Manual Testing: TestRail, Jira, Excel
+### 📂 performance-testing-restful_booker
+Performance testing project for [RESTful Booker API](https://restful-booker.herokuapp.com/) using JMeter.
+Includes different types of performance tests:
+- Load Testing: Simulates normal and peak load conditions (`LoadTest.jmx`)
+- Smoke Testing: Verifies basic performance under minimal load (`SmokeTest.jmx`)
+- Soak Testing: Checks system stability under sustained load (planned `SoakTest.jmx`)
+- Stress Testing: Identifies breaking points (planned `MiniStressTest.jmx`)
+
+Project structure:
+- `/api` - Contains API specifications and test data
+- `/results` - Stores generated test reports and performance metrics
+- Test scripts (`*.jmx`) - Ready-to-run JMeter test plans
+- Performance analysis reports in HTML/CSV formats
+
+
+---
+
+## Skill Demonstrated
+- Manual Testing
 - API Testing: Postman, Swagger, Mock Servers
 - Performance: JMeter
-- Automation: Selenium, PyTest
-- Databases: MySQL, PostgreSQL
-- CI/CD: Jenkins, GitHub Actions
-- Reporting: Allure
+- Test documentation
+- Bug reporting
+- Test automation: Selenium, PyTest
 
----
-
-## Goal
-> My goal is to grow into a full-fledged **SDET** – combining QA expertise with development and automation.  
-This portfolio reflects that journey through documentation, hands-on practice, and real-world simulation.
 
 ---
 
 ## Contact
-Let's connect!
+For opportunities or collaboration:
 - Email: tetiana.yachna@gmail.com
 - LinkedIn: https://www.linkedin.com/in/tetiana-yachna
